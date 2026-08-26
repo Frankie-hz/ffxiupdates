@@ -20,6 +20,10 @@ HOST = "https://www.playonline.com"
 
 PCD_LINK_RE = re.compile(r'https?://www\.playonline\.com(/pcd/(?:update|topics)/[^"\'<>\s]+?\.html)')
 
+CHARSET_RE = re.compile(rb'charset=["\']?([-\w]+)', re.IGNORECASE)
+CHARSET_ALIASES = {"x-sjis": "cp932", "shift_jis": "cp932", "shift-jis": "cp932", "euc-jp": "euc_jp"}
+META_CHARSET_SUB = re.compile(r'(charset=["\']?)([-\w]+)', re.IGNORECASE)
+
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.DOTALL | re.IGNORECASE)
 TOPICS_TITLE_RE = re.compile(
     r'<div id="title">(.*?)(?:&nbsp;|\s)*\((\d{1,2})/(\d{1,2})/(\d{4})\)\s*</div>', re.DOTALL)
@@ -44,6 +48,23 @@ def infer_date(url_path):
             return f"{digits[:4]}-{digits[4:6]}-{digits[6:8]}"
         return f"20{digits[:2]}-{digits[2:4]}-{digits[4:6]}"
     return None
+
+
+def decode_page(raw):
+    m = CHARSET_RE.search(raw)
+    if m:
+        declared = m.group(1).decode("ascii", errors="replace").lower()
+        enc = CHARSET_ALIASES.get(declared, declared)
+        try:
+            return raw.decode(enc, errors="replace")
+        except LookupError:
+            pass
+    for enc in ("utf-8", "cp932", "iso-8859-1"):
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            continue
+    return raw.decode("utf-8", errors="replace")
 
 
 def absolutize(html_text, page_dir):
@@ -80,7 +101,8 @@ def main():
         if canonical in seen:
             continue
         seen.add(canonical)
-        text = path.read_text(encoding="utf-8", errors="replace")
+        text = decode_page(path.read_bytes())
+        text = META_CHARSET_SUB.sub(r"\1utf-8", text)
 
         date = infer_date(url_path)
         title = ""

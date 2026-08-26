@@ -25,6 +25,14 @@ POST_RE = re.compile(
     re.DOTALL)
 SESSION_RE = re.compile(r'([?&])s=[0-9a-f]{32}(?:&amp;|&)?')
 
+# SE posts raw HTML (tables etc.) that the printthread view escapes; unescape
+# spans that are clearly escaped tags so they render. iframe/script stay inert.
+ESCAPED_TAG_RE = re.compile(
+    r'&lt;(/?)(table|tbody|thead|tr|td|th|caption|br|hr|a|font|div|span|p'
+    r'|strong|b|i|u|em|center|ul|ol|li|img|h[1-6])'
+    r'((?:(?!&[lg]t;).)*?)&gt;',
+    re.IGNORECASE | re.DOTALL)
+
 
 def parse_datetime(text):
     text = text.strip()
@@ -36,6 +44,7 @@ def parse_datetime(text):
 
 def clean(body):
     body = SESSION_RE.sub(r"\1", body)
+    body = ESCAPED_TAG_RE.sub(lambda m: html.unescape(m.group(0)), body)
     return body.replace("?#", "#").strip()
 
 

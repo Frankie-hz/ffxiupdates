@@ -40,6 +40,11 @@ polnews sweep reads the live index pages to find the current highest news id.
 `data/*.jsonl` hold the full parsed content (including body HTML) and are the
 archival record; `data/raw/` is the verbatim mirror and is not committed.
 
+The eleven 2002-2003 pages that only exist in Japanese (they predate the North
+American release) carry machine translations in `data/translations/`, shown
+above the original page with a clear machine-translation notice and included
+in full-text search.
+
 ## Viewing
 
 Open `docs/index.html` in a browser, or serve the `docs/` directory (GitHub

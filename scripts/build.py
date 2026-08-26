@@ -81,10 +81,22 @@ def forum_entries():
     return entries
 
 
+def load_translations():
+    index_path = DATA / "translations" / "index.json"
+    if index_path.exists() is False:
+        return {}
+    translations = {}
+    for t in json.loads(index_path.read_text(encoding="utf-8")):
+        body = (DATA / "translations" / t["file"]).read_text(encoding="utf-8")
+        translations[t["path"]] = {"title": t["title"], "body": body}
+    return translations
+
+
 def legacy_entries():
+    translations = load_translations()
     entries = []
     for e in load_jsonl("legacy.jsonl"):
-        entries.append({
+        entry = {
             "s": "legacy",
             "url": e["url"],
             "d": e["date"] + " 00:00",
@@ -93,7 +105,12 @@ def legacy_entries():
             "t": e["title"],
             "b": e["doc"],
             "k": "doc",
-        })
+        }
+        tr = translations.get(e["path"])
+        if tr:
+            entry["t"] = tr["title"]
+            entry["tr"] = tr["body"]
+        entries.append(entry)
     return entries
 
 
@@ -130,6 +147,10 @@ header .sub { color: var(--dim); font-size: 12px; }
   cursor: pointer; user-select: none; font-size: 12px; color: var(--dim); }
 #controls label.chip:has(input:checked) { color: var(--text); border-color: var(--accent); }
 #controls .count { margin-left: auto; color: var(--dim); font-size: 12px; }
+#matchnav { display: none; align-items: center; gap: 5px; color: var(--dim); font-size: 12px; }
+#matchnav button { background: var(--bg); color: var(--text); border: 1px solid var(--line);
+  border-radius: 4px; cursor: pointer; padding: 1px 7px; font-size: 11px; line-height: 1.4; }
+#matchnav button:hover { border-color: var(--accent); color: var(--accent); }
 #main { display: flex; flex: 1; min-height: 0; }
 #list { width: 460px; min-width: 300px; overflow-y: auto; border-right: 1px solid var(--line);
   background: var(--panel); }
@@ -158,13 +179,22 @@ header .sub { color: var(--dim); font-size: 12px; }
   padding-bottom: 4px; margin-top: 26px; }
 #view .body table { border-collapse: collapse; }
 #view .body td, #view .body th { border: 1px solid var(--line); padding: 4px 8px; }
+#view .body td[bgcolor], #view .body th[bgcolor],
+#view .body tr[bgcolor] td, #view .body tr[bgcolor] th,
+#view .body table[bgcolor] td, #view .body table[bgcolor] th { color: #2a2c38; }
+#view .body td[bgcolor] a, #view .body tr[bgcolor] td a { color: #1d4ed8; }
 #view .body blockquote { border-left: 3px solid var(--line); margin: 8px 0 8px 4px;
   padding: 2px 12px; color: #c2c7d8; }
 #view .body img { max-width: 100%; }
 #view iframe.doc { width: 100%; height: calc(100vh - 210px); border: 1px solid var(--line);
   background: #fff; border-radius: 4px; }
+#view .mtbanner { background: #4a3d1e; border: 1px solid #8a6d2e; color: #e8d9a8;
+  border-radius: 4px; padding: 8px 12px; margin-bottom: 14px; font-size: 12.5px; }
+#view h3.origlabel { color: var(--dim); border-bottom: 1px solid var(--line);
+  padding-bottom: 4px; margin-top: 30px; font-size: 14px; }
 #view .empty { color: var(--dim); text-align: center; margin-top: 15vh; }
 mark { background: var(--accent); color: #14161f; padding: 0 1px; }
+mark.cur { background: #ff9d3c; outline: 2px solid #ff9d3c; }
 @media (max-width: 800px) {
   #main { flex-direction: column; }
   #list { width: 100%; max-height: 45vh; }
@@ -186,6 +216,7 @@ mark { background: var(--accent); color: #14161f; padding: 0 1px; }
   <label class="chip"><input type="checkbox" id="src-legacy" checked>Legacy</label>
   <label class="chip"><input type="checkbox" id="updonly">Updates only</label>
   <span class="count" id="count"></span>
+  <span id="matchnav"><button id="mprev" title="Previous match (Shift+Enter)">&#9650;</button><span id="mcount"></span><button id="mnext" title="Next match (Enter)">&#9660;</button></span>
 </div>
 <div id="main">
   <div id="list"></div>
@@ -214,7 +245,7 @@ let searchText = null;
 
 function textOf(e) {
   if (e.x === undefined) {
-    e.x = (e.t + " " + e.b.replace(/<[^>]+>/g, " ")).toLowerCase();
+    e.x = (e.t + " " + (e.tr || "") + " " + e.b).replace(/<[^>]+>/g, " ").toLowerCase();
   }
   return e.x;
 }
@@ -236,6 +267,7 @@ function applyFilters() {
     return true;
   });
   shown = PAGE;
+  clearMarks();
   renderList();
 }
 
@@ -267,8 +299,9 @@ function esc(s) {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
-function highlight(container, q) {
-  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+function highlight(container, q, doc) {
+  doc = doc || document;
+  const walker = doc.createTreeWalker(container, NodeFilter.SHOW_TEXT);
   const targets = [];
   while (walker.nextNode()) {
     if (walker.currentNode.nodeValue.toLowerCase().includes(q)) targets.push(walker.currentNode);
@@ -276,18 +309,54 @@ function highlight(container, q) {
   targets.forEach(node => {
     const parts = node.nodeValue.split(new RegExp("(" + q.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&") + ")", "ig"));
     if (parts.length < 2) return;
-    const frag = document.createDocumentFragment();
+    const frag = doc.createDocumentFragment();
     parts.forEach((p, idx) => {
       if (idx % 2 === 1) {
-        const m = document.createElement("mark");
+        const m = doc.createElement("mark");
         m.textContent = p;
         frag.appendChild(m);
       } else if (p !== "") {
-        frag.appendChild(document.createTextNode(p));
+        frag.appendChild(doc.createTextNode(p));
       }
     });
     node.parentNode.replaceChild(frag, node);
   });
+}
+
+let marks = [];
+let markIdx = -1;
+
+function updateMatchNav() {
+  const nav = $("matchnav");
+  if (marks.length === 0) {
+    nav.style.display = "none";
+    return;
+  }
+  nav.style.display = "inline-flex";
+  $("mcount").textContent = (markIdx + 1) + " / " + marks.length;
+}
+
+function clearMarks() {
+  marks = [];
+  markIdx = -1;
+  updateMatchNav();
+}
+
+function gotoMatch(i) {
+  if (marks.length === 0) return;
+  if (markIdx >= 0 && marks[markIdx]) marks[markIdx].classList.remove("cur");
+  markIdx = ((i % marks.length) + marks.length) % marks.length;
+  const m = marks[markIdx];
+  m.classList.add("cur");
+  m.scrollIntoView({block: "center"});
+  updateMatchNav();
+}
+
+function setMarks(list) {
+  marks = list;
+  markIdx = -1;
+  if (marks.length > 0) gotoMatch(0);
+  updateMatchNav();
 }
 
 function show(i) {
@@ -300,17 +369,55 @@ function show(i) {
     '" target="_blank" rel="noopener">original page</a></div>';
   if (e.k === "doc") {
     inner.innerHTML = "<h2>" + esc(e.t) + "</h2>" + meta;
+    if (e.tr !== undefined) {
+      const trWrap = document.createElement("div");
+      trWrap.className = "body";
+      trWrap.innerHTML = '<div class="mtbanner">&#9888; Machine translation. This page was ' +
+        "only published in Japanese (it predates the North American release); the text below " +
+        "is an automatic translation provided for readability and search. The original " +
+        "Japanese page is shown underneath.</div>" + e.tr;
+      if (searchText !== null) highlight(trWrap, searchText);
+      inner.appendChild(trWrap);
+      inner.insertAdjacentHTML("beforeend",
+        '<h3 class="origlabel">Original page (Japanese)</h3>');
+    }
     const frame = document.createElement("iframe");
     frame.className = "doc";
     frame.sandbox = "allow-same-origin";
     frame.srcdoc = e.b;
+    if (searchText !== null) {
+      const q = searchText;
+      frame.addEventListener("load", () => {
+        try {
+          const doc = frame.contentDocument;
+          const style = doc.createElement("style");
+          style.textContent = "mark{background:#e8c268;color:#14161f;padding:0 1px}" +
+            "mark.cur{background:#ff9d3c;outline:2px solid #ff9d3c}";
+          doc.head.appendChild(style);
+          highlight(doc.body, q, doc);
+          const frameMarks = [...doc.querySelectorAll("mark")];
+          if (marks.length === 0) {
+            setMarks(frameMarks);
+          } else {
+            marks = marks.concat(frameMarks);
+            updateMatchNav();
+          }
+        } catch (err) {}
+      });
+    }
     inner.appendChild(frame);
   } else {
     inner.innerHTML = "<h2>" + esc(e.t) + "</h2>" + meta + '<div class="body">' + e.b + "</div>";
     if (searchText !== null) highlight(inner.querySelector(".body"), searchText);
   }
   view.replaceChildren(inner);
-  view.scrollTop = 0;
+  clearMarks();
+  const found = [...inner.querySelectorAll("mark")];
+  if (found.length > 0) {
+    setMarks(found);
+  } else {
+    view.scrollTop = 0;
+  }
   list.querySelectorAll(".row.active").forEach(r => r.classList.remove("active"));
   const row = list.querySelector('.row[data-i="' + i + '"]');
   if (row !== null) row.classList.add("active");
@@ -327,6 +434,14 @@ $("q").addEventListener("input", () => {
   clearTimeout(timer);
   timer = setTimeout(applyFilters, 200);
 });
+$("q").addEventListener("keydown", ev => {
+  if (ev.key === "Enter") {
+    ev.preventDefault();
+    gotoMatch(markIdx + (ev.shiftKey ? -1 : 1));
+  }
+});
+$("mprev").addEventListener("click", () => gotoMatch(markIdx - 1));
+$("mnext").addEventListener("click", () => gotoMatch(markIdx + 1));
 ["cat", "year", "src-polnews", "src-forum", "src-legacy", "updonly"].forEach(id => {
   $(id).addEventListener("change", applyFilters);
 });
