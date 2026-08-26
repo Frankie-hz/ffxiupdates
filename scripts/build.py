@@ -74,6 +74,19 @@ header .sub { color: var(--dim); font-size: 12px; }
   border: 1px solid var(--line); border-radius: 4px; padding: 6px 10px; width: 300px; }
 #controls select { background: var(--bg); color: var(--text);
   border: 1px solid var(--line); border-radius: 4px; padding: 5px 8px; }
+#catdrop { position: relative; }
+#catbtn { background: var(--bg); color: var(--text); border: 1px solid var(--line);
+  border-radius: 4px; padding: 5px 10px; cursor: pointer; }
+#catbtn.filtered { border-color: var(--accent); color: var(--accent); }
+#catpanel { display: none; position: absolute; top: calc(100% + 4px); left: 0; z-index: 30;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
+  padding: 8px 12px; min-width: 190px; box-shadow: 0 6px 18px rgba(0,0,0,0.5); }
+#catpanel.open { display: block; }
+#catpanel label { display: flex; align-items: center; gap: 7px; padding: 3px 0;
+  cursor: pointer; white-space: nowrap; }
+#catpanel .quick { display: flex; gap: 10px; border-bottom: 1px solid var(--line);
+  padding-bottom: 6px; margin-bottom: 6px; }
+#catpanel .quick a { color: var(--accent2); cursor: pointer; font-size: 12px; }
 #controls label.chip { display: inline-flex; align-items: center; gap: 4px;
   padding: 3px 8px; border: 1px solid var(--line); border-radius: 12px;
   cursor: pointer; user-select: none; font-size: 12px; color: var(--dim); }
@@ -142,7 +155,10 @@ mark.cur { background: #ff9d3c; outline: 2px solid #ff9d3c; }
 </header>
 <div id="controls">
   <input id="q" type="search" placeholder="Search titles &amp; full text...">
-  <select id="cat"><option value="">All categories</option></select>
+  <div id="catdrop">
+    <button id="catbtn" type="button">Categories</button>
+    <div id="catpanel"></div>
+  </div>
   <select id="year"><option value="">All years</option></select>
   <label class="chip"><input type="checkbox" id="src-polnews" checked>POL News</label>
   <label class="chip"><input type="checkbox" id="src-forum" checked>SE Forum</label>
@@ -186,9 +202,33 @@ function textOf(e) {
   return e.x;
 }
 
+const allCats = [...new Set(entries.map(e => e.c))].sort();
+let catOn = new Set(allCats);
+try {
+  const saved = JSON.parse(localStorage.getItem("ffxiupd-cats"));
+  if (Array.isArray(saved) && saved.length > 0) {
+    catOn = new Set(saved.filter(c => allCats.includes(c)));
+  }
+} catch (err) {}
+
+function saveCats() {
+  try {
+    localStorage.setItem("ffxiupd-cats", JSON.stringify([...catOn]));
+  } catch (err) {}
+}
+
+function updateCatButton() {
+  const btn = $("catbtn");
+  btn.textContent = "Categories " + catOn.size + "/" + allCats.length + " ▾";
+  if (catOn.size === allCats.length) {
+    btn.classList.remove("filtered");
+  } else {
+    btn.classList.add("filtered");
+  }
+}
+
 function applyFilters() {
   const q = $("q").value.trim().toLowerCase();
-  const cat = $("cat").value;
   const year = $("year").value;
   const srcOn = { polnews: $("src-polnews").checked, forum: $("src-forum").checked,
     legacy: $("src-legacy").checked, topics: $("src-legacy").checked };
@@ -198,7 +238,7 @@ function applyFilters() {
   filtered = entries.filter(e => {
     if (srcOn[e.s] === false) return false;
     if (langOn[e.l] === false) return false;
-    if (cat !== "" && e.c !== cat) return false;
+    if (catOn.has(e.c) === false) return false;
     if (year !== "" && e.d.slice(0, 4) !== year) return false;
     if (updOnly && UPDATE_CATS.has(e.c) === false) return false;
     if (searchText !== null && textOf(e).indexOf(searchText) === -1) return false;
@@ -407,13 +447,59 @@ $("q").addEventListener("keydown", ev => {
 });
 $("mprev").addEventListener("click", () => gotoMatch(markIdx - 1));
 $("mnext").addEventListener("click", () => gotoMatch(markIdx + 1));
-["cat", "year", "src-polnews", "src-forum", "src-legacy", "lang-en", "lang-ja", "updonly"].forEach(id => {
+["year", "src-polnews", "src-forum", "src-legacy", "lang-en", "lang-ja", "updonly"].forEach(id => {
   $(id).addEventListener("change", applyFilters);
 });
 
-const cats = [...new Set(entries.map(e => e.c))].sort();
-cats.forEach(c => $("cat").insertAdjacentHTML("beforeend",
-  '<option value="' + esc(c) + '">' + esc(c) + "</option>"));
+function buildCatPanel() {
+  const panel = $("catpanel");
+  panel.innerHTML = '<div class="quick"><a id="cat-all">All</a><a id="cat-none">None</a></div>';
+  allCats.forEach(c => {
+    const label = document.createElement("label");
+    const box = document.createElement("input");
+    box.type = "checkbox";
+    box.checked = catOn.has(c);
+    box.addEventListener("change", () => {
+      if (box.checked) {
+        catOn.add(c);
+      } else {
+        catOn.delete(c);
+      }
+      saveCats();
+      updateCatButton();
+      applyFilters();
+    });
+    label.appendChild(box);
+    label.appendChild(document.createTextNode(c));
+    panel.appendChild(label);
+  });
+  panel.querySelector("#cat-all").addEventListener("click", () => {
+    catOn = new Set(allCats);
+    saveCats();
+    buildCatPanel();
+    updateCatButton();
+    applyFilters();
+  });
+  panel.querySelector("#cat-none").addEventListener("click", () => {
+    catOn = new Set();
+    saveCats();
+    buildCatPanel();
+    updateCatButton();
+    applyFilters();
+  });
+}
+
+$("catbtn").addEventListener("click", () => {
+  $("catpanel").classList.toggle("open");
+});
+document.addEventListener("click", ev => {
+  if (ev.target.closest("#catdrop") === null) {
+    $("catpanel").classList.remove("open");
+  }
+});
+buildCatPanel();
+updateCatButton();
+
 const years = [...new Set(entries.map(e => e.d.slice(0, 4)))].sort().reverse();
 years.forEach(y => $("year").insertAdjacentHTML("beforeend",
   '<option value="' + y + '">' + y + "</option>"));
