@@ -10,6 +10,7 @@ sources directly, so nothing depends on third-party cataloging:
 | Source | Coverage | Method |
 | --- | --- | --- |
 | playonline.com/ff11us/polnews | 2003-present, all categories (EN) | brute-force sweep of every news id |
+| playonline.com/ff11/polnews | 2002-present, all categories (JA) | brute-force sweep of every news id |
 | playonline.com/pcd2/topics | 2007-2010 version update detail articles | brute-force sweep of every topics id |
 | forum.square-enix.com/ffxi forums/84 | 2011-present version updates (EN) | crawl of the Version Updates subforum |
 | forum.square-enix.com/ffxi forums/15 | 2011-present version updates (JA source text) | crawl of the JA Version Updates subforum |
@@ -22,6 +23,7 @@ search, category/year/source filters, and links back to every original page.
 
 ```
 python scripts/sweep_polnews.py   # download every /ff11us/polnews/newsN.shtml that exists
+python scripts/sweep_polnews.py ja  # same for the Japanese site, /ff11/polnews/
 python scripts/sweep_topics.py   # download every /pcd2/topics/ff11us/detail/N/ that exists
 python scripts/fetch_forum.py    # download all Version Updates forum threads (printable view)
 python scripts/fetch_legacy.py   # download legacy pages + pcd pages linked from polnews

@@ -1,9 +1,12 @@
 """Sweep the PlayOnline FFXI news archive by ID and download every page that exists.
 
 POL news IDs are one shared sequence across all PlayOnline sites; only a subset
-resolve under /ff11us/. A 404 means "not an FFXI-US news page". Pages are kept
-verbatim (bytes) in data/raw/polnews/. State is tracked in data/sweep_state.json
-so reruns only check unseen IDs and previous errors.
+resolve under each site's path. A 404 means "not this site's news page". Pages
+are kept verbatim (bytes) in data/raw/polnews[_ja]/. State is tracked in
+data/sweep_state[_ja].json so reruns only check unseen IDs and previous errors.
+
+Usage: sweep_polnews.py [us|ja]   (default: us — the /ff11us/ English site;
+ja sweeps /ff11/, the Japanese site, whose pages are Shift_JIS)
 """
 
 import json
@@ -15,18 +18,25 @@ import urllib.error
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-BASE = "https://www.playonline.com/ff11us/polnews/news{}.shtml"
+ROOT = Path(__file__).resolve().parent.parent
+
+SITES = {
+    "us": {"path": "ff11us", "raw": "polnews", "state": "sweep_state.json"},
+    "ja": {"path": "ff11", "raw": "polnews_ja", "state": "sweep_state_ja.json"},
+}
+SITE = SITES[sys.argv[1] if len(sys.argv) > 1 else "us"]
+
+BASE = f"https://www.playonline.com/{SITE['path']}/polnews/news{{}}.shtml"
 INDEX_PAGES = [
-    "https://www.playonline.com/ff11us/polnews/news.shtml",
-    "https://www.playonline.com/ff11us/info/list_imp.shtml",
-    "https://www.playonline.com/ff11us/info/list_mnt.shtml",
-    "https://www.playonline.com/ff11us/info/list_gen.shtml",
-    "https://www.playonline.com/ff11us/info/list_upd.shtml",
+    f"https://www.playonline.com/{SITE['path']}/polnews/news.shtml",
+    f"https://www.playonline.com/{SITE['path']}/info/list_imp.shtml",
+    f"https://www.playonline.com/{SITE['path']}/info/list_mnt.shtml",
+    f"https://www.playonline.com/{SITE['path']}/info/list_gen.shtml",
+    f"https://www.playonline.com/{SITE['path']}/info/list_upd.shtml",
 ]
 NEWS_ID_RE = re.compile(r"/polnews/news(\d+)\.shtml")
-ROOT = Path(__file__).resolve().parent.parent
-RAW_DIR = ROOT / "data" / "raw" / "polnews"
-STATE_FILE = ROOT / "data" / "sweep_state.json"
+RAW_DIR = ROOT / "data" / "raw" / SITE["raw"]
+STATE_FILE = ROOT / "data" / SITE["state"]
 
 ID_START = 1
 ID_END_FLOOR = 27800

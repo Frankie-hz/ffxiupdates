@@ -8,6 +8,7 @@ SCRIPTS = Path(__file__).resolve().parent
 
 STEPS = [
     "sweep_polnews.py",
+    ["sweep_polnews.py", "ja"],
     "sweep_topics.py",
     "fetch_forum.py",
     "fetch_legacy.py",
@@ -21,10 +22,12 @@ STEPS = [
 
 def main():
     for step in STEPS:
-        print(f"=== {step} ===", flush=True)
-        result = subprocess.run([sys.executable, str(SCRIPTS / step)])
+        if isinstance(step, str):
+            step = [step]
+        print(f"=== {' '.join(step)} ===", flush=True)
+        result = subprocess.run([sys.executable, str(SCRIPTS / step[0])] + step[1:])
         if result.returncode != 0:
-            print(f"{step} failed ({result.returncode}); fix or rerun.", flush=True)
+            print(f"{' '.join(step)} failed ({result.returncode}); fix or rerun.", flush=True)
             sys.exit(result.returncode)
 
 

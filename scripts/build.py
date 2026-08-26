@@ -24,6 +24,7 @@ def load_entries():
         r = json.loads(line)
         entry = {
             "s": r["source"],
+            "aid": r["id"],
             "url": r["url"],
             "d": r["date"] + " " + (r.get("time") or "00:00"),
             "c": r["category"],
@@ -38,6 +39,9 @@ def load_entries():
             entry["k"] = "inline"
         if "translation" in r:
             entry["tr"] = r["translation"]["body"]
+            entry["trt"] = r["translation"]["title"]
+        if "counterpart" in r:
+            entry["cp"] = r["counterpart"]
         entries.append(entry)
     return entries
 
@@ -161,6 +165,7 @@ const entries = JSON.parse(document.getElementById("data").textContent);
 entries.forEach((e, i) => { e.i = i; });
 entries.sort((a, b) => b.d.localeCompare(a.d) || b.i - a.i);
 const byIdx = new Map(entries.map(e => [e.i, e]));
+const byAid = new Map(entries.map(e => [e.aid, e]));
 
 const UPDATE_CATS = new Set(["Updates", "Version Update", "Update Details"]);
 const BADGE_CLASS = { "Updates": "upd", "Version Update": "vu", "Update Details": "vu",
@@ -299,9 +304,19 @@ function show(i) {
   activeIdx = i;
   const inner = document.createElement("div");
   inner.className = "inner";
+  let cpLine = "";
+  const partner = e.cp !== undefined ? byAid.get(e.cp) : undefined;
+  if (partner !== undefined) {
+    const label = (() => {
+      if (e.l === "ja") return "Official English version";
+      return "Japanese version (日本語版)";
+    })();
+    cpLine = ' &middot; ' + label + ': <a href="#" data-goto="' + partner.i + '">' +
+      esc(partner.t) + '</a>';
+  }
   const meta = '<div class="meta">' + esc(e.d) + (e.f ? " &middot; From: " + esc(e.f) : "") +
     ' &middot; ' + esc(e.c) + ' &middot; <a href="' + e.url +
-    '" target="_blank" rel="noopener">original page</a></div>';
+    '" target="_blank" rel="noopener">original page</a>' + cpLine + '</div>';
   if (e.k === "doc") {
     inner.innerHTML = "<h2>" + esc(e.t) + "</h2>" + meta;
     if (e.tr !== undefined) {
@@ -341,6 +356,13 @@ function show(i) {
       });
     }
     inner.appendChild(frame);
+  } else if (e.tr !== undefined) {
+    inner.innerHTML = "<h2>" + esc(e.trt || e.t) + "</h2>" + meta +
+      '<div class="body"><div class="mtbanner">&#9888; Machine translation. No official ' +
+      "English version of this post exists; the text below is an automatic translation " +
+      "provided for readability and search. The original Japanese post follows underneath." +
+      "</div>" + e.tr + '<h3 class="origlabel">Original post (Japanese)</h3>' + e.b + "</div>";
+    if (searchText !== null) highlight(inner.querySelector(".body"), searchText);
   } else {
     inner.innerHTML = "<h2>" + esc(e.t) + "</h2>" + meta + '<div class="body">' + e.b + "</div>";
     if (searchText !== null) highlight(inner.querySelector(".body"), searchText);
@@ -362,6 +384,14 @@ function show(i) {
 list.addEventListener("click", ev => {
   const row = ev.target.closest(".row");
   if (row !== null) show(parseInt(row.dataset.i, 10));
+});
+
+view.addEventListener("click", ev => {
+  const link = ev.target.closest("a[data-goto]");
+  if (link !== null) {
+    ev.preventDefault();
+    show(parseInt(link.dataset.goto, 10));
+  }
 });
 
 let timer = null;
