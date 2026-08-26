@@ -1,1018 +1,2682 @@
 [
  {
+  "id": 18,
+  "title": "フォーラム：バージョンアップ情報について",
+  "lang": "ja"
+ },
+ {
   "id": 72,
-  "title": "Welcome to Forum: Version Updates!"
+  "title": "Welcome to Forum: Version Updates!",
+  "lang": "en"
  },
  {
   "id": 230,
-  "title": "Transferring of the Threads within the UPDATES category"
+  "title": "Transferring of the Threads within the UPDATES category",
+  "lang": "en"
+ },
+ {
+  "id": 4924,
+  "title": "[dev1007]ヴォイドウォッチについて",
+  "lang": "ja"
  },
  {
   "id": 4925,
-  "title": "[dev1007] Voidwatch Emerges!"
+  "title": "[dev1007] Voidwatch Emerges!",
+  "lang": "en"
+ },
+ {
+  "id": 7257,
+  "title": "2011.05.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 7267,
-  "title": "May 10, 2011 (JST) Version Update"
+  "title": "May 10, 2011 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 7724,
+  "title": "2011.05.13 追加バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 7726,
-  "title": "May 13, 2011 (JST) Version Update"
+  "title": "May 13, 2011 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 7824,
+  "title": "2011.05.20 追加バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 7825,
-  "title": "May 19, 2011 (JST) Version Update"
+  "title": "May 19, 2011 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 9403,
+  "title": "2011.06.07 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 9406,
-  "title": "June 6, 2011 (JST) Version Update"
+  "title": "June 6, 2011 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 11230,
+  "title": "2011.07.12 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 11231,
-  "title": "July 12, 2011 (JST) Version Update"
+  "title": "July 12, 2011 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 14590,
+  "title": "同アカウント内のPCに宅配不可能なEX属性のアイテム",
+  "lang": "ja"
  },
  {
   "id": 14591,
-  "title": "Undeliverable Same-Account Ex Items"
+  "title": "Undeliverable Same-Account Ex Items",
+  "lang": "en"
+ },
+ {
+  "id": 15043,
+  "title": "2011.09.20 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 15044,
-  "title": "September 20, 2011 (JST) Version Update"
+  "title": "September 20, 2011 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 16332,
+  "title": "2011.10.26 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 16333,
-  "title": "October 26, 2011 (JST) Version Update"
+  "title": "October 26, 2011 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 17020,
+  "title": "過去のバージョンアップ情報はこちら",
+  "lang": "ja"
  },
  {
   "id": 17021,
-  "title": "History of the Past Version Updates"
+  "title": "History of the Past Version Updates",
+  "lang": "en"
+ },
+ {
+  "id": 18131,
+  "title": "2011.12.15 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 18132,
-  "title": "December 14, 2011 (JST) Version Update"
+  "title": "December 14, 2011 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 20743,
+  "title": "2012.02.14 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 20744,
-  "title": "February 14, 2012 (JST) Version Update"
+  "title": "February 14, 2012 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 22097,
+  "title": "2012.03.27 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 22099,
-  "title": "March 27, 2012 (JST) Version Update"
+  "title": "March 27, 2012 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 22327,
+  "title": "2012.04.03 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 22328,
-  "title": "April 3, 2012 (JST) Version Update"
+  "title": "April 3, 2012 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 23294,
+  "title": "2012.05.16 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 23295,
-  "title": "May 16, 2012 (JST) Version Update"
+  "title": "May 16, 2012 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 24154,
+  "title": "2012.06.14 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 24155,
-  "title": "June 14, 2012 (JST) Version Update"
+  "title": "June 14, 2012 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 25811,
+  "title": "2012.07.24 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 25812,
-  "title": "July 24, 2012 (JST) Version Update"
+  "title": "July 24, 2012 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 27456,
+  "title": "2012.09.25 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 27457,
-  "title": "September 25, 2012 (JST) Version Update"
+  "title": "September 25, 2012 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 29149,
+  "title": "2012.12.13 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 29150,
-  "title": "December 13, 2012 (JST) Version Update"
+  "title": "December 13, 2012 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 30160,
+  "title": "2013.01.29 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 30161,
-  "title": "January 29, 2013 (JST) Version Update"
+  "title": "January 29, 2013 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 31309,
+  "title": "2013.03.27 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 31310,
-  "title": "March 27, 2013 (JST) Version Update"
+  "title": "March 27, 2013 (JST) Version Update",
+  "lang": "en"
  },
  {
   "id": 31402,
-  "title": "Geomancer and Rune Fencer"
+  "title": "Geomancer and Rune Fencer",
+  "lang": "en"
+ },
+ {
+  "id": 31407,
+  "title": "風水士と魔導剣士について",
+  "lang": "ja"
  },
  {
   "id": 31416,
-  "title": "Otherworldly Skirmishes"
+  "title": "Otherworldly Skirmishes",
+  "lang": "en"
  },
  {
   "id": 31417,
-  "title": "Colonization"
+  "title": "Colonization",
+  "lang": "en"
+ },
+ {
+  "id": 31418,
+  "title": "スカームについて",
+  "lang": "ja"
+ },
+ {
+  "id": 31419,
+  "title": "コロナイズについて",
+  "lang": "ja"
+ },
+ {
+  "id": 32908,
+  "title": "2013.04.30 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 32909,
-  "title": "April 30, 2013 (JST) Version Update"
+  "title": "April 30, 2013 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 32926,
+  "title": "メナスインスペクター",
+  "lang": "ja"
  },
  {
   "id": 32988,
-  "title": "Delve"
+  "title": "Delve",
+  "lang": "en"
+ },
+ {
+  "id": 35227,
+  "title": "2013.07.09 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 35228,
-  "title": "July 9, 2013 (JST) Version Update"
+  "title": "July 9, 2013 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 35232,
+  "title": "7月バージョンアップ ダイジェスト",
+  "lang": "ja"
+ },
+ {
+  "id": 35234,
+  "title": "モグガーデンについて",
+  "lang": "ja"
+ },
+ {
+  "id": 35235,
+  "title": "アイテムレベルについて",
+  "lang": "ja"
  },
  {
   "id": 35236,
-  "title": "Mog Gardens"
+  "title": "Mog Gardens",
+  "lang": "en"
  },
  {
   "id": 35239,
-  "title": "Item Levels"
+  "title": "Item Levels",
+  "lang": "en"
+ },
+ {
+  "id": 36334,
+  "title": "2013.08.06 バージョンアップ情報",
+  "lang": "ja"
+ },
+ {
+  "id": 36337,
+  "title": "モンストロス・プレッジ",
+  "lang": "ja"
  },
  {
   "id": 36338,
-  "title": "Aug 6, 2013 (JST) Version Update"
+  "title": "Aug 6, 2013 (JST) Version Update",
+  "lang": "en"
  },
  {
   "id": 36339,
-  "title": "Monstrosity"
+  "title": "Monstrosity",
+  "lang": "en"
+ },
+ {
+  "id": 36354,
+  "title": "8月6日バージョンアップダイジェスト",
+  "lang": "ja"
  },
  {
   "id": 36372,
-  "title": "August 6th (JST) Version Update Digest"
+  "title": "August 6th (JST) Version Update Digest",
+  "lang": "en"
+ },
+ {
+  "id": 36823,
+  "title": "2013.08.20 追加バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 36827,
-  "title": "Aug 20, 2013 (JST) Version Update"
+  "title": "Aug 20, 2013 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 37574,
+  "title": "2013.10.08 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 37575,
-  "title": "Oct 8, 2013 (JST) Version Update"
+  "title": "Oct 8, 2013 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 38098,
+  "title": "2013.11.05 バージョンアップ情報",
+  "lang": "ja"
+ },
+ {
+  "id": 38099,
+  "title": "モンストロス･プレッジ「グラディエイター」",
+  "lang": "ja"
  },
  {
   "id": 38100,
-  "title": "Nov 5, 2013 (JST) Version Update"
+  "title": "Nov 5, 2013 (JST) Version Update",
+  "lang": "en"
  },
  {
   "id": 38101,
-  "title": "Gladiators"
+  "title": "Gladiators",
+  "lang": "en"
+ },
+ {
+  "id": 38194,
+  "title": "「もぎたて ヴァナ・ディール」まとめ",
+  "lang": "ja"
  },
  {
   "id": 38207,
-  "title": "\u201dFreshly Picked Vana'diel\" Digest"
+  "title": "”Freshly Picked Vana'diel\" Digest",
+  "lang": "en"
+ },
+ {
+  "id": 38752,
+  "title": "2013.12.11 バージョンアップ情報",
+  "lang": "ja"
+ },
+ {
+  "id": 38753,
+  "title": "新魔法「フェイス」",
+  "lang": "ja"
  },
  {
   "id": 38761,
-  "title": "About the Trust Initiative"
+  "title": "About the Trust Initiative",
+  "lang": "en"
  },
  {
   "id": 38764,
-  "title": "Dec 11, 2013 (JST) Version Update"
+  "title": "Dec 11, 2013 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 38881,
+  "title": "第2回 「もぎたて ヴァナ・ディール」まとめ",
+  "lang": "ja"
  },
  {
   "id": 38900,
-  "title": "\"Freshly Picked Vana'diel 2\" Digest"
+  "title": "\"Freshly Picked Vana'diel 2\" Digest",
+  "lang": "en"
+ },
+ {
+  "id": 39191,
+  "title": "2013.12.26 追加バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 39192,
-  "title": "Dec 26, 2013 (JST) Version Update"
+  "title": "Dec 26, 2013 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 39557,
+  "title": "2014.01.21 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 39564,
-  "title": "Jan 21, 2014 (JST) Version Update"
+  "title": "Jan 21, 2014 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 39652,
+  "title": "第3回 「もぎたて ヴァナ・ディール」まとめ（1月21日放送分）",
+  "lang": "ja"
  },
  {
   "id": 39659,
-  "title": "\"Freshly Picked Vana'diel 3\" Digest"
+  "title": "\"Freshly Picked Vana'diel 3\" Digest",
+  "lang": "en"
+ },
+ {
+  "id": 40058,
+  "title": "2014.02.18 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 40059,
-  "title": "Feb 18, 2014 (JST) Version Update"
+  "title": "Feb 18, 2014 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 40063,
+  "title": "次回バージョンアップのPVを公開！",
+  "lang": "ja"
  },
  {
   "id": 40080,
-  "title": "February Version Update Trailer!"
+  "title": "February Version Update Trailer!",
+  "lang": "en"
  },
  {
   "id": 40081,
-  "title": "February Version Update Trailer!"
+  "title": "February Version Update Trailer!",
+  "lang": "en"
+ },
+ {
+  "id": 40262,
+  "title": "第4回「もぎたてヴァナ・ディール」まとめ （2月18日放送分）",
+  "lang": "ja"
+ },
+ {
+  "id": 40264,
+  "title": "アイテムレベル装備 一覧（2014.2.18バージョンアップ対応）",
+  "lang": "ja"
  },
  {
   "id": 40279,
-  "title": "\"Freshly Picked Vana\u2019diel 4\" Digest"
+  "title": "\"Freshly Picked Vana’diel 4\" Digest",
+  "lang": "en"
  },
  {
   "id": 40280,
-  "title": "Item Level Overview (As of the Feb. 18th JST Version Update)"
+  "title": "Item Level Overview (As of the Feb. 18th JST Version Update)",
+  "lang": "en"
  },
  {
   "id": 40546,
-  "title": "Details on the Upcoming Version Update!"
+  "title": "Details on the Upcoming Version Update!",
+  "lang": "en"
+ },
+ {
+  "id": 40656,
+  "title": "2014.03.18 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 40657,
-  "title": "Mar 18, 2014 (JST) Version Update"
+  "title": "Mar 18, 2014 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 40683,
+  "title": "釣りの大幅な調整について",
+  "lang": "ja"
  },
  {
   "id": 40708,
-  "title": "Fishing System Renovation"
+  "title": "Fishing System Renovation",
+  "lang": "en"
+ },
+ {
+  "id": 40796,
+  "title": "第5回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
+ },
+ {
+  "id": 40807,
+  "title": "2014.03.21 追加バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 40808,
-  "title": "Mar 21, 2014 (JST) Version Update"
+  "title": "Mar 21, 2014 (JST) Version Update",
+  "lang": "en"
  },
  {
   "id": 40822,
-  "title": "\"Freshly Picked Vana\u2019diel 5\" Digest"
+  "title": "\"Freshly Picked Vana’diel 5\" Digest",
+  "lang": "en"
+ },
+ {
+  "id": 41116,
+  "title": "2014.04.08 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 41117,
-  "title": "Apr 8, 2014 (JST) Version Update"
+  "title": "Apr 8, 2014 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 41303,
+  "title": "第6回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 41325,
-  "title": "\"Freshly Picked Vana\u2019diel 6\" Digest"
+  "title": "\"Freshly Picked Vana’diel 6\" Digest",
+  "lang": "en"
+ },
+ {
+  "id": 41813,
+  "title": "2014.05.15 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 41814,
-  "title": "May 15, 2014 (JST) Version Update"
+  "title": "May 15, 2014 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 42072,
+  "title": "第7回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 42089,
-  "title": "\"Freshly Picked Vana\u2019diel 7\" Digest"
+  "title": "\"Freshly Picked Vana’diel 7\" Digest",
+  "lang": "en"
+ },
+ {
+  "id": 42611,
+  "title": "2014.06.17 バージョンアップ情報",
+  "lang": "ja"
+ },
+ {
+  "id": 42613,
+  "title": "ウェポンスキルの大幅な調整について",
+  "lang": "ja"
  },
  {
   "id": 42614,
-  "title": "Jun 17, 2014 (JST) Version Update"
+  "title": "Jun 17, 2014 (JST) Version Update",
+  "lang": "en"
  },
  {
   "id": 42615,
-  "title": "Weapon Skill Adjustments"
+  "title": "Weapon Skill Adjustments",
+  "lang": "en"
+ },
+ {
+  "id": 42812,
+  "title": "第８回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 42839,
-  "title": "\u201cFreshly Picked Vana\u2019diel 8\u201d Digest"
+  "title": "“Freshly Picked Vana’diel 8” Digest",
+  "lang": "en"
+ },
+ {
+  "id": 43134,
+  "title": "2014.07.08 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 43135,
-  "title": "Jul 8, 2014 (JST) Version Update"
+  "title": "Jul 8, 2014 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 43252,
+  "title": "第９回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 43262,
-  "title": "\u201cFreshly Picked Vana\u2019diel 9\u201d Digest"
+  "title": "“Freshly Picked Vana’diel 9” Digest",
+  "lang": "en"
+ },
+ {
+  "id": 43705,
+  "title": "2014.08.12 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 43706,
-  "title": "Aug 12, 2014 (JST) Version Update"
+  "title": "Aug 12, 2014 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 43760,
+  "title": "第10回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 43771,
-  "title": "\u201cFreshly Picked Vana\u2019diel 10\u201d Digest"
+  "title": "“Freshly Picked Vana’diel 10” Digest",
+  "lang": "en"
+ },
+ {
+  "id": 44089,
+  "title": "2014.09.09 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 44090,
-  "title": "Sep 9, 2014 (JST) Version Update"
+  "title": "Sep 9, 2014 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 44223,
+  "title": "第11回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 44233,
-  "title": "\"Freshly Picked Vana'diel 11\" Digest"
+  "title": "\"Freshly Picked Vana'diel 11\" Digest",
+  "lang": "en"
+ },
+ {
+  "id": 44591,
+  "title": "2014.10.07 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 44592,
-  "title": "Oct 7, 2014 (JST) Version Update"
+  "title": "Oct 7, 2014 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 44655,
+  "title": "第12回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 44658,
-  "title": "\"Freshly Picked Vana'diel 12\" Digest"
+  "title": "\"Freshly Picked Vana'diel 12\" Digest",
+  "lang": "en"
+ },
+ {
+  "id": 44840,
+  "title": "アイテム「モグチケット」と交換可能なアイテム",
+  "lang": "ja"
  },
  {
   "id": 44842,
-  "title": "Item available in exchange for mog pells"
+  "title": "Item available in exchange for mog pells",
+  "lang": "en"
+ },
+ {
+  "id": 44941,
+  "title": "2014.11.10 バージョンアップ情報",
+  "lang": "ja"
+ },
+ {
+  "id": 44942,
+  "title": "ユニティ・コンコードについて",
+  "lang": "ja"
  },
  {
   "id": 44943,
-  "title": "Nov 10, 2014 (JST) Version Update"
+  "title": "Nov 10, 2014 (JST) Version Update",
+  "lang": "en"
  },
  {
   "id": 44944,
-  "title": "Unity Concord"
+  "title": "Unity Concord",
+  "lang": "en"
+ },
+ {
+  "id": 45056,
+  "title": "第13回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 45061,
-  "title": "\"Freshly Picked Vana'diel 13\" Digest"
+  "title": "\"Freshly Picked Vana'diel 13\" Digest",
+  "lang": "en"
+ },
+ {
+  "id": 45361,
+  "title": "2014.12.10 バージョンアップ情報",
+  "lang": "ja"
+ },
+ {
+  "id": 45363,
+  "title": "ギフト一覧",
+  "lang": "ja"
  },
  {
   "id": 45365,
-  "title": "Dec 10, 2014 (JST) Version Update"
+  "title": "Dec 10, 2014 (JST) Version Update",
+  "lang": "en"
  },
  {
   "id": 45366,
-  "title": "Gifts"
+  "title": "Gifts",
+  "lang": "en"
+ },
+ {
+  "id": 45369,
+  "title": "フェイスを呼びだすことのできるコンテンツの一覧",
+  "lang": "ja"
  },
  {
   "id": 45370,
-  "title": "List of Content Where Alter Egos May Be Called Forth"
+  "title": "List of Content Where Alter Egos May Be Called Forth",
+  "lang": "en"
+ },
+ {
+  "id": 45472,
+  "title": "第14回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 45544,
-  "title": "\"Freshly Picked Vana'diel 14\" Digest"
+  "title": "\"Freshly Picked Vana'diel 14\" Digest",
+  "lang": "en"
+ },
+ {
+  "id": 45720,
+  "title": "2015.1.15 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 45721,
-  "title": "Jan 15, 2015 (JST) Version Update"
+  "title": "Jan 15, 2015 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 45827,
+  "title": "第15回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 45830,
-  "title": "\"Freshly Picked Vana'diel 15\" Digest"
+  "title": "\"Freshly Picked Vana'diel 15\" Digest",
+  "lang": "en"
  },
  {
   "id": 46068,
-  "title": "Feb 19, 2015 (JST) Version Update"
+  "title": "Feb 19, 2015 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 46069,
+  "title": "2015.2.19 バージョンアップ情報",
+  "lang": "ja"
+ },
+ {
+  "id": 46256,
+  "title": "第16回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 46262,
-  "title": "Freshly Picked Vana'diel 16  Digest"
+  "title": "Freshly Picked Vana'diel 16  Digest",
+  "lang": "en"
+ },
+ {
+  "id": 46530,
+  "title": "2015.3.26 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 46531,
-  "title": "Mar 26, 2015 (JST) Version Update"
+  "title": "Mar 26, 2015 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 46685,
+  "title": "第17回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 46687,
-  "title": "Freshly Picked Vana'diel 17  Digest"
+  "title": "Freshly Picked Vana'diel 17  Digest",
+  "lang": "en"
+ },
+ {
+  "id": 46974,
+  "title": "2015.5.14 バージョンアップ情報",
+  "lang": "ja"
+ },
+ {
+  "id": 46975,
+  "title": "「ヴァナ・ディールの星唄」の進行度に応じて得られる「だいじなもの」と効果一覧",
+  "lang": "ja"
  },
  {
   "id": 46976,
-  "title": "May 14, 2015 (JST) Version Update"
+  "title": "May 14, 2015 (JST) Version Update",
+  "lang": "en"
  },
  {
   "id": 46977,
-  "title": "Key Items Available by Progressing through Rhapsodies of Vana\u2019diel"
+  "title": "Key Items Available by Progressing through Rhapsodies of Vana’diel",
+  "lang": "en"
+ },
+ {
+  "id": 47167,
+  "title": "第18回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 47174,
-  "title": "Freshly Picked Vana'diel 18  Digest"
+  "title": "Freshly Picked Vana'diel 18  Digest",
+  "lang": "en"
+ },
+ {
+  "id": 47480,
+  "title": "2015.06.25 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 47481,
-  "title": "Jun 25, 2015 (JST) Version Update"
+  "title": "Jun 25, 2015 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 47784,
+  "title": "第19回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 47792,
-  "title": "Freshly Picked Vana'diel 19  Digest"
+  "title": "Freshly Picked Vana'diel 19  Digest",
+  "lang": "en"
+ },
+ {
+  "id": 47900,
+  "title": "2015.08.05 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 47901,
-  "title": "Aug 5, 2015 (JST) Version Update"
+  "title": "Aug 5, 2015 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 47982,
+  "title": "「ヴァナ・ディールの星唄」が進行しない場合",
+  "lang": "ja"
  },
  {
   "id": 47983,
-  "title": "What should I do if I can\u2019t progress in Rhapsodies of Vana\u2019diel?"
+  "title": "What should I do if I can’t progress in Rhapsodies of Vana’diel?",
+  "lang": "en"
+ },
+ {
+  "id": 48102,
+  "title": "第20回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 48119,
-  "title": "Freshly Picked Vana'diel 20 Digest"
+  "title": "Freshly Picked Vana'diel 20 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 48563,
+  "title": "2015.09.16 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 48564,
-  "title": "Sep 16, 2015 (JST) Version Update"
+  "title": "Sep 16, 2015 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 48747,
+  "title": "第21回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 48776,
-  "title": "Freshly Picked Vana'diel 21 Digest"
+  "title": "Freshly Picked Vana'diel 21 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 49064,
+  "title": "2015.11.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 49065,
-  "title": "Nov 10, 2015 (JST) Version Update"
+  "title": "Nov 10, 2015 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 49271,
+  "title": "第22回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 49277,
-  "title": "Freshly Picked Vana'diel 22 Digest"
+  "title": "Freshly Picked Vana'diel 22 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 49424,
+  "title": "2015.12.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 49425,
-  "title": "Dec 10, 2015 (JST) Version Update"
+  "title": "Dec 10, 2015 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 49504,
+  "title": "第23回 もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 49509,
-  "title": "Freshly Picked Vana'diel 23 Digest"
+  "title": "Freshly Picked Vana'diel 23 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 49842,
+  "title": "2016.2.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 49843,
-  "title": "Feb. 10, 2016 (JST) Version Update"
+  "title": "Feb. 10, 2016 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 49926,
+  "title": "第24回 もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 49931,
-  "title": "Freshly Picked Vana\u2019diel 24 Digest"
+  "title": "Freshly Picked Vana’diel 24 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 50090,
+  "title": "Windows®版でゲームパッドを使用する方法",
+  "lang": "ja"
  },
  {
   "id": 50091,
-  "title": "Using a Gamepad with Windows\u00ae"
+  "title": "Using a Gamepad with Windows®",
+  "lang": "en"
+ },
+ {
+  "id": 50255,
+  "title": "2016.4.5 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 50256,
-  "title": "Apr. 5, 2016 (JST) Version Update"
+  "title": "Apr. 5, 2016 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 50368,
+  "title": "第25回 もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 50377,
-  "title": "Freshly Picked Vana'diel 25 Digest"
+  "title": "Freshly Picked Vana'diel 25 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 50528,
+  "title": "2016.5.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 50529,
-  "title": "May 10, 2016 (JST) Version Update"
+  "title": "May 10, 2016 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 50626,
+  "title": "第26回 もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 50632,
-  "title": "Freshly Picked Vana\u2019diel 26 Digest"
+  "title": "Freshly Picked Vana’diel 26 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 50759,
+  "title": "2016.6.7 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 50760,
-  "title": "Jun. 7, 2016 (JST) Version Update"
+  "title": "Jun. 7, 2016 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 50941,
+  "title": "2016.7.5 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 50942,
-  "title": "Jul. 5, 2016 (JST) Version Update"
+  "title": "Jul. 5, 2016 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 51038,
+  "title": "第27回 もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 51042,
-  "title": "Freshly Picked Vana'diel 27 Digest"
+  "title": "Freshly Picked Vana'diel 27 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 51153,
+  "title": "2016.8.3 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 51154,
-  "title": "Aug. 3, 2016 (JST) Version Update"
+  "title": "Aug. 3, 2016 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 51344,
+  "title": "2016.9.6 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 51345,
-  "title": "Sep. 6, 2016 (JST) Version Update"
+  "title": "Sep. 6, 2016 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 51369,
+  "title": "第28回もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 51373,
-  "title": "Freshly Picked Vana'diel 28 Digest"
+  "title": "Freshly Picked Vana'diel 28 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 51488,
+  "title": "2016.10.11 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 51489,
-  "title": "Oct. 11, 2016 (JST) Version Update"
+  "title": "Oct. 11, 2016 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 51568,
+  "title": "青魔法一覧",
+  "lang": "ja"
  },
  {
   "id": 51569,
-  "title": "Blue Magic List (By Family)"
+  "title": "Blue Magic List (By Family)",
+  "lang": "en"
+ },
+ {
+  "id": 51623,
+  "title": "2016.11.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 51624,
-  "title": "Nov. 10, 2016 (JST) Version Update"
+  "title": "Nov. 10, 2016 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 51673,
+  "title": "第29回もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 51675,
-  "title": "Freshly Picked Vana\u2019diel 29 Digest"
+  "title": "Freshly Picked Vana’diel 29 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 51766,
+  "title": "2016.12.13 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 51767,
-  "title": "Dec. 13, 2016 (JST) Version Update"
+  "title": "Dec. 13, 2016 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 51819,
+  "title": "第30回 もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 51830,
-  "title": "Freshly Picked Vana'diel 30 Digest"
+  "title": "Freshly Picked Vana'diel 30 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 51932,
+  "title": "2017.1.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 51933,
-  "title": "Jan. 10, 2017 (JST) Version Update"
+  "title": "Jan. 10, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 52094,
+  "title": "2017.2.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 52095,
-  "title": "Feb. 10, 2017 (JST) Version Update"
+  "title": "Feb. 10, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 52149,
+  "title": "第31回 もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 52154,
-  "title": "Freshly Picked Vana'diel 31 Digest"
+  "title": "Freshly Picked Vana'diel 31 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 52280,
+  "title": "2017.3.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 52281,
-  "title": "Mar. 10, 2017 (JST) Version Update"
+  "title": "Mar. 10, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 52343,
+  "title": "第32回 もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 52390,
-  "title": "Freshly Picked Vana'diel 32 Digest"
+  "title": "Freshly Picked Vana'diel 32 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 52440,
+  "title": "2017.4.4 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 52441,
-  "title": "Apr. 4, 2017 (JST) Version Update"
+  "title": "Apr. 4, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 52591,
+  "title": "2017.5.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 52592,
-  "title": "May 10, 2017 (JST) Version Update"
+  "title": "May 10, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 52638,
+  "title": "第33回もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 52658,
-  "title": "Freshly Picked Vana'diel 33 Digest"
+  "title": "Freshly Picked Vana'diel 33 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 52746,
+  "title": "2017.6.7 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 52747,
-  "title": "Jun. 7, 2017 (JST) Version Update"
+  "title": "Jun. 7, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 52834,
+  "title": "2017.7.5 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 52835,
-  "title": "Jul. 5, 2017 (JST) Version Update"
+  "title": "Jul. 5, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 52884,
+  "title": "第34回 もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 52907,
-  "title": "Freshly Picked Vana'diel 34 Digest"
+  "title": "Freshly Picked Vana'diel 34 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 52968,
+  "title": "2017.8.3 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 52969,
-  "title": "August. 3, 2017 (JST) Version Update"
+  "title": "August. 3, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 53126,
+  "title": "2017.9.11 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 53127,
-  "title": "September. 11, 2017 (JST) Version Update"
+  "title": "September. 11, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 53174,
+  "title": "第35回 もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 53191,
-  "title": "Freshly Picked Vana'diel 35 Digest"
+  "title": "Freshly Picked Vana'diel 35 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 53241,
+  "title": "2017.10.11 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 53242,
-  "title": "October. 11, 2017 (JST) Version Update"
+  "title": "October. 11, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 53351,
+  "title": "2017.11.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 53352,
-  "title": "November. 11, 2017 (JST) Version Update"
+  "title": "November. 11, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 53389,
+  "title": "第36回 もぎたてヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 53391,
-  "title": "Freshly Picked Vana\u2019diel 36 Digest"
+  "title": "Freshly Picked Vana’diel 36 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 53461,
+  "title": "2017.12.11 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 53462,
-  "title": "December. 11, 2017 (JST) Version Update"
+  "title": "December. 11, 2017 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 53586,
+  "title": "2018.1.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 53588,
-  "title": "January. 10, 2018 (JST) Version Update"
+  "title": "January. 10, 2018 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 53693,
+  "title": "2018.2.9 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 53694,
-  "title": "February. 9, 2018 (JST) Version Update"
+  "title": "February. 9, 2018 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 53723,
+  "title": "第37回 もぎたてヴァナ・ディール",
+  "lang": "ja"
+ },
+ {
+  "id": 53795,
+  "title": "2018.3.12 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 53796,
-  "title": "March. 12, 2018 (JST) Version Update"
+  "title": "March. 12, 2018 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 53812,
+  "title": "第38回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
+ },
+ {
+  "id": 53855,
+  "title": "2018.4.4 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 53856,
-  "title": "April. 4, 2018 (JST) Version Update"
+  "title": "April. 4, 2018 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 53962,
+  "title": "2018.5.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 53963,
-  "title": "May. 10, 2018 (JST) Version Update"
+  "title": "May. 10, 2018 (JST) Version Update",
+  "lang": "en"
  },
  {
   "id": 54012,
-  "title": "Freshly Picked Vana'diel 39 Digest"
+  "title": "Freshly Picked Vana'diel 39 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 54028,
+  "title": "第39回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
+ },
+ {
+  "id": 54115,
+  "title": "2018.6.7 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 54116,
-  "title": "June. 7, 2018 (JST) Version Update"
+  "title": "June. 7, 2018 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 54188,
+  "title": "2018.7.5 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 54189,
-  "title": "July. 5, 2018 (JST) Version Update"
+  "title": "July. 5, 2018 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 54227,
+  "title": "第40回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 54229,
-  "title": "Freshly Picked Vana'diel 40 Digest"
+  "title": "Freshly Picked Vana'diel 40 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 54298,
+  "title": "2018.8.7 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 54299,
-  "title": "August. 7, 2018 (JST) Version Update"
+  "title": "August. 7, 2018 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 54393,
+  "title": "第41回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 54395,
-  "title": "Freshly Picked Vana'diel 41 Digest"
+  "title": "Freshly Picked Vana'diel 41 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 54409,
+  "title": "2018.9.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 54410,
-  "title": "September. 10, 2018 (JST) Version Update"
+  "title": "September. 10, 2018 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 54524,
+  "title": "2018.10.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 54525,
-  "title": "October. 10, 2018 (JST) Version Update"
+  "title": "October. 10, 2018 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 54630,
+  "title": "2018.11.9 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 54631,
-  "title": "November. 9, 2018 (JST) Version Update"
+  "title": "November. 9, 2018 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 54699,
+  "title": "第42回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
+ },
+ {
+  "id": 54789,
+  "title": "2018.12.11 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 54790,
-  "title": "December. 11, 2018 (JST) Version Update"
+  "title": "December. 11, 2018 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 54900,
+  "title": "2019.1.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 54901,
-  "title": "January. 10, 2019 (JST) Version Update"
+  "title": "January. 10, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 54942,
+  "title": "第43回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 54950,
-  "title": "Freshly Picked Vana'diel 43 Digest"
+  "title": "Freshly Picked Vana'diel 43 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 55024,
+  "title": "2019.2.8 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 55025,
-  "title": "February. 8, 2019 (JST) Version Update"
+  "title": "February. 8, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 55175,
+  "title": "2019.3.11 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 55176,
-  "title": "March. 11, 2019 (JST) Version Update"
+  "title": "March. 11, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 55205,
+  "title": "第44回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 55210,
-  "title": "Freshly Picked Vana'diel 44 Digest"
+  "title": "Freshly Picked Vana'diel 44 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 55262,
+  "title": "2019.4.3 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 55263,
-  "title": "April. 3, 2019 (JST) Version Update"
+  "title": "April. 3, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 55359,
+  "title": "2019.5.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 55360,
-  "title": "May. 10, 2019 (JST) Version Update"
+  "title": "May. 10, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 55410,
+  "title": "第45回 もぎたて ヴァナ・ディール",
+  "lang": "ja"
  },
  {
   "id": 55414,
-  "title": "Freshly Picked Vana'diel 45 Digest"
+  "title": "Freshly Picked Vana'diel 45 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 55524,
+  "title": "2019.6.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 55525,
-  "title": "June. 10, 2019 (JST) Version Update"
+  "title": "June. 10, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 55647,
+  "title": "2019.7.8 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 55648,
-  "title": "July. 8, 2019 (JST) Version Update"
+  "title": "July. 8, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 55750,
+  "title": "2019.8.6 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 55751,
-  "title": "August. 6, 2019 (JST) Version Update"
+  "title": "August. 6, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 55807,
+  "title": "「第46回 もぎたて ヴァナ・ディール」",
+  "lang": "ja"
  },
  {
   "id": 55810,
-  "title": "Freshly Picked Vana'diel 46 Digest"
+  "title": "Freshly Picked Vana'diel 46 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 55898,
+  "title": "2019.9.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 55899,
-  "title": "September. 10, 2019 (JST) Version Update"
+  "title": "September. 10, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 55902,
+  "title": "「第47回 もぎたて ヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 55996,
+  "title": "2019.10.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 55997,
-  "title": "October. 10, 2019 (JST) Version Update"
+  "title": "October. 10, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 56093,
+  "title": "2019.11.11 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 56094,
-  "title": "November 11, 2019 (JST) Version Update"
+  "title": "November 11, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 56139,
+  "title": "「第48回 もぎたて ヴァナ・ディール」",
+  "lang": "ja"
  },
  {
   "id": 56141,
-  "title": "Freshly Picked Vana'diel 48 Digest"
+  "title": "Freshly Picked Vana'diel 48 Digest",
+  "lang": "en"
+ },
+ {
+  "id": 56242,
+  "title": "2019.12.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 56243,
-  "title": "December 10, 2019 (JST) Version Update"
+  "title": "December 10, 2019 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 56337,
+  "title": "2020.1.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 56338,
-  "title": "January 10, 2020 (JST) Version Update"
+  "title": "January 10, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 56360,
+  "title": "「第49回 もぎたて ヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 56443,
+  "title": "2020.2.12 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 56444,
-  "title": "February 12, 2020 (JST) Version Update"
+  "title": "February 12, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 56574,
+  "title": "2020.3.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 56575,
-  "title": "March 10, 2020 (JST) Version Update"
+  "title": "March 10, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 56616,
+  "title": "「第50回 もぎたて ヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 56664,
+  "title": "2020.4.3 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 56665,
-  "title": "April 3, 2020 (JST) Version Update"
+  "title": "April 3, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 56794,
+  "title": "2020.5.11 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 56795,
-  "title": "May 11, 2020 (JST) Version Update"
+  "title": "May 11, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 56923,
+  "title": "2020.6.10 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 56924,
-  "title": "June 10, 2020 (JST) Version Update"
+  "title": "June 10, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 57007,
+  "title": "2020.7.8 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 57008,
-  "title": "July 8, 2020 (JST) Version Update"
+  "title": "July 8, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 57054,
+  "title": "「第51回 もぎたて ヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 57116,
+  "title": "2020.8.6 バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 57117,
-  "title": "August 6, 2020 (JST) Version Update"
+  "title": "August 6, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 57244,
+  "title": "2020.9.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 57245,
-  "title": "September 10, 2020 (JST) Version Update"
+  "title": "September 10, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 57274,
+  "title": "「第52回 もぎたて ヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 57334,
+  "title": "2020.10.12バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 57335,
-  "title": "October 12, 2020 (JST) Version Update"
+  "title": "October 12, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 57420,
+  "title": "2020.11.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 57421,
-  "title": "November 10, 2020 (JST) Version Update"
+  "title": "November 10, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 57487,
+  "title": "「第53回 もぎたて ヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 57561,
+  "title": "2020.12.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 57562,
-  "title": "December 10, 2020 (JST) Version Update"
+  "title": "December 10, 2020 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 57649,
+  "title": "2021.1.12バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 57650,
-  "title": "January 12, 2021 (JST) Version Update"
+  "title": "January 12, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 57656,
+  "title": "もぎたてヴァナ・ディール（2021年1月8日放送予定回） ダイジェスト",
+  "lang": "ja"
  },
  {
   "id": 57659,
-  "title": "January 2021 Version Update - Additional Information"
+  "title": "January 2021 Version Update - Additional Information",
+  "lang": "en"
+ },
+ {
+  "id": 57787,
+  "title": "2021.2.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 57788,
-  "title": "February 10, 2021 (JST) Version Update"
+  "title": "February 10, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 57920,
+  "title": "2021.3.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 57921,
-  "title": "March 10, 2021 (JST) Version Update"
+  "title": "March 10, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 57954,
+  "title": "「第54回 もぎたて ヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 58004,
+  "title": "2021.4.2バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 58005,
-  "title": "April 2, 2021 (JST) Version Update"
+  "title": "April 2, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 58128,
+  "title": "2021.5.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 58129,
-  "title": "May 10, 2021 (JST) Version Update"
+  "title": "May 10, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 58175,
+  "title": "「第55回 もぎたて ヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 58217,
+  "title": "2021.6.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 58218,
-  "title": "June 10, 2021 (JST) Version Update"
+  "title": "June 10, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 58290,
+  "title": "2021.7.12バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 58291,
-  "title": "July 12, 2021 (JST) Version Update"
+  "title": "July 12, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 58330,
+  "title": "「第56回 もぎたて ヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 58428,
+  "title": "2021.8.11バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 58429,
-  "title": "August 11, 2021 (JST) Version Update"
+  "title": "August 11, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 58579,
+  "title": "2021.9.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 58580,
-  "title": "September 10, 2021 (JST) Version Update"
+  "title": "September 10, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 58616,
+  "title": "「第57回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 58671,
+  "title": "2021.10.11バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 58672,
-  "title": "October 11, 2021 (JST) Version Update"
+  "title": "October 11, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 58769,
+  "title": "2021.11.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 58770,
-  "title": "November 10, 2021 (JST) Version Update"
+  "title": "November 10, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 58884,
+  "title": "「第58回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 58926,
+  "title": "2021.12.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 58927,
-  "title": "December 10, 2021 (JST) Version Update"
+  "title": "December 10, 2021 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 59057,
+  "title": "2022.1.11バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 59058,
-  "title": "January 11, 2022 (JST) Version Update"
+  "title": "January 11, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 59173,
+  "title": "2022.2.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 59174,
-  "title": "February 10, 2022 (JST) Version Update"
+  "title": "February 10, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 59222,
+  "title": "「第59回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 59263,
+  "title": "2022.3.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 59264,
-  "title": "March 10, 2022 (JST) Version Update"
+  "title": "March 10, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 59331,
+  "title": "2022.4.4バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 59332,
-  "title": "April 4, 2022 (JST) Version Update"
+  "title": "April 4, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 59452,
+  "title": "2022.5.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 59453,
-  "title": "May 10, 2022 (JST) Version Update"
+  "title": "May 10, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 59502,
+  "title": "20周年記念放送 もぎたてヴァナ・ディール スペシャル",
+  "lang": "ja"
+ },
+ {
+  "id": 59578,
+  "title": "2022.6.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 59579,
-  "title": "June 10, 2022 (JST) Version Update"
+  "title": "June 10, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 59692,
+  "title": "2022.7.11バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 59693,
-  "title": "July 11, 2022 (JST) Version Update"
+  "title": "July 11, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 59720,
+  "title": "「第61回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 59788,
+  "title": "2022.8.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 59789,
-  "title": "August 10, 2022 (JST) Version Update"
+  "title": "August 10, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 59916,
+  "title": "2022.9.12バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 59917,
-  "title": "September 12, 2022 (JST) Version Update"
+  "title": "September 12, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 59963,
+  "title": "「第62回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 60047,
+  "title": "2022.10.11バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 60048,
-  "title": "October 11, 2022 (JST) Version Update"
+  "title": "October 11, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 60129,
+  "title": "2022.11.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 60130,
-  "title": "November 10, 2022 (JST) Version Update"
+  "title": "November 10, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 60165,
+  "title": "「第63回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 60224,
+  "title": "2022.12.12バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 60225,
-  "title": "December 12, 2022 (JST) Version Update"
+  "title": "December 12, 2022 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 60313,
+  "title": "2023.01.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 60314,
-  "title": "January 10, 2023 (JST) Version Update"
+  "title": "January 10, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 60428,
+  "title": "2023.02.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 60429,
-  "title": "February 10, 2023 (JST) Version Update"
+  "title": "February 10, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 60471,
+  "title": "「第64回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 60552,
+  "title": "2023.03.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 60553,
-  "title": "March 10, 2023 (JST) Version Update"
+  "title": "March 10, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 60614,
+  "title": "2023.04.03バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 60615,
-  "title": "April 3, 2023 (JST) Version Update"
+  "title": "April 3, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 60641,
+  "title": "【固定】タームフィルター使用方法まとめ",
+  "lang": "ja"
+ },
+ {
+  "id": 60643,
+  "title": "「第65回もぎたてヴァナ・ディール」",
+  "lang": "ja"
  },
  {
   "id": 60657,
-  "title": "How to Use the Term Filter"
+  "title": "How to Use the Term Filter",
+  "lang": "en"
+ },
+ {
+  "id": 60707,
+  "title": "2023.05.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 60708,
-  "title": "May 10, 2023 (JST) Version Update"
+  "title": "May 10, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 60794,
+  "title": "2023.05.24バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 60795,
-  "title": "May 24, 2023 (JST) Version Update"
+  "title": "May 24, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 60831,
+  "title": "「第66回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 60876,
+  "title": "2023.06.12バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 60877,
-  "title": "June 12, 2023 (JST) Version Update"
+  "title": "June 12, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 60934,
+  "title": "2023.07.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 60935,
-  "title": "July 10, 2023 (JST) Version Update"
+  "title": "July 10, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61013,
+  "title": "2023.08.09バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61014,
-  "title": "August 9, 2023 (JST) Version Update"
+  "title": "August 9, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61096,
+  "title": "2023.09.11バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61097,
-  "title": "September 11, 2023 (JST) Version Update"
+  "title": "September 11, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61168,
+  "title": "2023.10.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61169,
-  "title": "October 10, 2023 (JST) Version Update"
+  "title": "October 10, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61238,
+  "title": "2023.11.09バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61239,
-  "title": "November 9, 2023 (JST) Version Update"
+  "title": "November 9, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61269,
+  "title": "「第67回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 61296,
+  "title": "2023.12.11バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61297,
-  "title": "December 11, 2023 (JST) Version Update"
+  "title": "December 11, 2023 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61399,
+  "title": "2024.1.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61400,
-  "title": "January 10, 2024 (JST) Version Update"
+  "title": "January 10, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61488,
+  "title": "2024.2.13バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61489,
-  "title": "February 13, 2024 (JST) Version Update"
+  "title": "February 13, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61561,
+  "title": "2024.3.11バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61562,
-  "title": "March 11, 2024 (JST) Version Update"
+  "title": "March 11, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61599,
+  "title": "2024.4.2バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61600,
-  "title": "April 2, 2024 (JST) Version Update"
+  "title": "April 2, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61682,
+  "title": "2024.5.13バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61683,
-  "title": "May 13, 2024 (JST) Version Update"
+  "title": "May 13, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61723,
+  "title": "「第68回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 61798,
+  "title": "2024.6.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61799,
-  "title": "June 10, 2024 (JST) Version Update"
+  "title": "June 10, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61908,
+  "title": "2024.7.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61910,
-  "title": "July 10, 2024 (JST) Version Update"
+  "title": "July 10, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 61954,
+  "title": "2024.8.13バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 61955,
-  "title": "August 13, 2024 (JST) Version Update"
+  "title": "August 13, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 62058,
+  "title": "2024.9.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 62059,
-  "title": "September 10, 2024 (JST) Version Update"
+  "title": "September 10, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 62129,
+  "title": "2024.10.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 62130,
-  "title": "October 10, 2024 (JST) Version Update"
+  "title": "October 10, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 62241,
+  "title": "2024.11.11バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 62242,
-  "title": "November 11, 2024 (JST) Version Update"
+  "title": "November 11, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 62322,
+  "title": "2024.12.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 62323,
-  "title": "December 10, 2024 (JST) Version Update"
+  "title": "December 10, 2024 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 62350,
+  "title": "「『FFXI』番組コラボSP　もぎたてヴァナ・ディール×A.M.A.N.とLIVE！」",
+  "lang": "ja"
+ },
+ {
+  "id": 62387,
+  "title": "2025.1.9バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 62388,
-  "title": "January 9, 2025 (JST) Version Update"
+  "title": "January 9, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 62444,
+  "title": "2025.2.12バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 62445,
-  "title": "February 12, 2025 (JST) Version Update"
+  "title": "February 12, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 62527,
+  "title": "2025.3.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 62528,
-  "title": "March 10, 2025 (JST) Version Update"
+  "title": "March 10, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 62600,
+  "title": "2025.4.3バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 62601,
-  "title": "April 3, 2025 (JST) Version Update"
+  "title": "April 3, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 62717,
+  "title": "ログインキャンペーン報酬アイテム画像 / Login Campaign Rewards",
+  "lang": "ja"
+ },
+ {
+  "id": 62736,
+  "title": "2025.5.12バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 62737,
-  "title": "May 12, 2025 (JST) Version Update"
+  "title": "May 12, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 62818,
+  "title": "モグボナンザウェポンの強化後性能について",
+  "lang": "ja"
  },
  {
   "id": 62819,
-  "title": "Reforging Mog Bonanza Weapons"
+  "title": "Reforging Mog Bonanza Weapons",
+  "lang": "en"
+ },
+ {
+  "id": 62823,
+  "title": "「第70回 もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 62861,
+  "title": "2025.6.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 62862,
-  "title": "June 10, 2025 (JST) Version Update"
+  "title": "June 10, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 63019,
+  "title": "2025.7.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 63020,
-  "title": "July 10, 2025 (JST) Version Update"
+  "title": "July 10, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 63173,
+  "title": "2025.8.12バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 63174,
-  "title": "August 12, 2025 (JST) Version Update"
+  "title": "August 12, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 63220,
+  "title": "アーティファクトの入手と強化素材一覧",
+  "lang": "ja"
  },
  {
   "id": 63254,
-  "title": "How to acquire artifact armor and a list of its upgrade materials"
+  "title": "How to acquire artifact armor and a list of its upgrade materials",
+  "lang": "en"
+ },
+ {
+  "id": 63273,
+  "title": "2025.9.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 63276,
-  "title": "September 10, 2025 (JST) Version Update"
+  "title": "September 10, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 63280,
+  "title": "「モグチケット【盟】」で交換できるアイテムについて",
+  "lang": "ja"
  },
  {
   "id": 63282,
-  "title": "About the items that can be traded for a Mog Pell (Ochre)"
+  "title": "About the items that can be traded for a Mog Pell (Ochre)",
+  "lang": "en"
+ },
+ {
+  "id": 63399,
+  "title": "2025.10.9バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 63400,
-  "title": "October 9, 2025 (JST) Version Update"
+  "title": "October 9, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 63458,
+  "title": "復帰者向けSNSまとめ",
+  "lang": "ja"
+ },
+ {
+  "id": 63474,
+  "title": "レリック装束の入手と強化素材一覧",
+  "lang": "ja"
  },
  {
   "id": 63497,
-  "title": "Acquiring Relic Armor \uff06 Upgrade Materials List"
+  "title": "Acquiring Relic Armor ＆ Upgrade Materials List",
+  "lang": "en"
+ },
+ {
+  "id": 63503,
+  "title": "2025.11.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 63504,
-  "title": "November 10, 2025 (JST) Version Update"
+  "title": "November 10, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 63549,
+  "title": "「第71回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 63630,
+  "title": "2025.12.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 63632,
-  "title": "December 10, 2025 (JST) Version Update"
+  "title": "December 10, 2025 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 63744,
+  "title": "2026.1.13バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 63745,
-  "title": "January 13, 2026 (JST) Version Update"
+  "title": "January 13, 2026 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 63828,
+  "title": "2026.2.9バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 63829,
-  "title": "February 9, 2026 (JST) Version Update"
+  "title": "February 9, 2026 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 63903,
+  "title": "2026.3.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 63904,
-  "title": "March 10, 2026 (JST) Version Update"
+  "title": "March 10, 2026 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 64013,
+  "title": "2026.4.6バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 64014,
-  "title": "April 6, 2026 (JST) Version Update"
+  "title": "April 6, 2026 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 64114,
+  "title": "2026.5.11バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 64115,
-  "title": "May 11, 2026 (JST) Version Update"
+  "title": "May 11, 2026 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 64208,
+  "title": "「第72回もぎたてヴァナ・ディール」",
+  "lang": "ja"
+ },
+ {
+  "id": 64316,
+  "title": "2026.6.10バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 64317,
-  "title": "June 10, 2026 (JST) Version Update"
+  "title": "June 10, 2026 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 64428,
+  "title": "2026.7.9バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 64429,
-  "title": "July 9, 2026 (JST) Version Update"
+  "title": "July 9, 2026 (JST) Version Update",
+  "lang": "en"
+ },
+ {
+  "id": 64573,
+  "title": "2026.8.12バージョンアップ情報",
+  "lang": "ja"
  },
  {
   "id": 64574,
-  "title": "August 12, 2026 (JST) Version Update"
+  "title": "August 12, 2026 (JST) Version Update",
+  "lang": "en"
  }
 ]

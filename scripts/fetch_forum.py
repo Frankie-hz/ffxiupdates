@@ -1,9 +1,11 @@
-"""Fetch all threads from the SE forum's FFXI Version Updates subforum (forums/84).
+"""Fetch all threads from the SE forum's FFXI Version Updates subforums:
+forums/84 (English) and forums/15 (Japanese source text).
 
 Listing pages are crawled until they stop yielding new threads. Each thread is
 saved via vBulletin's printthread view (clean, single page, all posts) into
-data/raw/forum/. The thread index (id, title) goes to data/forum_threads.json.
-Already-downloaded threads are skipped, so reruns only pick up new ones.
+data/raw/forum/. The thread index (id, title, lang) goes to
+data/forum_threads.json. Already-downloaded threads are skipped, so reruns
+only pick up new ones.
 """
 
 import html
@@ -14,7 +16,11 @@ import time
 import urllib.request
 from pathlib import Path
 
-FORUM_LIST = "https://forum.square-enix.com/ffxi/forums/84-Version-Updates/page{}"
+FORUMS = [
+    {"id": 84, "lang": "en"},
+    {"id": 15, "lang": "ja"},
+]
+FORUM_LIST = "https://forum.square-enix.com/ffxi/forums/{}/page{}"
 PRINT_THREAD = "https://forum.square-enix.com/ffxi/printthread.php?t={}&pp=100"
 ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw" / "forum"
@@ -31,15 +37,15 @@ def get(url):
         return resp.read()
 
 
-def crawl_listing():
+def crawl_listing(forum_id, lang):
     threads = {}
     for page in range(1, MAX_LIST_PAGES + 1):
-        body = get(FORUM_LIST.format(page)).decode("utf-8", errors="replace")
+        body = get(FORUM_LIST.format(forum_id, page)).decode("utf-8", errors="replace")
         found = THREAD_RE.findall(body)
         new = [t for t in found if int(t[0]) not in threads]
         for tid, title in found:
-            threads[int(tid)] = html.unescape(title).strip()
-        print(f"listing page {page}: {len(found)} threads, {len(new)} new", flush=True)
+            threads[int(tid)] = {"title": html.unescape(title).strip(), "lang": lang}
+        print(f"forum {forum_id} page {page}: {len(found)} threads, {len(new)} new", flush=True)
         if len(new) == 0:
             break
         time.sleep(0.5)
@@ -47,12 +53,16 @@ def crawl_listing():
 
 
 def main():
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     RAW_DIR.mkdir(parents=True, exist_ok=True)
-    threads = crawl_listing()
+    threads = {}
+    for forum in FORUMS:
+        threads.update(crawl_listing(forum["id"], forum["lang"]))
     INDEX_FILE.parent.mkdir(parents=True, exist_ok=True)
     INDEX_FILE.write_text(json.dumps(
-        [{"id": tid, "title": title} for tid, title in sorted(threads.items())],
-        indent=1))
+        [{"id": tid, "title": t["title"], "lang": t["lang"]}
+         for tid, t in sorted(threads.items())],
+        indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"{len(threads)} threads indexed", flush=True)
 
     errors = []
@@ -62,7 +72,7 @@ def main():
             continue
         try:
             out.write_bytes(get(PRINT_THREAD.format(tid)))
-            print(f"downloaded thread{tid}: {threads[tid]}", flush=True)
+            print(f"downloaded thread{tid}: {threads[tid]['title']}", flush=True)
             time.sleep(0.5)
         except Exception as e:
             errors.append(tid)

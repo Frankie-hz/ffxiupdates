@@ -1,115 +1,43 @@
-"""Build docs/index.html: a single self-contained page combining every entry
-from data/polnews.jsonl, data/forum.jsonl, and data/legacy.jsonl.
+"""Build docs/index.html: a single self-contained page rendering every record
+from data/all.jsonl (produced by combine.py).
 
-Entries are embedded as JSON and rendered client-side: filterable list on the
-left, full entry on the right. polnews/forum bodies render inline; legacy
-pages render as full documents in a sandboxed iframe.
+Records are embedded as JSON and rendered client-side: filterable list on the
+left, full entry on the right. polnews/forum bodies render inline; legacy and
+topics pages render as full documents in a sandboxed iframe.
 """
 
 import json
-import re
-from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = ROOT / "docs" / "index.html"
 
-CATEGORY_MAP = {
-    "Server Maintenance": "Maintenance",
-    "Important": "Important Notices",
-}
+SOURCE_LABEL = {"polnews": "", "forum": "SE Forum", "legacy": "PlayOnline", "topics": "PlayOnline"}
 
 
-def load_jsonl(name):
-    path = DATA / name
-    if path.exists() is False:
-        return []
-    return [json.loads(line) for line in path.read_text(encoding="utf-8").split("\n") if line]
-
-
-def polnews_entries():
+def load_entries():
     entries = []
-    for e in load_jsonl("polnews.jsonl"):
-        category = CATEGORY_MAP.get(e["category"], e["category"]) or "General"
-        entries.append({
-            "s": "polnews",
-            "url": f"https://www.playonline.com/ff11us/polnews/news{e['id']}.shtml",
-            "d": e["date"],
-            "c": category,
-            "f": e.get("from", ""),
-            "t": e["title"],
-            "b": e["body"],
-            "k": "inline",
-        })
-    return entries
-
-
-TITLE_DATE_RE = re.compile(r"(\w+)\.?\s+(\d{1,2}),?\s+(\d{4})")
-
-
-def title_date(title):
-    m = TITLE_DATE_RE.search(title)
-    if m is None:
-        return None
-    month = m.group(1)[:3].title()
-    try:
-        parsed = datetime.strptime(f"{month} {m.group(2)} {m.group(3)}", "%b %d %Y")
-    except ValueError:
-        return None
-    return parsed.strftime("%Y-%m-%d") + " 00:00"
-
-
-def forum_entries():
-    entries = []
-    for e in load_jsonl("forum.jsonl"):
-        if "version update" in e["title"].lower():
-            category = "Version Update"
-            e["date"] = title_date(e["title"]) or e["date"]
-        else:
-            category = "Forum Info"
-        entries.append({
-            "s": "forum",
-            "url": f"https://forum.square-enix.com/ffxi/threads/{e['id']}",
-            "d": e["date"],
-            "c": category,
-            "f": "SE Forum",
-            "t": e["title"],
-            "b": e["body"],
-            "k": "inline",
-        })
-    return entries
-
-
-def load_translations():
-    index_path = DATA / "translations" / "index.json"
-    if index_path.exists() is False:
-        return {}
-    translations = {}
-    for t in json.loads(index_path.read_text(encoding="utf-8")):
-        body = (DATA / "translations" / t["file"]).read_text(encoding="utf-8")
-        translations[t["path"]] = {"title": t["title"], "body": body}
-    return translations
-
-
-def legacy_entries():
-    translations = load_translations()
-    entries = []
-    for e in load_jsonl("legacy.jsonl"):
+    for line in (DATA / "all.jsonl").read_text(encoding="utf-8").split("\n"):
+        if line == "":
+            continue
+        r = json.loads(line)
         entry = {
-            "s": "legacy",
-            "url": e["url"],
-            "d": e["date"] + " 00:00",
-            "c": "Update Details",
-            "f": "PlayOnline",
-            "t": e["title"],
-            "b": e["doc"],
-            "k": "doc",
+            "s": r["source"],
+            "url": r["url"],
+            "d": r["date"] + " " + (r.get("time") or "00:00"),
+            "c": r["category"],
+            "f": r.get("from") or SOURCE_LABEL[r["source"]],
+            "l": r["lang"],
+            "t": r["title"],
+            "b": r["body"],
         }
-        tr = translations.get(e["path"])
-        if tr:
-            entry["t"] = tr["title"]
-            entry["tr"] = tr["body"]
+        if r["source"] in ("legacy", "topics"):
+            entry["k"] = "doc"
+        else:
+            entry["k"] = "inline"
+        if "translation" in r:
+            entry["tr"] = r["translation"]["body"]
         entries.append(entry)
     return entries
 
@@ -167,6 +95,7 @@ header .sub { color: var(--dim); font-size: 12px; }
 .badge.vu { background: var(--badge-vu); }
 .badge.maint { background: var(--badge-maint); }
 .badge.imp { background: var(--badge-imp); }
+.badge.ja { background: #5a3a5e; }
 #view { flex: 1; overflow-y: auto; padding: 0; min-width: 0; }
 #view .inner { max-width: 860px; margin: 0 auto; padding: 22px 28px 60px; }
 #view h2 { color: var(--accent); margin: 0 0 4px; font-size: 20px; }
@@ -214,6 +143,8 @@ mark.cur { background: #ff9d3c; outline: 2px solid #ff9d3c; }
   <label class="chip"><input type="checkbox" id="src-polnews" checked>POL News</label>
   <label class="chip"><input type="checkbox" id="src-forum" checked>SE Forum</label>
   <label class="chip"><input type="checkbox" id="src-legacy" checked>Legacy</label>
+  <label class="chip"><input type="checkbox" id="lang-en" checked>EN</label>
+  <label class="chip"><input type="checkbox" id="lang-ja" checked>JA</label>
   <label class="chip"><input type="checkbox" id="updonly">Updates only</label>
   <span class="count" id="count"></span>
   <span id="matchnav"><button id="mprev" title="Previous match (Shift+Enter)">&#9650;</button><span id="mcount"></span><button id="mnext" title="Next match (Enter)">&#9660;</button></span>
@@ -255,11 +186,13 @@ function applyFilters() {
   const cat = $("cat").value;
   const year = $("year").value;
   const srcOn = { polnews: $("src-polnews").checked, forum: $("src-forum").checked,
-    legacy: $("src-legacy").checked };
+    legacy: $("src-legacy").checked, topics: $("src-legacy").checked };
+  const langOn = { en: $("lang-en").checked, ja: $("lang-ja").checked };
   const updOnly = $("updonly").checked;
   searchText = q.length >= 2 ? q : null;
   filtered = entries.filter(e => {
     if (srcOn[e.s] === false) return false;
+    if (langOn[e.l] === false) return false;
     if (cat !== "" && e.c !== cat) return false;
     if (year !== "" && e.d.slice(0, 4) !== year) return false;
     if (updOnly && UPDATE_CATS.has(e.c) === false) return false;
@@ -278,8 +211,10 @@ function renderList() {
     row.className = "row" + (e.i === activeIdx ? " active" : "");
     row.dataset.i = e.i;
     const badge = BADGE_CLASS[e.c] || "";
+    let langBadge = "";
+    if (e.l === "ja") langBadge = '<span class="badge ja">JA</span>';
     row.innerHTML = '<span class="date">' + e.d.slice(0, 10) + '</span>' +
-      '<span class="badge ' + badge + '">' + esc(e.c) + '</span>' +
+      '<span class="badge ' + badge + '">' + esc(e.c) + '</span>' + langBadge +
       '<span class="t">' + esc(e.t) + '</span>';
     frag.appendChild(row);
   });
@@ -442,7 +377,7 @@ $("q").addEventListener("keydown", ev => {
 });
 $("mprev").addEventListener("click", () => gotoMatch(markIdx - 1));
 $("mnext").addEventListener("click", () => gotoMatch(markIdx + 1));
-["cat", "year", "src-polnews", "src-forum", "src-legacy", "updonly"].forEach(id => {
+["cat", "year", "src-polnews", "src-forum", "src-legacy", "lang-en", "lang-ja", "updonly"].forEach(id => {
   $(id).addEventListener("change", applyFilters);
 });
 
@@ -467,10 +402,11 @@ if (location.hash.length > 1) {
 
 
 def main():
-    entries = polnews_entries() + forum_entries() + legacy_entries()
-    print(f"polnews={sum(1 for e in entries if e['s'] == 'polnews')} "
-          f"forum={sum(1 for e in entries if e['s'] == 'forum')} "
-          f"legacy={sum(1 for e in entries if e['s'] == 'legacy')}")
+    entries = load_entries()
+    counts = {}
+    for e in entries:
+        counts[e["s"]] = counts.get(e["s"], 0) + 1
+    print(" ".join(f"{s}={n}" for s, n in sorted(counts.items())))
     dates = sorted(e["d"] for e in entries)
     subtitle = (f"{len(entries)} entries &middot; {dates[0][:10]} to {dates[-1][:10]} &middot; "
                 "PlayOnline news, SE forum &amp; legacy update archives")

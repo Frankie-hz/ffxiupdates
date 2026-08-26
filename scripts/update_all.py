@@ -14,6 +14,7 @@ STEPS = [
     "parse_polnews.py",
     "parse_forum.py",
     "parse_legacy.py",
+    "combine.py",
     "build.py",
 ]
 

@@ -1,5 +1,5 @@
 """Parse downloaded forum printthread pages into data/forum.jsonl
-(one JSON object per thread: id, title, date, body html).
+(one JSON object per thread: id, title, date, lang, body html).
 
 Multi-post threads (the monthly version updates) are flattened into one body
 with each post's title as a section heading. Session ids are stripped from
@@ -36,10 +36,16 @@ ESCAPED_TAG_RE = re.compile(
 
 def parse_datetime(text):
     text = text.strip()
-    try:
-        return datetime.strptime(text, "%m-%d-%Y, %I:%M %p").strftime("%Y-%m-%d %H:%M")
-    except ValueError:
-        return None
+    for fmt in ("%m-%d-%Y, %I:%M %p", "%Y-%m-%d, %H:%M", "%m-%d-%Y, %H:%M"):
+        try:
+            return datetime.strptime(text, fmt).strftime("%Y-%m-%d %H:%M")
+        except ValueError:
+            pass
+    m = re.match(r"(\d{4})[/-](\d{1,2})[/-](\d{1,2})\D+(\d{1,2}):(\d{2})", text)
+    if m:
+        return (f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d} "
+                f"{int(m.group(4)):02d}:{m.group(5)}")
+    return None
 
 
 def clean(body):
@@ -49,7 +55,9 @@ def clean(body):
 
 
 def main():
-    threads = {t["id"]: t["title"] for t in json.loads(INDEX_FILE.read_text())}
+    threads = {}
+    for t in json.loads(INDEX_FILE.read_text(encoding="utf-8")):
+        threads[t["id"]] = {"title": t["title"], "lang": t.get("lang", "en")}
     entries = []
     failed = []
     for path in sorted(RAW_DIR.glob("thread*.html"), key=lambda p: int(p.stem[6:])):
@@ -63,16 +71,18 @@ def main():
         if date is None:
             failed.append(tid)
             continue
+        info = threads.get(tid, {"title": f"Thread {tid}", "lang": "en"})
         sections = []
         for _, post_title, content in posts:
             post_title = html.unescape(post_title).strip()
-            if post_title and post_title != threads.get(tid, ""):
+            if post_title and post_title != info["title"]:
                 sections.append(f"<h3>{post_title}</h3>")
             sections.append(clean(content))
         entries.append({
             "id": tid,
             "date": date,
-            "title": threads.get(tid, f"Thread {tid}"),
+            "lang": info["lang"],
+            "title": info["title"],
             "body": "\n".join(sections),
         })
 
