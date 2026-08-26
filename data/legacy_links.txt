@@ -1,0 +1,53 @@
+# Pre-2008 official update pages that are not part of the polnews id sweep.
+# One URL per line; lines starting with # are ignored.
+
+# 2007 and 2005-2007 pcd update detail pages
+https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html
+https://www.playonline.com/pcd/update/ff11us/20071120jegm22/detail.html
+https://www.playonline.com/pcd/update/ff11us/20070911vR8Eg1/detail.html
+https://www.playonline.com/pcd/update/ff11us/20070828oz52G1/detail.html
+https://www.playonline.com/pcd/update/ff11us/20070828mkltg2/detail.html
+https://www.playonline.com/pcd/update/ff11us/20070606TsVPr1/detail.html
+https://www.playonline.com/pcd/update/ff11us/20070606yrR1s2/detail.html
+https://www.playonline.com/pcd/update/ff11us/20070329M2hfl1/detail.html
+https://www.playonline.com/pcd/update/ff11us/200703290d7RT2/detail.html
+https://www.playonline.com/pcd/update/ff11us/20070308c2bbd1/detail.html
+https://www.playonline.com/pcd/update/ff11us/20061219WH3cX1/detail.html
+https://www.playonline.com/pcd/update/ff11us/20061219u7oSD2/detail.html
+https://www.playonline.com/pcd/update/ff11us/20061017UJ0a71/detail.html
+https://www.playonline.com/pcd/update/ff11us/20060822VOL2B1/detail.html
+https://www.playonline.com/pcd/update/ff11us/20060802P78q61/detail.html
+https://www.playonline.com/pcd/update/ff11us/20060725vNusN1/detail.html
+https://www.playonline.com/pcd/update/ff11us/2006041883vPh1/detail.html
+https://www.playonline.com/pcd/update/ff11us/20060418lfQ7d3/detail.html
+https://www.playonline.com/pcd/update/ff11us/200604186oQFt2/detail.html
+https://www.playonline.com/pcd/update/ff11us/20060221pJb1z1/detail.html
+https://www.playonline.com/pcd/update/ff11us/20060221ALyQT2/detail.html
+https://www.playonline.com/pcd/update/ff11us/20051213fMt7e1/detail.html
+https://www.playonline.com/pcd/update/ff11us/20051011YY3BV1/detail.html
+https://www.playonline.com/pcd/update/ff11us/20050715Pm01B1/detail.html
+
+# 2004-2005 updateus pages
+https://www.playonline.com/updateus/050421er1gb1.html
+https://www.playonline.com/updateus/050224hu5ol4.html
+https://www.playonline.com/updateus/041209we8yu0.html
+https://www.playonline.com/updateus/041007rj2qe8.html
+https://www.playonline.com/updateus/040914gs7tr3.html
+
+# 2002-2004 comnews pages (NA-era and JP-era release notes)
+https://www.playonline.com/comnewsus/040629fg5rh3.html
+https://www.playonline.com/comnewsus/200404226037.html
+https://www.playonline.com/comnewsus/200402264502.html
+https://www.playonline.com/comnewsus/200312162201.html
+https://www.playonline.com/comnewsus/200310210583.html
+https://www.playonline.com/comnews/200307172028.html
+https://www.playonline.com/comnews/200305271522.html
+https://www.playonline.com/comnews/200304152139.html
+https://www.playonline.com/comnews/200302052327.html
+https://www.playonline.com/comnews/200212191928.html
+https://www.playonline.com/comnews/200211261911.html
+https://www.playonline.com/comnews/verup20021002.html
+https://www.playonline.com/comnews/020912detail01.html
+https://www.playonline.com/comnews/020912detail02.html
+https://www.playonline.com/comnews/20020808detail.html
+https://www.playonline.com/comnews/020709detail.html
