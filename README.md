@@ -50,6 +50,13 @@ in full-text search.
 Open `docs/index.html` in a browser, or serve the `docs/` directory (GitHub
 Pages works as-is).
 
+## License
+
+The code and tooling in this repository are released under the MIT License
+(see `LICENSE`). The archived update notes, images, and other page content
+remain the property of Square Enix and are preserved here for reference and
+historical purposes; the license does not apply to them.
+
 ## Credits
 
 The seed list of 2002-2007 legacy page URLs in `data/legacy_links.txt` was
