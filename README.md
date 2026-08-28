@@ -26,6 +26,7 @@ python scripts/sweep_polnews.py   # download every /ff11us/polnews/newsN.shtml t
 python scripts/sweep_polnews.py ja  # same for the Japanese site, /ff11/polnews/
 python scripts/sweep_topics.py   # download every /pcd2/topics/ff11us/detail/N/ that exists
 python scripts/fetch_forum.py    # download all Version Updates forum threads (printable view)
+python scripts/fetch_attachments.py  # download forum images -> docs/attachments/
 python scripts/fetch_legacy.py   # download legacy pages + pcd pages linked from polnews
 python scripts/parse_polnews.py  # raw pages -> data/polnews.jsonl
 python scripts/parse_forum.py    # raw threads -> data/forum.jsonl
@@ -64,7 +65,10 @@ from         announcement sender, optional (polnews only)
 category     see below
 title        plain text
 body         HTML
-translation  optional {title, body}: machine translation of ja legacy pages
+translation  optional {title, body}: machine translation of a ja page that has
+             no official English version anywhere
+counterpart  optional record id of the same content in the other language
+             (the official localization) - forum and polnews records
 ```
 
 Categories: polnews records carry PlayOnline's own categories (`Updates`,
@@ -76,10 +80,25 @@ records are `Version Update` or `Forum Info`; legacy/topics records are
 Pin a tagged release if you consume the data programmatically; the schema only
 changes between tags.
 
-The eleven 2002-2003 pages that only exist in Japanese (they predate the North
-American release) carry machine translations in `data/translations/`, shown
-above the original page with a clear machine-translation notice and included
-in full-text search.
+## Japanese content and translations
+
+Most Japanese records pair with their official English localization: version
+update threads by patch date, digests by episode number, topic stickies via
+the curated map in `data/thread_pairs.json`, and polnews announcements by
+date/category/time. Paired records carry `counterpart`, and the viewer links
+both directions.
+
+Japanese pages with no official English version anywhere carry machine
+translations in `data/translations/` (shown above the original with a clear
+machine-translation notice, and included in full-text search): the eleven
+2002-2003 comnews pages that predate the North American release, the
+"Freshly Picked Vana'diel" digests SE stopped localizing after 2019, and the
+55 JP-only polnews Updates/Important notices. JP-only Maintenance/Status
+notices (JP server upkeep) are archived untranslated.
+
+Forum post images are downloaded to `docs/attachments/` by
+`fetch_attachments.py` and shown inline instead of "Attachment N" links back
+to the forum.
 
 ## Viewing
 

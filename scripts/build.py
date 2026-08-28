@@ -132,6 +132,8 @@ header .sub { color: var(--dim); font-size: 12px; }
 #view .body blockquote { border-left: 3px solid var(--line); margin: 8px 0 8px 4px;
   padding: 2px 12px; color: #c2c7d8; }
 #view .body img { max-width: 100%; }
+#view .body img.att { display: block; margin: 8px 0; border: 1px solid var(--line);
+  border-radius: 4px; }
 #view iframe.doc { width: 100%; height: calc(100vh - 210px); border: 1px solid var(--line);
   background: #fff; border-radius: 4px; }
 #view .mtbanner { background: #4a3d1e; border: 1px solid #8a6d2e; color: #e8d9a8;

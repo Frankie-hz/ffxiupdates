@@ -77,8 +77,49 @@ def is_version_update_title(title):
     return "version update" in title.lower() or "バージョンアップ" in title
 
 
+def load_polnews_translations():
+    index_path = DATA / "translations" / "polnews_index.json"
+    if index_path.exists() is False:
+        return {}
+    translations = {}
+    for t in json.loads(index_path.read_text(encoding="utf-8")):
+        body = (DATA / "translations" / t["file"]).read_text(encoding="utf-8")
+        translations[t["news"]] = {"title": t["title"], "body": body}
+    return translations
+
+
+def pair_polnews(records):
+    en_by_dc = {}
+    for r in records:
+        if r["lang"] == "en":
+            en_by_dc.setdefault((r["date"], r["category"]), []).append(r)
+
+    def minutes(r):
+        if r.get("time"):
+            h, m = r["time"].split(":")
+            return int(h) * 60 + int(m)
+        return 0
+
+    for r in records:
+        if r["lang"] != "ja":
+            continue
+        base = date.fromisoformat(r["date"])
+        candidates = []
+        for offset in (0, -1, 1):
+            key = (date.fromordinal(base.toordinal() + offset).isoformat(), r["category"])
+            for c in en_by_dc.get(key, []):
+                candidates.append((abs(offset), abs(minutes(c) - minutes(r)), c))
+        if len(candidates) == 0:
+            continue
+        candidates.sort(key=lambda t: (t[0], t[1], t[2]["id"]))
+        partner = candidates[0][2]
+        r["counterpart"] = partner["id"]
+        partner.setdefault("counterpart", r["id"])
+
+
 def polnews_records():
     category_map = {"Server Maintenance": "Maintenance", "Important": "Important Notices"}
+    translations = load_polnews_translations()
     for e in load_jsonl("polnews.jsonl"):
         lang = e.get("lang", "en")
         if lang == "ja":
@@ -87,7 +128,7 @@ def polnews_records():
         else:
             record_id = f"polnews-{e['id']}"
             site = "ff11us"
-        yield {
+        record = {
             "id": record_id,
             "source": "polnews",
             "url": f"https://www.playonline.com/{site}/polnews/news{e['id']}.shtml",
@@ -100,6 +141,11 @@ def polnews_records():
             "title": e["title"],
             "body": e["body"],
         }
+        if lang == "ja":
+            tr = translations.get(e["id"])
+            if tr:
+                record["translation"] = tr
+        yield record
 
 
 def digest_number(record):
@@ -223,7 +269,9 @@ def legacy_records():
 
 
 def main():
-    records = list(polnews_records()) + list(forum_records()) + list(legacy_records())
+    pol = list(polnews_records())
+    pair_polnews(pol)
+    records = pol + list(forum_records()) + list(legacy_records())
     records.sort(key=lambda r: (r["date"], r["id"]))
     seen = set()
     for r in records:

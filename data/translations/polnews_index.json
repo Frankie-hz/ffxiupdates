@@ -1,0 +1,4522 @@
+[
+ {
+  "news": 101,
+  "title": "Keep Your Registration Codes in a Safe Place",
+  "file": "polnews_101.html"
+ },
+ {
+  "news": 122,
+  "title": "Important Notice: Change to the Monthly Billing Process",
+  "file": "polnews_122.html"
+ },
+ {
+  "news": 223,
+  "title": "Important Notice on Installing Rise of the Zilart",
+  "file": "polnews_223.html"
+ },
+ {
+  "news": 448,
+  "title": "FINAL FANTASY XI Update (Jul. 22)",
+  "file": "polnews_448.html"
+ },
+ {
+  "news": 450,
+  "title": "Registration System Partial Outage Notice (7/25)",
+  "file": "polnews_450.html"
+ },
+ {
+  "news": 453,
+  "title": "All Worlds Emergency Maintenance (7/25)",
+  "file": "polnews_453.html"
+ },
+ {
+  "news": 455,
+  "title": "Temporary Suspension of News Publishing (7/29-30)",
+  "file": "polnews_455.html"
+ },
+ {
+  "news": 457,
+  "title": "Information Center Relocation Notice",
+  "file": "polnews_457.html"
+ },
+ {
+  "news": 458,
+  "title": "Vana'diel Tribune: Now Accepting Scoops!",
+  "file": "polnews_458.html"
+ },
+ {
+  "news": 459,
+  "title": "Vana'diel Tribune Vol. 15 Published (7/25)",
+  "file": "polnews_459.html"
+ },
+ {
+  "news": 462,
+  "title": "Monthly Processing Notice (8/1)",
+  "file": "polnews_462.html"
+ },
+ {
+  "news": 464,
+  "title": "Information Center Temporary Closure (8/1)",
+  "file": "polnews_464.html"
+ },
+ {
+  "news": 468,
+  "title": "Partial PlayOnline Service Outage (8/1)",
+  "file": "polnews_468.html"
+ },
+ {
+  "news": 469,
+  "title": "PlayOnline Recovery Complete (8/1)",
+  "file": "polnews_469.html"
+ },
+ {
+  "news": 471,
+  "title": "Q&A Search Opened to the Public",
+  "file": "polnews_471.html"
+ },
+ {
+  "news": 472,
+  "title": "Delays in Support-Related Mail",
+  "file": "polnews_472.html"
+ },
+ {
+  "news": 475,
+  "title": "A Mysterious Giant Creature Appears!?",
+  "file": "polnews_475.html"
+ },
+ {
+  "news": 476,
+  "title": "System Maintenance Notice (8/12)",
+  "file": "polnews_476.html"
+ },
+ {
+  "news": 477,
+  "title": "Temporary Suspension of News Publishing (8/9-10)",
+  "file": "polnews_477.html"
+ },
+ {
+  "news": 480,
+  "title": "Seraph World Outage (8/11)",
+  "file": "polnews_480.html"
+ },
+ {
+  "news": 482,
+  "title": "Seraph World Recovery Complete (8/11)",
+  "file": "polnews_482.html"
+ },
+ {
+  "news": 484,
+  "title": "Support Mail Recovery Complete (8/10)",
+  "file": "polnews_484.html"
+ },
+ {
+  "news": 526,
+  "title": "PlayOnline Community Site Tool Released",
+  "file": "polnews_526.html"
+ },
+ {
+  "news": 544,
+  "title": "PlayOnline Member Agreement Additions and Updates",
+  "file": "polnews_544.html"
+ },
+ {
+  "news": 545,
+  "title": "PlayOnline Viewer Update (8/19)",
+  "file": "polnews_545.html"
+ },
+ {
+  "news": 548,
+  "title": "Cancellation of 'A Mysterious Giant Creature Appears!?' and Apology",
+  "file": "polnews_548.html"
+ },
+ {
+  "news": 554,
+  "title": "PlayOnline Viewer Update (Aug. 19)",
+  "file": "polnews_554.html"
+ },
+ {
+  "news": 556,
+  "title": "PlayOnline Version Update Time Extended",
+  "file": "polnews_556.html"
+ },
+ {
+  "news": 563,
+  "title": "Dismissal of a GM for Improper Information Disclosure",
+  "file": "polnews_563.html"
+ },
+ {
+  "news": 565,
+  "title": "Mail Form Recovery Complete (8/19)",
+  "file": "polnews_565.html"
+ },
+ {
+  "news": 569,
+  "title": "Mail Sending Recovery Complete (8/20)",
+  "file": "polnews_569.html"
+ },
+ {
+  "news": 572,
+  "title": "PlayOnline Server Maintenance (8/26)",
+  "file": "polnews_572.html"
+ },
+ {
+  "news": 579,
+  "title": "'A Mysterious Giant Creature Appears!?' Re-run Announcement",
+  "file": "polnews_579.html"
+ },
+ {
+  "news": 580,
+  "title": "Official Launch of the Developers' Corner",
+  "file": "polnews_580.html"
+ },
+ {
+  "news": 583,
+  "title": "JCB Maintenance Notice (8/25)",
+  "file": "polnews_583.html"
+ },
+ {
+  "news": 586,
+  "title": "All Worlds Update Notice (8/26)",
+  "file": "polnews_586.html"
+ },
+ {
+  "news": 591,
+  "title": "Partial PlayOnline Service Outage (8/24)",
+  "file": "polnews_591.html"
+ },
+ {
+  "news": 593,
+  "title": "PlayOnline Recovery Complete (8/24)",
+  "file": "polnews_593.html"
+ },
+ {
+  "news": 595,
+  "title": "All Worlds Recovery Complete (8/24)",
+  "file": "polnews_595.html"
+ },
+ {
+  "news": 600,
+  "title": "FINAL FANTASY XI Update (Aug. 26)",
+  "file": "polnews_600.html"
+ },
+ {
+  "news": 604,
+  "title": "PlayOnline Maintenance Extended (8/26)",
+  "file": "polnews_604.html"
+ },
+ {
+  "news": 606,
+  "title": "PlayOnline Maintenance Finished (8/26)",
+  "file": "polnews_606.html"
+ },
+ {
+  "news": 608,
+  "title": "Vana'diel Tribune Vol. 16 Published (8/26)",
+  "file": "polnews_608.html"
+ },
+ {
+  "news": 609,
+  "title": "Update for Bug Fixes (8/26)",
+  "file": "polnews_609.html"
+ },
+ {
+  "news": 619,
+  "title": "Odin World Recovery Complete (8/28)",
+  "file": "polnews_619.html"
+ },
+ {
+  "news": 620,
+  "title": "All Worlds Update Notice (8/29)",
+  "file": "polnews_620.html"
+ },
+ {
+  "news": 623,
+  "title": "FINAL FANTASY XI Update (Aug. 29)",
+  "file": "polnews_623.html"
+ },
+ {
+  "news": 625,
+  "title": "Monthly Processing Notice (9/1)",
+  "file": "polnews_625.html"
+ },
+ {
+  "news": 626,
+  "title": "All Worlds Emergency Update (8/30)",
+  "file": "polnews_626.html"
+ },
+ {
+  "news": 628,
+  "title": "PlayOnline Viewer Update (9/2)",
+  "file": "polnews_628.html"
+ },
+ {
+  "news": 630,
+  "title": "Special Event 'A Mysterious Giant Creature Appears!?' Follow-up",
+  "file": "polnews_630.html"
+ },
+ {
+  "news": 632,
+  "title": "Monthly Processing Extended (9/1)",
+  "file": "polnews_632.html"
+ },
+ {
+  "news": 636,
+  "title": "PlayOnline Viewer Update (Sep. 2)",
+  "file": "polnews_636.html"
+ },
+ {
+  "news": 637,
+  "title": "PlayOnline GM Call Beta Test Begins",
+  "file": "polnews_637.html"
+ },
+ {
+  "news": 638,
+  "title": "About the 'Locked Logfile' Message",
+  "file": "polnews_638.html"
+ },
+ {
+  "news": 641,
+  "title": "Pandemonium World Recovery Complete (9/2)",
+  "file": "polnews_641.html"
+ },
+ {
+  "news": 644,
+  "title": "Registration Server Emergency Maintenance (9/3)",
+  "file": "polnews_644.html"
+ },
+ {
+  "news": 653,
+  "title": "PlayOnline Server Maintenance (9/9)",
+  "file": "polnews_653.html"
+ },
+ {
+  "news": 655,
+  "title": "UC Card Maintenance Notice (9/9)",
+  "file": "polnews_655.html"
+ },
+ {
+  "news": 657,
+  "title": "Delays in Support-Related Mail",
+  "file": "polnews_657.html"
+ },
+ {
+  "news": 659,
+  "title": "A White Shadow Returns to Vana'diel (9/12)",
+  "file": "polnews_659.html"
+ },
+ {
+  "news": 669,
+  "title": "Support Mail Recovery Complete (9/8)",
+  "file": "polnews_669.html"
+ },
+ {
+  "news": 671,
+  "title": "End of the 'Regional Merchants Guild' Dispatch",
+  "file": "polnews_671.html"
+ },
+ {
+  "news": 696,
+  "title": "Delays in Support-Related Mail (9/16)",
+  "file": "polnews_696.html"
+ },
+ {
+  "news": 699,
+  "title": "Support Mail Recovery Complete (9/17)",
+  "file": "polnews_699.html"
+ },
+ {
+  "news": 707,
+  "title": "Midgardsormr World Recovery Complete (9/19)",
+  "file": "polnews_707.html"
+ },
+ {
+  "news": 711,
+  "title": "All Worlds Update Notice (9/24)",
+  "file": "polnews_711.html"
+ },
+ {
+  "news": 712,
+  "title": "Registration System Emergency Maintenance (9/19)",
+  "file": "polnews_712.html"
+ },
+ {
+  "news": 720,
+  "title": "Registration System Emergency Maintenance (9/22)",
+  "file": "polnews_720.html"
+ },
+ {
+  "news": 722,
+  "title": "FINAL FANTASY XI Update (Sep. 24)",
+  "file": "polnews_722.html"
+ },
+ {
+  "news": 723,
+  "title": "Recruiting World Migration Applicants (Sep. 24)",
+  "file": "polnews_723.html"
+ },
+ {
+  "news": 726,
+  "title": "PlayOnline GM Call Beta: Hours Extended",
+  "file": "polnews_726.html"
+ },
+ {
+  "news": 743,
+  "title": "New PlayOnline Titles Announced!",
+  "file": "polnews_743.html"
+ },
+ {
+  "news": 744,
+  "title": "Letter from the Development Team (Aug-Sep)",
+  "file": "polnews_744.html"
+ },
+ {
+  "news": 745,
+  "title": "Developers' Forum: Beta Test on playonline.com Begins!",
+  "file": "polnews_745.html"
+ },
+ {
+  "news": 749,
+  "title": "Additional Information on World Migration",
+  "file": "polnews_749.html"
+ },
+ {
+  "news": 750,
+  "title": "playonline.com Developers' Forum Outage",
+  "file": "polnews_750.html"
+ },
+ {
+  "news": 751,
+  "title": "playonline.com Developers' Forum Recovery Complete",
+  "file": "polnews_751.html"
+ },
+ {
+  "news": 757,
+  "title": "Monthly Processing Notice (10/1)",
+  "file": "polnews_757.html"
+ },
+ {
+  "news": 760,
+  "title": "Vana'diel Tribune Vol. 17 Published (9/30)",
+  "file": "polnews_760.html"
+ },
+ {
+  "news": 768,
+  "title": "Leviathan World Recovery Complete (10/1)",
+  "file": "polnews_768.html"
+ },
+ {
+  "news": 771,
+  "title": "World Migration Announcement (Oct. 7)",
+  "file": "polnews_771.html"
+ },
+ {
+  "news": 776,
+  "title": "Registration System Partial Emergency Maintenance (10/3)",
+  "file": "polnews_776.html"
+ },
+ {
+  "news": 779,
+  "title": "All Worlds Maintenance Notice (10/7)",
+  "file": "polnews_779.html"
+ },
+ {
+  "news": 780,
+  "title": "Registration Server Maintenance (10/7)",
+  "file": "polnews_780.html"
+ },
+ {
+  "news": 785,
+  "title": "Fairy World Recovery Complete (10/7)",
+  "file": "polnews_785.html"
+ },
+ {
+  "news": 806,
+  "title": "PlayOnline Server Maintenance (10/14)",
+  "file": "polnews_806.html"
+ },
+ {
+  "news": 820,
+  "title": "FINAL FANTASY XI Update Notice (10/15)",
+  "file": "polnews_820.html"
+ },
+ {
+  "news": 821,
+  "title": "Fenrir World Outage (10/12)",
+  "file": "polnews_821.html"
+ },
+ {
+  "news": 823,
+  "title": "Fenrir World Recovery Work (10/12)",
+  "file": "polnews_823.html"
+ },
+ {
+  "news": 824,
+  "title": "Fenrir World Recovery Complete (10/12)",
+  "file": "polnews_824.html"
+ },
+ {
+  "news": 826,
+  "title": "Registration System Partial Outage (10/15)",
+  "file": "polnews_826.html"
+ },
+ {
+  "news": 827,
+  "title": "PlayOnline Maintenance Extended (10/14)",
+  "file": "polnews_827.html"
+ },
+ {
+  "news": 830,
+  "title": "PlayOnline Maintenance Finished (10/14)",
+  "file": "polnews_830.html"
+ },
+ {
+  "news": 831,
+  "title": "PlayOnline GM Call: Official Service Begins",
+  "file": "polnews_831.html"
+ },
+ {
+  "news": 834,
+  "title": "FINAL FANTASY XI Update Notice (10/17)",
+  "file": "polnews_834.html"
+ },
+ {
+  "news": 857,
+  "title": "PlayOnline Network Maintenance (10/21)",
+  "file": "polnews_857.html"
+ },
+ {
+  "news": 865,
+  "title": "PlayOnline Viewer Update (10/21)",
+  "file": "polnews_865.html"
+ },
+ {
+  "news": 867,
+  "title": "Letter from the Development Team (October)",
+  "file": "polnews_867.html"
+ },
+ {
+  "news": 868,
+  "title": "FINAL FANTASY XI Update Notice (10/21)",
+  "file": "polnews_868.html"
+ },
+ {
+  "news": 873,
+  "title": "PlayOnline GM Call Outage (10/18)",
+  "file": "polnews_873.html"
+ },
+ {
+  "news": 874,
+  "title": "PlayOnline GM Call Recovery Complete (10/18)",
+  "file": "polnews_874.html"
+ },
+ {
+  "news": 875,
+  "title": "Additional Notice on the Network Maintenance",
+  "file": "polnews_875.html"
+ },
+ {
+  "news": 876,
+  "title": "Alexander World Outage (10/19)",
+  "file": "polnews_876.html"
+ },
+ {
+  "news": 877,
+  "title": "Alexander World Recovery Complete (10/19)",
+  "file": "polnews_877.html"
+ },
+ {
+  "news": 881,
+  "title": "PlayOnline Viewer Update (Oct. 21)",
+  "file": "polnews_881.html"
+ },
+ {
+  "news": 884,
+  "title": "Trick or Treat!!",
+  "file": "polnews_884.html"
+ },
+ {
+  "news": 885,
+  "title": "PlayOnline Network Maintenance Extended",
+  "file": "polnews_885.html"
+ },
+ {
+  "news": 886,
+  "title": "Registration Server Emergency Maintenance (10/21)",
+  "file": "polnews_886.html"
+ },
+ {
+  "news": 887,
+  "title": "Maintenance Finished for Some Content",
+  "file": "polnews_887.html"
+ },
+ {
+  "news": 888,
+  "title": "PlayOnline Website Maintenance Extended",
+  "file": "polnews_888.html"
+ },
+ {
+  "news": 890,
+  "title": "Network Maintenance Finished",
+  "file": "polnews_890.html"
+ },
+ {
+  "news": 891,
+  "title": "Registration Server Emergency Maintenance Finished",
+  "file": "polnews_891.html"
+ },
+ {
+  "news": 892,
+  "title": "Concentrated Access Following the Version Update",
+  "file": "polnews_892.html"
+ },
+ {
+  "news": 893,
+  "title": "About Error Messages Displayed During the Version Update",
+  "file": "polnews_893.html"
+ },
+ {
+  "news": 894,
+  "title": "FINAL FANTASY XI Update Notice (10/23)",
+  "file": "polnews_894.html"
+ },
+ {
+  "news": 896,
+  "title": "All Worlds Emergency Maintenance (10/22)",
+  "file": "polnews_896.html"
+ },
+ {
+  "news": 897,
+  "title": "FINAL FANTASY XI Update (Oct. 23)",
+  "file": "polnews_897.html"
+ },
+ {
+  "news": 908,
+  "title": "FINAL FANTASY XI Update Notice (10/28)",
+  "file": "polnews_908.html"
+ },
+ {
+  "news": 914,
+  "title": "Wedding Support Applications Temporarily Suspended (10/26)",
+  "file": "polnews_914.html"
+ },
+ {
+  "news": 915,
+  "title": "Ramuh World Recovery Work (10/27)",
+  "file": "polnews_915.html"
+ },
+ {
+  "news": 916,
+  "title": "Ramuh World Recovery Complete (10/27)",
+  "file": "polnews_916.html"
+ },
+ {
+  "news": 917,
+  "title": "Ramuh World Recovery Complete (10/27)",
+  "file": "polnews_917.html"
+ },
+ {
+  "news": 923,
+  "title": "FINAL FANTASY XI Update (Oct. 28)",
+  "file": "polnews_923.html"
+ },
+ {
+  "news": 943,
+  "title": "Support Mail Recovery Complete (10/30)",
+  "file": "polnews_943.html"
+ },
+ {
+  "news": 962,
+  "title": "GM Call Recovery Notice (11/4)",
+  "file": "polnews_962.html"
+ },
+ {
+  "news": 971,
+  "title": "A FINAL FANTASY XI Net Cafe Is Born!",
+  "file": "polnews_971.html"
+ },
+ {
+  "news": 1021,
+  "title": "FINAL FANTASY XI Recovery Complete (11/13)",
+  "file": "polnews_1021.html"
+ },
+ {
+  "news": 1034,
+  "title": "PlayOnline Plus Beta Test Begins",
+  "file": "polnews_1034.html"
+ },
+ {
+  "news": 1036,
+  "title": "Developers' Forum Recovery Complete (11/19)",
+  "file": "polnews_1036.html"
+ },
+ {
+  "news": 1071,
+  "title": "Correction to the Monthly Processing End Time (12/1)",
+  "file": "polnews_1071.html"
+ },
+ {
+  "news": 1094,
+  "title": "PlayOnline Plus: Settings Change Request",
+  "file": "polnews_1094.html"
+ },
+ {
+  "news": 1179,
+  "title": "Developers' Forum Recovery Complete (12/11)",
+  "file": "polnews_1179.html"
+ },
+ {
+  "news": 1259,
+  "title": "Trick or Treat!!",
+  "file": "polnews_1259.html"
+ },
+ {
+  "news": 1267,
+  "title": "Trick or Treat!!",
+  "file": "polnews_1267.html"
+ },
+ {
+  "news": 1410,
+  "title": "Public Test Participants Wanted!",
+  "file": "polnews_1410.html"
+ },
+ {
+  "news": 1420,
+  "title": "Registration Server Maintenance (1/29)",
+  "file": "polnews_1420.html"
+ },
+ {
+  "news": 1437,
+  "title": "Authorization System Outage (1/30)",
+  "file": "polnews_1437.html"
+ },
+ {
+  "news": 1438,
+  "title": "Authorization System Recovery Complete (1/30)",
+  "file": "polnews_1438.html"
+ },
+ {
+  "news": 1503,
+  "title": "PlayOnline Viewer Update (Feb. 17)",
+  "file": "polnews_1503.html"
+ },
+ {
+  "news": 1539,
+  "title": "Authorization System Outage (2/24)",
+  "file": "polnews_1539.html"
+ },
+ {
+  "news": 1540,
+  "title": "Authorization System Recovery Complete (2/24)",
+  "file": "polnews_1540.html"
+ },
+ {
+  "news": 1592,
+  "title": "Orient Corporation Maintenance Notice",
+  "file": "polnews_1592.html"
+ },
+ {
+  "news": 1632,
+  "title": "Additional Dictionary Download",
+  "file": "polnews_1632.html"
+ },
+ {
+  "news": 1643,
+  "title": "GM Support Suspension Notice (3/19)",
+  "file": "polnews_1643.html"
+ },
+ {
+  "news": 1712,
+  "title": "About WebMoney Payment Errors: Follow-up",
+  "file": "polnews_1712.html"
+ },
+ {
+  "news": 1972,
+  "title": "GM Support Suspension Notice (5/21)",
+  "file": "polnews_1972.html"
+ },
+ {
+  "news": 1984,
+  "title": "To WebMoney Users: Follow-up",
+  "file": "polnews_1984.html"
+ },
+ {
+  "news": 2135,
+  "title": "PlayOnline Survey Notice (6/21)",
+  "file": "polnews_2135.html"
+ },
+ {
+  "news": 2136,
+  "title": "PlayOnline Survey Recovery Complete (6/22)",
+  "file": "polnews_2136.html"
+ },
+ {
+  "news": 2274,
+  "title": "GM Support Suspension Notice (7/16)",
+  "file": "polnews_2274.html"
+ },
+ {
+  "news": 2331,
+  "title": "GM Call Recovery Complete (7/27)",
+  "file": "polnews_2331.html"
+ },
+ {
+  "news": 2332,
+  "title": "Information Center Temporary Closure (8/9)",
+  "file": "polnews_2332.html"
+ },
+ {
+  "news": 2349,
+  "title": "Registration Server Outage (8/1)",
+  "file": "polnews_2349.html"
+ },
+ {
+  "news": 2350,
+  "title": "Registration Server Recovery Complete (8/1)",
+  "file": "polnews_2350.html"
+ },
+ {
+  "news": 2408,
+  "title": "Authorization System Maintenance (8/10)",
+  "file": "polnews_2408.html"
+ },
+ {
+  "news": 2442,
+  "title": "GM Support Suspension Notice (8/20)",
+  "file": "polnews_2442.html"
+ },
+ {
+  "news": 2516,
+  "title": "To Windows XP Users",
+  "file": "polnews_2516.html"
+ },
+ {
+  "news": 2721,
+  "title": "Note on Installing Chains of Promathia (PlayStation 2 Version)",
+  "file": "polnews_2721.html"
+ },
+ {
+  "news": 3005,
+  "title": "GM Support Suspension Notice (10/15)",
+  "file": "polnews_3005.html"
+ },
+ {
+  "news": 3234,
+  "title": "GM Support Suspension Notice (11/19)",
+  "file": "polnews_3234.html"
+ },
+ {
+  "news": 3316,
+  "title": "Monthly Processing Extended (12/1)",
+  "file": "polnews_3316.html"
+ },
+ {
+  "news": 3525,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_3525.html"
+ },
+ {
+  "news": 3537,
+  "title": "Registration Server Recovery Complete (12/24)",
+  "file": "polnews_3537.html"
+ },
+ {
+  "news": 3598,
+  "title": "Congestion in WebMoney Period Extensions",
+  "file": "polnews_3598.html"
+ },
+ {
+  "news": 3615,
+  "title": "WebMoney Congestion: Follow-up",
+  "file": "polnews_3615.html"
+ },
+ {
+  "news": 3677,
+  "title": "About the 'POL-1040' Login Error",
+  "file": "polnews_3677.html"
+ },
+ {
+  "news": 3687,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_3687.html"
+ },
+ {
+  "news": 3708,
+  "title": "Registration Server Maintenance (2/3)",
+  "file": "polnews_3708.html"
+ },
+ {
+  "news": 3709,
+  "title": "Monthly Processing Extended (2/1)",
+  "file": "polnews_3709.html"
+ },
+ {
+  "news": 3710,
+  "title": "Monthly Processing Extended (2/1): Follow-up",
+  "file": "polnews_3710.html"
+ },
+ {
+  "news": 3801,
+  "title": "GM Support Suspension Notice (2/18)",
+  "file": "polnews_3801.html"
+ },
+ {
+  "news": 3806,
+  "title": "Registration System Partial Outage (2/23)",
+  "file": "polnews_3806.html"
+ },
+ {
+  "news": 3815,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_3815.html"
+ },
+ {
+  "news": 4013,
+  "title": "Registration System Outage (3/8)",
+  "file": "polnews_4013.html"
+ },
+ {
+  "news": 4147,
+  "title": "GM Support Suspension Notice (3/18)",
+  "file": "polnews_4147.html"
+ },
+ {
+  "news": 4176,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_4176.html"
+ },
+ {
+  "news": 4195,
+  "title": "PlayOnline Member Agreement Update Notice",
+  "file": "polnews_4195.html"
+ },
+ {
+  "news": 4207,
+  "title": "Registration Server Emergency Maintenance (4/4)",
+  "file": "polnews_4207.html"
+ },
+ {
+  "news": 4548,
+  "title": "FRONT MISSION ONLINE Page Update (5/1)",
+  "file": "polnews_4548.html"
+ },
+ {
+  "news": 4564,
+  "title": "FRONT MISSION ONLINE Official Service Begins",
+  "file": "polnews_4564.html"
+ },
+ {
+  "news": 4572,
+  "title": "Registration System Partial Outage (5/18)",
+  "file": "polnews_4572.html"
+ },
+ {
+  "news": 4633,
+  "title": "Welcome Back Campaign Maintenance Notice",
+  "file": "polnews_4633.html"
+ },
+ {
+  "news": 4634,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_4634.html"
+ },
+ {
+  "news": 4772,
+  "title": "FRONT MISSION ONLINE Guide Published (6/14)",
+  "file": "polnews_4772.html"
+ },
+ {
+  "news": 4785,
+  "title": "GM Support Suspension Notice (6/17)",
+  "file": "polnews_4785.html"
+ },
+ {
+  "news": 4801,
+  "title": "Ballista Royale: World Representative Teams Decided (6/20)",
+  "file": "polnews_4801.html"
+ },
+ {
+  "news": 4803,
+  "title": "Square Enix Party 2005 Announcement",
+  "file": "polnews_4803.html"
+ },
+ {
+  "news": 4823,
+  "title": "Notice from Our Information Center (6/27)",
+  "file": "polnews_4823.html"
+ },
+ {
+  "news": 4825,
+  "title": "Notice from Our Information Center (6/27): Follow-up",
+  "file": "polnews_4825.html"
+ },
+ {
+  "news": 4900,
+  "title": "UFJ Card Maintenance Notice (7/11)",
+  "file": "polnews_4900.html"
+ },
+ {
+  "news": 4922,
+  "title": "GM Support Suspension Notice (7/15)",
+  "file": "polnews_4922.html"
+ },
+ {
+  "news": 5084,
+  "title": "Registration Server Outage (7/31)",
+  "file": "polnews_5084.html"
+ },
+ {
+  "news": 5117,
+  "title": "Concentrated Access to the Registration Server",
+  "file": "polnews_5117.html"
+ },
+ {
+  "news": 5123,
+  "title": "Congestion in WebMoney Procedures (8/2)",
+  "file": "polnews_5123.html"
+ },
+ {
+  "news": 5343,
+  "title": "About Content ID Purchases and Period Extensions",
+  "file": "polnews_5343.html"
+ },
+ {
+  "news": 5365,
+  "title": "Information Center Support During Maintenance (8/29)",
+  "file": "polnews_5365.html"
+ },
+ {
+  "news": 5413,
+  "title": "PlayOnline Viewer Update (Sep. 1)",
+  "file": "polnews_5413.html"
+ },
+ {
+  "news": 5537,
+  "title": "PlayOnline Viewer Update (Sep. 15)",
+  "file": "polnews_5537.html"
+ },
+ {
+  "news": 5538,
+  "title": "GM Support Suspension Notice (9/16)",
+  "file": "polnews_5538.html"
+ },
+ {
+  "news": 5554,
+  "title": "DIRGE of CERBERUS -FFVII- Beta Start Date Decided!",
+  "file": "polnews_5554.html"
+ },
+ {
+  "news": 5579,
+  "title": "About Content ID Purchases and Period Extensions",
+  "file": "polnews_5579.html"
+ },
+ {
+  "news": 5580,
+  "title": "JCB Maintenance Notice (9/26)",
+  "file": "polnews_5580.html"
+ },
+ {
+  "news": 5599,
+  "title": "Fantasy Earth Beta Tester Recruitment Begins",
+  "file": "polnews_5599.html"
+ },
+ {
+  "news": 5600,
+  "title": "DIRGE of CERBERUS -FFVII- Beta Kit Shipping",
+  "file": "polnews_5600.html"
+ },
+ {
+  "news": 5788,
+  "title": "Authorization System Outage (10/13)",
+  "file": "polnews_5788.html"
+ },
+ {
+  "news": 5835,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_5835.html"
+ },
+ {
+  "news": 5860,
+  "title": "GM Support Suspension Notice (10/21)",
+  "file": "polnews_5860.html"
+ },
+ {
+  "news": 5922,
+  "title": "Friend List Application Beta Update (Oct. 25)",
+  "file": "polnews_5922.html"
+ },
+ {
+  "news": 6007,
+  "title": "Authorization System Outage (11/8)",
+  "file": "polnews_6007.html"
+ },
+ {
+  "news": 6008,
+  "title": "Authorization System Recovery Complete (11/8)",
+  "file": "polnews_6008.html"
+ },
+ {
+  "news": 6119,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_6119.html"
+ },
+ {
+  "news": 6125,
+  "title": "Friend List Application Beta Update (Nov. 22)",
+  "file": "polnews_6125.html"
+ },
+ {
+  "news": 6132,
+  "title": "About Content ID Purchases and Period Extensions",
+  "file": "polnews_6132.html"
+ },
+ {
+  "news": 6229,
+  "title": "Friend List Application Beta Update (Dec. 9)",
+  "file": "polnews_6229.html"
+ },
+ {
+  "news": 6231,
+  "title": "Notes on the Xbox 360 FINAL FANTASY XI Beta Test",
+  "file": "polnews_6231.html"
+ },
+ {
+  "news": 6232,
+  "title": "To PlayOnline Members Joining the Xbox 360 Beta",
+  "file": "polnews_6232.html"
+ },
+ {
+  "news": 6265,
+  "title": "Friend List Application Beta Update (Dec. 14)",
+  "file": "polnews_6265.html"
+ },
+ {
+  "news": 6292,
+  "title": "Hydra World: Starlight Celebration Schedule",
+  "file": "polnews_6292.html"
+ },
+ {
+  "news": 6361,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_6361.html"
+ },
+ {
+  "news": 6368,
+  "title": "'Group Communication' Published (12/20)",
+  "file": "polnews_6368.html"
+ },
+ {
+  "news": 6390,
+  "title": "FRONT MISSION ONLINE 'Communication' Page",
+  "file": "polnews_6390.html"
+ },
+ {
+  "news": 6392,
+  "title": "About Content ID Purchases and Period Extensions",
+  "file": "polnews_6392.html"
+ },
+ {
+  "news": 6453,
+  "title": "Hydra World Recovery Complete (1/4)",
+  "file": "polnews_6453.html"
+ },
+ {
+  "news": 6590,
+  "title": "GM Support Suspension Notice (1/20)",
+  "file": "polnews_6590.html"
+ },
+ {
+  "news": 6599,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_6599.html"
+ },
+ {
+  "news": 6605,
+  "title": "About Content ID Purchases and Period Extensions",
+  "file": "polnews_6605.html"
+ },
+ {
+  "news": 6661,
+  "title": "About WebMoney Payments (1/27)",
+  "file": "polnews_6661.html"
+ },
+ {
+  "news": 6707,
+  "title": "Monthly Processing Extended (2/1)",
+  "file": "polnews_6707.html"
+ },
+ {
+  "news": 6807,
+  "title": "GM Support Suspension Notice (2/17)",
+  "file": "polnews_6807.html"
+ },
+ {
+  "news": 6808,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_6808.html"
+ },
+ {
+  "news": 7153,
+  "title": "GM Support Suspension Notice (3/17)",
+  "file": "polnews_7153.html"
+ },
+ {
+  "news": 7159,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_7159.html"
+ },
+ {
+  "news": 7258,
+  "title": "Information Center Special Weekend Hours",
+  "file": "polnews_7258.html"
+ },
+ {
+  "news": 7261,
+  "title": "Authorization System Outage (4/7)",
+  "file": "polnews_7261.html"
+ },
+ {
+  "news": 7262,
+  "title": "Authorization System Recovery Complete (4/8)",
+  "file": "polnews_7262.html"
+ },
+ {
+  "news": 7437,
+  "title": "Regarding the Expansion Content Registration Issue",
+  "file": "polnews_7437.html"
+ },
+ {
+  "news": 7446,
+  "title": "Xbox 360 Continued-Enrollment Issue",
+  "file": "polnews_7446.html"
+ },
+ {
+  "news": 7498,
+  "title": "GM Support Suspension Notice (4/28)",
+  "file": "polnews_7498.html"
+ },
+ {
+  "news": 7517,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_7517.html"
+ },
+ {
+  "news": 7518,
+  "title": "Summary Report on the Expansion Content Registration Issue",
+  "file": "polnews_7518.html"
+ },
+ {
+  "news": 7520,
+  "title": "Recovery Complete Following the Outage (4/29)",
+  "file": "polnews_7520.html"
+ },
+ {
+  "news": 7537,
+  "title": "Concentrated Access to the Registration Server (5/1)",
+  "file": "polnews_7537.html"
+ },
+ {
+  "news": 7542,
+  "title": "Registration Server Congestion Eased (5/1)",
+  "file": "polnews_7542.html"
+ },
+ {
+  "news": 7643,
+  "title": "GM Support Suspension Notice (5/19)",
+  "file": "polnews_7643.html"
+ },
+ {
+  "news": 7674,
+  "title": "About Content ID Purchases and Period Extensions",
+  "file": "polnews_7674.html"
+ },
+ {
+  "news": 7686,
+  "title": "Monthly Processing Notice (6/1)",
+  "file": "polnews_7686.html"
+ },
+ {
+  "news": 7749,
+  "title": "Issues Following the Xbox 360 System Update",
+  "file": "polnews_7749.html"
+ },
+ {
+  "news": 7792,
+  "title": "GM Support Suspension Notice (6/16)",
+  "file": "polnews_7792.html"
+ },
+ {
+  "news": 7828,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_7828.html"
+ },
+ {
+  "news": 8398,
+  "title": "Sunbreeze Festival and Azimuth Circle II Period Notice",
+  "file": "polnews_8398.html"
+ },
+ {
+  "news": 8423,
+  "title": "GM Support Suspension Notice (8/18)",
+  "file": "polnews_8423.html"
+ },
+ {
+  "news": 8436,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_8436.html"
+ },
+ {
+  "news": 8449,
+  "title": "About Content ID Purchases and Period Extensions",
+  "file": "polnews_8449.html"
+ },
+ {
+  "news": 8452,
+  "title": "UFJ NICOS Maintenance Notice (8/28)",
+  "file": "polnews_8452.html"
+ },
+ {
+  "news": 8480,
+  "title": "Friend List Application Update (Aug. 29)",
+  "file": "polnews_8480.html"
+ },
+ {
+  "news": 8549,
+  "title": "GM Support Suspension Notice (9/15)",
+  "file": "polnews_8549.html"
+ },
+ {
+  "news": 8571,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_8571.html"
+ },
+ {
+  "news": 8588,
+  "title": "About Content ID Purchases and Period Extensions",
+  "file": "polnews_8588.html"
+ },
+ {
+  "news": 8602,
+  "title": "GM Call Outage (9/26)",
+  "file": "polnews_8602.html"
+ },
+ {
+  "news": 8603,
+  "title": "GM Call Recovery Complete (9/26)",
+  "file": "polnews_8603.html"
+ },
+ {
+  "news": 8644,
+  "title": "Verified Graphics Card Driver Software",
+  "file": "polnews_8644.html"
+ },
+ {
+  "news": 8873,
+  "title": "Authorization System Outage (10/25)",
+  "file": "polnews_8873.html"
+ },
+ {
+  "news": 8874,
+  "title": "Authorization System Recovery Complete (10/25)",
+  "file": "polnews_8874.html"
+ },
+ {
+  "news": 9071,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_9071.html"
+ },
+ {
+  "news": 9075,
+  "title": "Friend List Application Update (Nov. 21)",
+  "file": "polnews_9075.html"
+ },
+ {
+  "news": 9108,
+  "title": "UFJ NICOS Maintenance Notice (11/27)",
+  "file": "polnews_9108.html"
+ },
+ {
+  "news": 9247,
+  "title": "GM Support Suspension Notice (12/15)",
+  "file": "polnews_9247.html"
+ },
+ {
+  "news": 9364,
+  "title": "About the Forced Game Shutdown Symptom",
+  "file": "polnews_9364.html"
+ },
+ {
+  "news": 9562,
+  "title": "GM Support Suspension Notice (1/19)",
+  "file": "polnews_9562.html"
+ },
+ {
+  "news": 9579,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_9579.html"
+ },
+ {
+  "news": 9729,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_9729.html"
+ },
+ {
+  "news": 9935,
+  "title": "Authorization System Maintenance (3/12)",
+  "file": "polnews_9935.html"
+ },
+ {
+  "news": 10044,
+  "title": "Effect of the Registration Server Outage on Billing",
+  "file": "polnews_10044.html"
+ },
+ {
+  "news": 10094,
+  "title": "Monthly Processing Extended (4/1)",
+  "file": "polnews_10094.html"
+ },
+ {
+  "news": 10095,
+  "title": "Monthly Processing Extended (4/1): Follow-up",
+  "file": "polnews_10095.html"
+ },
+ {
+  "news": 10096,
+  "title": "Monthly Processing Finished (4/1)",
+  "file": "polnews_10096.html"
+ },
+ {
+  "news": 10161,
+  "title": "GM Support Suspension Notice (4/20)",
+  "file": "polnews_10161.html"
+ },
+ {
+  "news": 10166,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_10166.html"
+ },
+ {
+  "news": 10342,
+  "title": "To Windows Users: Precautions Against Malicious Programs",
+  "file": "polnews_10342.html"
+ },
+ {
+  "news": 10386,
+  "title": "GM Support Suspension Notice (5/18)",
+  "file": "polnews_10386.html"
+ },
+ {
+  "news": 10421,
+  "title": "JCB Maintenance Notice (5/25)",
+  "file": "polnews_10421.html"
+ },
+ {
+  "news": 10596,
+  "title": "GM Support Suspension Notice (6/15)",
+  "file": "polnews_10596.html"
+ },
+ {
+  "news": 10884,
+  "title": "Additional Dictionary Download: Latest Versions Added (7/10)",
+  "file": "polnews_10884.html"
+ },
+ {
+  "news": 10920,
+  "title": "GM Support Suspension Notice (7/20)",
+  "file": "polnews_10920.html"
+ },
+ {
+  "news": 10952,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_10952.html"
+ },
+ {
+  "news": 11000,
+  "title": "Authorization System Recovery Complete (7/30)",
+  "file": "polnews_11000.html"
+ },
+ {
+  "news": 11024,
+  "title": "Billing Notice for Some Card Companies",
+  "file": "polnews_11024.html"
+ },
+ {
+  "news": 11046,
+  "title": "Authorization System Maintenance (8/14)",
+  "file": "polnews_11046.html"
+ },
+ {
+  "news": 11073,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_11073.html"
+ },
+ {
+  "news": 11085,
+  "title": "Information Center Partial Service Suspension (8/24)",
+  "file": "polnews_11085.html"
+ },
+ {
+  "news": 11087,
+  "title": "GM Support Suspension Notice (8/24)",
+  "file": "polnews_11087.html"
+ },
+ {
+  "news": 11307,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_11307.html"
+ },
+ {
+  "news": 11310,
+  "title": "GM Support Suspension Notice (9/21)",
+  "file": "polnews_11310.html"
+ },
+ {
+  "news": 11472,
+  "title": "Registration System Recovery Complete (10/10)",
+  "file": "polnews_11472.html"
+ },
+ {
+  "news": 11479,
+  "title": "Additional Dictionary for Windows: IME 2007 Versions (10/12)",
+  "file": "polnews_11479.html"
+ },
+ {
+  "news": 11481,
+  "title": "Registration System Outage (10/15)",
+  "file": "polnews_11481.html"
+ },
+ {
+  "news": 11482,
+  "title": "Registration System Recovery Complete (10/15)",
+  "file": "polnews_11482.html"
+ },
+ {
+  "news": 11597,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_11597.html"
+ },
+ {
+  "news": 12152,
+  "title": "Wings of the Goddess Registration Page Closes",
+  "file": "polnews_12152.html"
+ },
+ {
+  "news": 12226,
+  "title": "Registration System Partial Outage (12/11)",
+  "file": "polnews_12226.html"
+ },
+ {
+  "news": 12227,
+  "title": "Registration System Recovery Complete (12/11)",
+  "file": "polnews_12227.html"
+ },
+ {
+  "news": 12276,
+  "title": "Authorization System Outage (12/19)",
+  "file": "polnews_12276.html"
+ },
+ {
+  "news": 12280,
+  "title": "Authorization System Recovery Complete (12/19)",
+  "file": "polnews_12280.html"
+ },
+ {
+  "news": 12362,
+  "title": "Registration Server Outage (12/31)",
+  "file": "polnews_12362.html"
+ },
+ {
+  "news": 12363,
+  "title": "Registration Server Recovery Complete (12/31)",
+  "file": "polnews_12363.html"
+ },
+ {
+  "news": 12418,
+  "title": "GM Support Suspension Notice (1/18)",
+  "file": "polnews_12418.html"
+ },
+ {
+  "news": 12437,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_12437.html"
+ },
+ {
+  "news": 12751,
+  "title": "Additional Dictionary Download: Latest Version Added (3/10)",
+  "file": "polnews_12751.html"
+ },
+ {
+  "news": 12864,
+  "title": "GM Support Suspension Notice (3/21)",
+  "file": "polnews_12864.html"
+ },
+ {
+  "news": 12868,
+  "title": "JCB Maintenance Notice (3/24)",
+  "file": "polnews_12868.html"
+ },
+ {
+  "news": 12869,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_12869.html"
+ },
+ {
+  "news": 13209,
+  "title": "GM Support Suspension Notice (4/18)",
+  "file": "polnews_13209.html"
+ },
+ {
+  "news": 13240,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_13240.html"
+ },
+ {
+  "news": 13613,
+  "title": "To Windows Users: Precautions Against Malicious Programs",
+  "file": "polnews_13613.html"
+ },
+ {
+  "news": 13659,
+  "title": "GM Support Suspension Notice (6/20)",
+  "file": "polnews_13659.html"
+ },
+ {
+  "news": 13665,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_13665.html"
+ },
+ {
+  "news": 13736,
+  "title": "GM Call Queue Status",
+  "file": "polnews_13736.html"
+ },
+ {
+  "news": 13744,
+  "title": "Information Center and GM Call Congestion",
+  "file": "polnews_13744.html"
+ },
+ {
+  "news": 13848,
+  "title": "Opening of the Unauthorized Access Chat Support Desk",
+  "file": "polnews_13848.html"
+ },
+ {
+  "news": 13849,
+  "title": "Information Center PHS Phone Number Change",
+  "file": "polnews_13849.html"
+ },
+ {
+  "news": 13913,
+  "title": "Unauthorized Access Chat Support: Temporary Closure (8/11)",
+  "file": "polnews_13913.html"
+ },
+ {
+  "news": 13946,
+  "title": "Authorization System Maintenance (8/14)",
+  "file": "polnews_13946.html"
+ },
+ {
+  "news": 13970,
+  "title": "Authorization System Outage (8/21)",
+  "file": "polnews_13970.html"
+ },
+ {
+  "news": 13971,
+  "title": "Authorization System Recovery Complete (8/21)",
+  "file": "polnews_13971.html"
+ },
+ {
+  "news": 14259,
+  "title": "UC Card Maintenance Notice (9/17)",
+  "file": "polnews_14259.html"
+ },
+ {
+  "news": 14316,
+  "title": "GM Support Suspension Notice (9/19)",
+  "file": "polnews_14316.html"
+ },
+ {
+  "news": 14326,
+  "title": "JCB Maintenance Notice (9/21)",
+  "file": "polnews_14326.html"
+ },
+ {
+  "news": 14327,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_14327.html"
+ },
+ {
+  "news": 14511,
+  "title": "Information Center Partial Service Suspension (10/8)",
+  "file": "polnews_14511.html"
+ },
+ {
+  "news": 14512,
+  "title": "Unauthorized Access Chat Support Suspension (10/8)",
+  "file": "polnews_14512.html"
+ },
+ {
+  "news": 14549,
+  "title": "Information Center Partial Service Suspension (10/16)",
+  "file": "polnews_14549.html"
+ },
+ {
+  "news": 14550,
+  "title": "Unauthorized Access Chat Support Suspension (10/16)",
+  "file": "polnews_14550.html"
+ },
+ {
+  "news": 14561,
+  "title": "GM Support Suspension Notice (10/17)",
+  "file": "polnews_14561.html"
+ },
+ {
+  "news": 14579,
+  "title": "UC Card Maintenance Notice (10/20)",
+  "file": "polnews_14579.html"
+ },
+ {
+  "news": 14593,
+  "title": "Chat Support Desk Opens",
+  "file": "polnews_14593.html"
+ },
+ {
+  "news": 14724,
+  "title": "Authorization System Outage (11/16)",
+  "file": "polnews_14724.html"
+ },
+ {
+  "news": 14725,
+  "title": "Authorization System Recovery Complete (11/16)",
+  "file": "polnews_14725.html"
+ },
+ {
+  "news": 14834,
+  "title": "Registration System Outage (12/1)",
+  "file": "polnews_14834.html"
+ },
+ {
+  "news": 14835,
+  "title": "Registration System Recovery Complete (12/1)",
+  "file": "polnews_14835.html"
+ },
+ {
+  "news": 14888,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_14888.html"
+ },
+ {
+  "news": 15211,
+  "title": "GM Support Suspension Notice (1/16)",
+  "file": "polnews_15211.html"
+ },
+ {
+  "news": 15373,
+  "title": "Registration System Partial Outage (2/12)",
+  "file": "polnews_15373.html"
+ },
+ {
+  "news": 15429,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_15429.html"
+ },
+ {
+  "news": 15434,
+  "title": "GM Support Suspension Notice (2/20)",
+  "file": "polnews_15434.html"
+ },
+ {
+  "news": 15435,
+  "title": "GM Call Outage (2/19)",
+  "file": "polnews_15435.html"
+ },
+ {
+  "news": 15436,
+  "title": "GM Call Recovery Complete (2/19)",
+  "file": "polnews_15436.html"
+ },
+ {
+  "news": 15440,
+  "title": "Authorization System Outage (2/22)",
+  "file": "polnews_15440.html"
+ },
+ {
+  "news": 15441,
+  "title": "Authorization System Recovery Complete (2/22)",
+  "file": "polnews_15441.html"
+ },
+ {
+  "news": 15597,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_15597.html"
+ },
+ {
+  "news": 15748,
+  "title": "Information Center Special Hours Notice",
+  "file": "polnews_15748.html"
+ },
+ {
+  "news": 15863,
+  "title": "Information Center Special Hours Notice",
+  "file": "polnews_15863.html"
+ },
+ {
+  "news": 15948,
+  "title": "Information Center Special Hours Notice",
+  "file": "polnews_15948.html"
+ },
+ {
+  "news": 15956,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_15956.html"
+ },
+ {
+  "news": 16151,
+  "title": "Information Center Special Hours Notice",
+  "file": "polnews_16151.html"
+ },
+ {
+  "news": 16185,
+  "title": "Registration System Partial Outage (5/13)",
+  "file": "polnews_16185.html"
+ },
+ {
+  "news": 16489,
+  "title": "Registration System Partial Outage (7/8)",
+  "file": "polnews_16489.html"
+ },
+ {
+  "news": 16499,
+  "title": "WebMoney Payment System Outage (7/9)",
+  "file": "polnews_16499.html"
+ },
+ {
+  "news": 16500,
+  "title": "WebMoney Payment System Recovery Complete (7/10)",
+  "file": "polnews_16500.html"
+ },
+ {
+  "news": 16505,
+  "title": "Security Token Setup and Cautions",
+  "file": "polnews_16505.html"
+ },
+ {
+  "news": 16506,
+  "title": "Registration System Partial Outage (7/16)",
+  "file": "polnews_16506.html"
+ },
+ {
+  "news": 16519,
+  "title": "GM Support Suspension Notice (7/17)",
+  "file": "polnews_16519.html"
+ },
+ {
+  "news": 16689,
+  "title": "Registration System Partial Outage (8/12)",
+  "file": "polnews_16689.html"
+ },
+ {
+  "news": 16718,
+  "title": "GM Support Suspension Notice (8/21)",
+  "file": "polnews_16718.html"
+ },
+ {
+  "news": 16719,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_16719.html"
+ },
+ {
+  "news": 16814,
+  "title": "Registration System Partial Outage (9/9)",
+  "file": "polnews_16814.html"
+ },
+ {
+  "news": 16891,
+  "title": "GM Support Suspension Notice (9/18)",
+  "file": "polnews_16891.html"
+ },
+ {
+  "news": 16907,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_16907.html"
+ },
+ {
+  "news": 16987,
+  "title": "Information Center Partial Service Suspension (10/6)",
+  "file": "polnews_16987.html"
+ },
+ {
+  "news": 17045,
+  "title": "Registration System Partial Outage (10/14)",
+  "file": "polnews_17045.html"
+ },
+ {
+  "news": 17088,
+  "title": "GM Support Suspension Notice (10/16)",
+  "file": "polnews_17088.html"
+ },
+ {
+  "news": 17126,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_17126.html"
+ },
+ {
+  "news": 17342,
+  "title": "Additional Dictionary Download: Latest Version Added (11/9)",
+  "file": "polnews_17342.html"
+ },
+ {
+  "news": 17392,
+  "title": "Confirmed Issue After the Version Update (11/12)",
+  "file": "polnews_17392.html"
+ },
+ {
+  "news": 17615,
+  "title": "Security Token Sales Temporarily Suspended (12/10)",
+  "file": "polnews_17615.html"
+ },
+ {
+  "news": 17656,
+  "title": "Square Enix Account Terms Change Notice",
+  "file": "polnews_17656.html"
+ },
+ {
+  "news": 17657,
+  "title": "Square Enix Crysta Terms of Use Change Notice",
+  "file": "polnews_17657.html"
+ },
+ {
+  "news": 17694,
+  "title": "GM Support Suspension Notice (12/18)",
+  "file": "polnews_17694.html"
+ },
+ {
+  "news": 17700,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_17700.html"
+ },
+ {
+  "news": 17813,
+  "title": "GM Support Suspension Notice (1/15)",
+  "file": "polnews_17813.html"
+ },
+ {
+  "news": 18433,
+  "title": "GM Support Suspension Notice (3/19)",
+  "file": "polnews_18433.html"
+ },
+ {
+  "news": 18461,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_18461.html"
+ },
+ {
+  "news": 18951,
+  "title": "GM Support Suspension Notice (4/16)",
+  "file": "polnews_18951.html"
+ },
+ {
+  "news": 18975,
+  "title": "Authorization System Recovery Complete (4/19)",
+  "file": "polnews_18975.html"
+ },
+ {
+  "news": 18977,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_18977.html"
+ },
+ {
+  "news": 19048,
+  "title": "GM Support Suspension Notice (5/2)",
+  "file": "polnews_19048.html"
+ },
+ {
+  "news": 19065,
+  "title": "GM Support Suspension End Time Change (5/2)",
+  "file": "polnews_19065.html"
+ },
+ {
+  "news": 19114,
+  "title": "GM Support Suspension Notice (5/21)",
+  "file": "polnews_19114.html"
+ },
+ {
+  "news": 19115,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_19115.html"
+ },
+ {
+  "news": 19245,
+  "title": "Mitsubishi UFJ NICOS Maintenance Notice (6/14)",
+  "file": "polnews_19245.html"
+ },
+ {
+  "news": 19246,
+  "title": "PlayOnline Password Reissue Desk: Special Hours",
+  "file": "polnews_19246.html"
+ },
+ {
+  "news": 19256,
+  "title": "GM Support Suspension Notice (6/18)",
+  "file": "polnews_19256.html"
+ },
+ {
+  "news": 19418,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_19418.html"
+ },
+ {
+  "news": 19429,
+  "title": "GM Support Suspension Notice (7/23)",
+  "file": "polnews_19429.html"
+ },
+ {
+  "news": 19520,
+  "title": "Security Token Sales Resume (8/18)",
+  "file": "polnews_19520.html"
+ },
+ {
+  "news": 19792,
+  "title": "Ramuh World Emergency Maintenance (9/22)",
+  "file": "polnews_19792.html"
+ },
+ {
+  "news": 19890,
+  "title": "Authorization System Outage (10/18)",
+  "file": "polnews_19890.html"
+ },
+ {
+  "news": 19891,
+  "title": "Authorization System Recovery Complete (10/18)",
+  "file": "polnews_19891.html"
+ },
+ {
+  "news": 19898,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_19898.html"
+ },
+ {
+  "news": 19949,
+  "title": "Registration System Partial Outage (11/10)",
+  "file": "polnews_19949.html"
+ },
+ {
+  "news": 19950,
+  "title": "Authorization System Outage (11/8)",
+  "file": "polnews_19950.html"
+ },
+ {
+  "news": 19951,
+  "title": "Authorization System Recovery Complete (11/8)",
+  "file": "polnews_19951.html"
+ },
+ {
+  "news": 19953,
+  "title": "Registration Server Maintenance (11/9)",
+  "file": "polnews_19953.html"
+ },
+ {
+  "news": 19954,
+  "title": "Maintenance End Time Change (11/9)",
+  "file": "polnews_19954.html"
+ },
+ {
+  "news": 20021,
+  "title": "GM Support Suspension Notice (11/19)",
+  "file": "polnews_20021.html"
+ },
+ {
+  "news": 20024,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_20024.html"
+ },
+ {
+  "news": 20178,
+  "title": "Authorization System Outage (12/9)",
+  "file": "polnews_20178.html"
+ },
+ {
+  "news": 20179,
+  "title": "Authorization System Recovery Complete (12/9)",
+  "file": "polnews_20179.html"
+ },
+ {
+  "news": 20216,
+  "title": "GM Support Suspension Notice (12/17)",
+  "file": "polnews_20216.html"
+ },
+ {
+  "news": 20238,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_20238.html"
+ },
+ {
+  "news": 20244,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_20244.html"
+ },
+ {
+  "news": 20452,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_20452.html"
+ },
+ {
+  "news": 20478,
+  "title": "GM Support Suspension Notice (2/25)",
+  "file": "polnews_20478.html"
+ },
+ {
+  "news": 20496,
+  "title": "Mitsubishi UFJ NICOS Maintenance Notice (3/7)",
+  "file": "polnews_20496.html"
+ },
+ {
+  "news": 20524,
+  "title": "Mitsubishi UFJ NICOS Maintenance Notice (3/14)",
+  "file": "polnews_20524.html"
+ },
+ {
+  "news": 20525,
+  "title": "JCB Maintenance Notice (3/14)",
+  "file": "polnews_20525.html"
+ },
+ {
+  "news": 20532,
+  "title": "GM Support Suspension Notice (3/11)",
+  "file": "polnews_20532.html"
+ },
+ {
+  "news": 20533,
+  "title": "Temporary Limits on Server Outage Response (3/11)",
+  "file": "polnews_20533.html"
+ },
+ {
+  "news": 20534,
+  "title": "Temporary Limits on Server Outage Response (3/11): Follow-up",
+  "file": "polnews_20534.html"
+ },
+ {
+  "news": 20535,
+  "title": "GM Support Resumed (3/12)",
+  "file": "polnews_20535.html"
+ },
+ {
+  "news": 20556,
+  "title": "Square Enix Crysta Disaster Relief Donations",
+  "file": "polnews_20556.html"
+ },
+ {
+  "news": 20580,
+  "title": "Registration Server Maintenance (4/5)",
+  "file": "polnews_20580.html"
+ },
+ {
+  "news": 20588,
+  "title": "GM Support Suspension Notice (4/8)",
+  "file": "polnews_20588.html"
+ },
+ {
+  "news": 20589,
+  "title": "GM Support Resumed (4/8)",
+  "file": "polnews_20589.html"
+ },
+ {
+  "news": 20590,
+  "title": "GM Support Resumed (4/8)",
+  "file": "polnews_20590.html"
+ },
+ {
+  "news": 20591,
+  "title": "Security Token Sales Temporarily Suspended (4/11)",
+  "file": "polnews_20591.html"
+ },
+ {
+  "news": 20592,
+  "title": "Security Token Sales Temporarily Suspended (4/11)",
+  "file": "polnews_20592.html"
+ },
+ {
+  "news": 20595,
+  "title": "Security Token Sales Resumed (4/11)",
+  "file": "polnews_20595.html"
+ },
+ {
+  "news": 20597,
+  "title": "Authorization System Outage (4/12)",
+  "file": "polnews_20597.html"
+ },
+ {
+  "news": 20599,
+  "title": "Authorization System Recovery Complete (4/12)",
+  "file": "polnews_20599.html"
+ },
+ {
+  "news": 20615,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_20615.html"
+ },
+ {
+  "news": 20618,
+  "title": "GM Support Suspension Notice (4/22)",
+  "file": "polnews_20618.html"
+ },
+ {
+  "news": 20702,
+  "title": "Authorization System Maintenance (5/16)",
+  "file": "polnews_20702.html"
+ },
+ {
+  "news": 20703,
+  "title": "Authorization System Maintenance Extended (5/16)",
+  "file": "polnews_20703.html"
+ },
+ {
+  "news": 20704,
+  "title": "Authorization System Maintenance Finished (5/16)",
+  "file": "polnews_20704.html"
+ },
+ {
+  "news": 20735,
+  "title": "GM Support Suspension Notice (5/20)",
+  "file": "polnews_20735.html"
+ },
+ {
+  "news": 20749,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_20749.html"
+ },
+ {
+  "news": 20763,
+  "title": "WebMoney Refunds for the Free April Period (May 27)",
+  "file": "polnews_20763.html"
+ },
+ {
+  "news": 20805,
+  "title": "GM Call Recovery Complete (6/14)",
+  "file": "polnews_20805.html"
+ },
+ {
+  "news": 20806,
+  "title": "GM Support Suspension Notice (6/17)",
+  "file": "polnews_20806.html"
+ },
+ {
+  "news": 20807,
+  "title": "UC Card Maintenance Notice (6/19)",
+  "file": "polnews_20807.html"
+ },
+ {
+  "news": 20808,
+  "title": "To WebMoney Users: Period Extension Procedures",
+  "file": "polnews_20808.html"
+ },
+ {
+  "news": 20817,
+  "title": "Authorization System Outage (6/21)",
+  "file": "polnews_20817.html"
+ },
+ {
+  "news": 20818,
+  "title": "Authorization System Recovery Complete (6/21)",
+  "file": "polnews_20818.html"
+ },
+ {
+  "news": 20821,
+  "title": "Caution for Players Using the Same Account Name as Other Services",
+  "file": "polnews_20821.html"
+ },
+ {
+  "news": 20879,
+  "title": "Registration Server Outage (7/3)",
+  "file": "polnews_20879.html"
+ },
+ {
+  "news": 20881,
+  "title": "Registration Server Recovery Complete (7/5)",
+  "file": "polnews_20881.html"
+ },
+ {
+  "news": 20922,
+  "title": "Authorization System Maintenance (7/21)",
+  "file": "polnews_20922.html"
+ },
+ {
+  "news": 20924,
+  "title": "Authorization System Outage (7/21)",
+  "file": "polnews_20924.html"
+ },
+ {
+  "news": 20925,
+  "title": "Authorization System Recovery Complete (7/21)",
+  "file": "polnews_20925.html"
+ },
+ {
+  "news": 20971,
+  "title": "Errors During Square Enix Account Transition",
+  "file": "polnews_20971.html"
+ },
+ {
+  "news": 20985,
+  "title": "Mitsubishi UFJ NICOS Maintenance Notice (8/10)",
+  "file": "polnews_20985.html"
+ },
+ {
+  "news": 20990,
+  "title": "FAQ Guidance on the Account Transition Process",
+  "file": "polnews_20990.html"
+ },
+ {
+  "news": 20992,
+  "title": "MasterCard 3-D Secure Recovery Complete (8/10)",
+  "file": "polnews_20992.html"
+ },
+ {
+  "news": 20998,
+  "title": "Mitsubishi UFJ NICOS Maintenance Notice (August)",
+  "file": "polnews_20998.html"
+ },
+ {
+  "news": 21000,
+  "title": "About GM Support (8/26 - 8/29)",
+  "file": "polnews_21000.html"
+ },
+ {
+  "news": 21037,
+  "title": "WebMoney Maintenance Notice (9/14)",
+  "file": "polnews_21037.html"
+ },
+ {
+  "news": 21045,
+  "title": "GM Support Suspension Notice (9/16)",
+  "file": "polnews_21045.html"
+ },
+ {
+  "news": 21055,
+  "title": "Mitsubishi UFJ NICOS Maintenance Notice (September)",
+  "file": "polnews_21055.html"
+ },
+ {
+  "news": 21099,
+  "title": "WebMoney Maintenance Notice (10/11)",
+  "file": "polnews_21099.html"
+ },
+ {
+  "news": 21124,
+  "title": "GM Support Suspension Notice (10/21)",
+  "file": "polnews_21124.html"
+ },
+ {
+  "news": 21165,
+  "title": "GM Support Suspension Notice (11/18)",
+  "file": "polnews_21165.html"
+ },
+ {
+  "news": 21170,
+  "title": "VISA 3-D Secure Outage",
+  "file": "polnews_21170.html"
+ },
+ {
+  "news": 21171,
+  "title": "VISA 3-D Secure Recovery",
+  "file": "polnews_21171.html"
+ },
+ {
+  "news": 21184,
+  "title": "JCB 3-D Secure Recovery",
+  "file": "polnews_21184.html"
+ },
+ {
+  "news": 21222,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_21222.html"
+ },
+ {
+  "news": 21253,
+  "title": "WebMoney Maintenance Notice (1/18)",
+  "file": "polnews_21253.html"
+ },
+ {
+  "news": 21255,
+  "title": "Important Notice for PlayStation 3 Users",
+  "file": "polnews_21255.html"
+ },
+ {
+  "news": 21256,
+  "title": "GM Support Suspension Notice (1/20)",
+  "file": "polnews_21256.html"
+ },
+ {
+  "news": 21269,
+  "title": "WebMoney Maintenance Notice (2/8)",
+  "file": "polnews_21269.html"
+ },
+ {
+  "news": 21272,
+  "title": "[Repost] Important Notice for PlayStation 3 Users",
+  "file": "polnews_21272.html"
+ },
+ {
+  "news": 21298,
+  "title": "VISA 3-D Secure Outage",
+  "file": "polnews_21298.html"
+ },
+ {
+  "news": 21299,
+  "title": "VISA 3-D Secure Recovery Complete",
+  "file": "polnews_21299.html"
+ },
+ {
+  "news": 21300,
+  "title": "GM Support Suspension Notice (2/24)",
+  "file": "polnews_21300.html"
+ },
+ {
+  "news": 21366,
+  "title": "WebMoney Maintenance Notice (3/14)",
+  "file": "polnews_21366.html"
+ },
+ {
+  "news": 21368,
+  "title": "GM Support Suspension Notice (3/16)",
+  "file": "polnews_21368.html"
+ },
+ {
+  "news": 21419,
+  "title": "WebMoney Maintenance Notice (4/11)",
+  "file": "polnews_21419.html"
+ },
+ {
+  "news": 21445,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_21445.html"
+ },
+ {
+  "news": 21562,
+  "title": "WebMoney Maintenance Notice (6/20)",
+  "file": "polnews_21562.html"
+ },
+ {
+  "news": 21573,
+  "title": "About Receiving Items from the Festive Moogle (6/25)",
+  "file": "polnews_21573.html"
+ },
+ {
+  "news": 21574,
+  "title": "About Receiving Items from the Festive Moogle (6/25): Follow-up",
+  "file": "polnews_21574.html"
+ },
+ {
+  "news": 21578,
+  "title": "About Receiving Items from the Festive Moogle (6/25): Follow-up 2",
+  "file": "polnews_21578.html"
+ },
+ {
+  "news": 21582,
+  "title": "GM Support Suspension Notice (6/29)",
+  "file": "polnews_21582.html"
+ },
+ {
+  "news": 21584,
+  "title": "Festive Moogle Item Distribution Outage (6/30)",
+  "file": "polnews_21584.html"
+ },
+ {
+  "news": 21585,
+  "title": "Festive Moogle Item Distribution Recovery Complete (6/30)",
+  "file": "polnews_21585.html"
+ },
+ {
+  "news": 21621,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_21621.html"
+ },
+ {
+  "news": 21627,
+  "title": "Square Enix Account Recovery Complete (8/1)",
+  "file": "polnews_21627.html"
+ },
+ {
+  "news": 21646,
+  "title": "Square Enix Account Terms of Use Revision (Aug. 29)",
+  "file": "polnews_21646.html"
+ },
+ {
+  "news": 21656,
+  "title": "WebMoney Maintenance Notice (9/12)",
+  "file": "polnews_21656.html"
+ },
+ {
+  "news": 21658,
+  "title": "Square Enix Account Recovery Complete",
+  "file": "polnews_21658.html"
+ },
+ {
+  "news": 21663,
+  "title": "GM Support Suspension Notice (9/21)",
+  "file": "polnews_21663.html"
+ },
+ {
+  "news": 21710,
+  "title": "Monthly Processing Notice (9/30)",
+  "file": "polnews_21710.html"
+ },
+ {
+  "news": 21728,
+  "title": "WebMoney Maintenance Notice (10/10)",
+  "file": "polnews_21728.html"
+ },
+ {
+  "news": 21755,
+  "title": "GM Support Suspension Notice (10/19)",
+  "file": "polnews_21755.html"
+ },
+ {
+  "news": 21771,
+  "title": "GM Support Suspension Notice (10/26)",
+  "file": "polnews_21771.html"
+ },
+ {
+  "news": 21773,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_21773.html"
+ },
+ {
+  "news": 21790,
+  "title": "GM Support Suspension Notice (11/16)",
+  "file": "polnews_21790.html"
+ },
+ {
+  "news": 21803,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_21803.html"
+ },
+ {
+  "news": 21836,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_21836.html"
+ },
+ {
+  "news": 21869,
+  "title": "GM Support Suspension Notice (1/18)",
+  "file": "polnews_21869.html"
+ },
+ {
+  "news": 21892,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_21892.html"
+ },
+ {
+  "news": 21899,
+  "title": "GM Support Suspension Notice (2/15)",
+  "file": "polnews_21899.html"
+ },
+ {
+  "news": 21928,
+  "title": "GM Support Suspension Notice (3/15)",
+  "file": "polnews_21928.html"
+ },
+ {
+  "news": 21946,
+  "title": "Vana'diel Collection 3 Sales End",
+  "file": "polnews_21946.html"
+ },
+ {
+  "news": 22027,
+  "title": "Monthly Processing Notice (3/31)",
+  "file": "polnews_22027.html"
+ },
+ {
+  "news": 22169,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_22169.html"
+ },
+ {
+  "news": 22324,
+  "title": "GM Support Suspension Notice (6/27)",
+  "file": "polnews_22324.html"
+ },
+ {
+  "news": 22325,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_22325.html"
+ },
+ {
+  "news": 22347,
+  "title": "Forum Connection Problems from Concentrated Access (7/5)",
+  "file": "polnews_22347.html"
+ },
+ {
+  "news": 22348,
+  "title": "Forum Congestion Eased (7/5)",
+  "file": "polnews_22348.html"
+ },
+ {
+  "news": 22351,
+  "title": "All Worlds Maintenance Notice (7/9)",
+  "file": "polnews_22351.html"
+ },
+ {
+  "news": 22431,
+  "title": "Caution for Players Using the Same Account Name as Other Services",
+  "file": "polnews_22431.html"
+ },
+ {
+  "news": 22432,
+  "title": "GM Support Suspension Notice (7/19)",
+  "file": "polnews_22432.html"
+ },
+ {
+  "news": 22435,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_22435.html"
+ },
+ {
+  "news": 22484,
+  "title": "GM Support Suspension Notice (8/15)",
+  "file": "polnews_22484.html"
+ },
+ {
+  "news": 22591,
+  "title": "Cautions When Deleting the Software Token App or Changing Phones",
+  "file": "polnews_22591.html"
+ },
+ {
+  "news": 22599,
+  "title": "Monthly Processing Notice (9/30)",
+  "file": "polnews_22599.html"
+ },
+ {
+  "news": 22689,
+  "title": "GM Support Suspension Notice (11/15)",
+  "file": "polnews_22689.html"
+ },
+ {
+  "news": 22705,
+  "title": "Security Token Sales Resume (12/2)",
+  "file": "polnews_22705.html"
+ },
+ {
+  "news": 22750,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_22750.html"
+ },
+ {
+  "news": 22755,
+  "title": "Beware of Phishing Scams",
+  "file": "polnews_22755.html"
+ },
+ {
+  "news": 22762,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_22762.html"
+ },
+ {
+  "news": 22790,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_22790.html"
+ },
+ {
+  "news": 22804,
+  "title": "Account Management System Outage (2/7)",
+  "file": "polnews_22804.html"
+ },
+ {
+  "news": 22823,
+  "title": "Account Management System Outage (2/13)",
+  "file": "polnews_22823.html"
+ },
+ {
+  "news": 22827,
+  "title": "Account Management System Recovery Complete (2/13)",
+  "file": "polnews_22827.html"
+ },
+ {
+  "news": 22832,
+  "title": "Account Management System Outage (2/18)",
+  "file": "polnews_22832.html"
+ },
+ {
+  "news": 22852,
+  "title": "Monthly Processing Notice (2/28)",
+  "file": "polnews_22852.html"
+ },
+ {
+  "news": 22866,
+  "title": "Account Management System Outage (2/18): Follow-up 2",
+  "file": "polnews_22866.html"
+ },
+ {
+  "news": 22871,
+  "title": "Account Management System Recovery Complete (3/10)",
+  "file": "polnews_22871.html"
+ },
+ {
+  "news": 23048,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_23048.html"
+ },
+ {
+  "news": 23394,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_23394.html"
+ },
+ {
+  "news": 23495,
+  "title": "Some Worlds Recovery Complete (7/28)",
+  "file": "polnews_23495.html"
+ },
+ {
+  "news": 23497,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_23497.html"
+ },
+ {
+  "news": 23578,
+  "title": "Monthly Processing Notice (8/31)",
+  "file": "polnews_23578.html"
+ },
+ {
+  "news": 23731,
+  "title": "Monthly Processing Notice (9/30)",
+  "file": "polnews_23731.html"
+ },
+ {
+  "news": 23761,
+  "title": "Registration Server Recovery Complete (10/16)",
+  "file": "polnews_23761.html"
+ },
+ {
+  "news": 23774,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_23774.html"
+ },
+ {
+  "news": 23783,
+  "title": "Registration Server Recovery Complete (10/31)",
+  "file": "polnews_23783.html"
+ },
+ {
+  "news": 23849,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_23849.html"
+ },
+ {
+  "news": 23892,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_23892.html"
+ },
+ {
+  "news": 23894,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_23894.html"
+ },
+ {
+  "news": 23938,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_23938.html"
+ },
+ {
+  "news": 24008,
+  "title": "FINAL FANTASY XI Update (Mar. 3)",
+  "file": "polnews_24008.html"
+ },
+ {
+  "news": 24041,
+  "title": "FINAL FANTASY XI Update (Apr. 1)",
+  "file": "polnews_24041.html"
+ },
+ {
+  "news": 24054,
+  "title": "Mail Delivery Problem (3/27): Follow-up",
+  "file": "polnews_24054.html"
+ },
+ {
+  "news": 24058,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_24058.html"
+ },
+ {
+  "news": 24077,
+  "title": "Registration Server Maintenance (5/18)",
+  "file": "polnews_24077.html"
+ },
+ {
+  "news": 24097,
+  "title": "Monthly Processing Notice (5/31)",
+  "file": "polnews_24097.html"
+ },
+ {
+  "news": 24098,
+  "title": "Account Management System Maintenance (6/4)",
+  "file": "polnews_24098.html"
+ },
+ {
+  "news": 24111,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_24111.html"
+ },
+ {
+  "news": 24153,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_24153.html"
+ },
+ {
+  "news": 24160,
+  "title": "Account Management System Recovery (8/1)",
+  "file": "polnews_24160.html"
+ },
+ {
+  "news": 24213,
+  "title": "Registration Server Maintenance (8/20)",
+  "file": "polnews_24213.html"
+ },
+ {
+  "news": 24250,
+  "title": "Monthly Processing Notice (8/31)",
+  "file": "polnews_24250.html"
+ },
+ {
+  "news": 24284,
+  "title": "Cautions When Deleting the Software Token App or Changing Phones",
+  "file": "polnews_24284.html"
+ },
+ {
+  "news": 24328,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_24328.html"
+ },
+ {
+  "news": 24380,
+  "title": "Account Management System Maintenance (11/24)",
+  "file": "polnews_24380.html"
+ },
+ {
+  "news": 24387,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_24387.html"
+ },
+ {
+  "news": 24430,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_24430.html"
+ },
+ {
+  "news": 24452,
+  "title": "Account Management System Maintenance (1/20)",
+  "file": "polnews_24452.html"
+ },
+ {
+  "news": 24456,
+  "title": "Account Management System Recovery (1/28)",
+  "file": "polnews_24456.html"
+ },
+ {
+  "news": 24458,
+  "title": "Account Management System Recovery (1/29)",
+  "file": "polnews_24458.html"
+ },
+ {
+  "news": 24459,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_24459.html"
+ },
+ {
+  "news": 24460,
+  "title": "Account Management System Recovery (2/1)",
+  "file": "polnews_24460.html"
+ },
+ {
+  "news": 24470,
+  "title": "Account Management System Maintenance (2/15)",
+  "file": "polnews_24470.html"
+ },
+ {
+  "news": 24471,
+  "title": "Account Management System Maintenance Extended (2/15)",
+  "file": "polnews_24471.html"
+ },
+ {
+  "news": 24488,
+  "title": "Monthly Processing Notice (2/29)",
+  "file": "polnews_24488.html"
+ },
+ {
+  "news": 24516,
+  "title": "Account Management System Maintenance (3/22)",
+  "file": "polnews_24516.html"
+ },
+ {
+  "news": 24523,
+  "title": "Account Management System Outage (3/20)",
+  "file": "polnews_24523.html"
+ },
+ {
+  "news": 24524,
+  "title": "Account Management System Recovery (3/20)",
+  "file": "polnews_24524.html"
+ },
+ {
+  "news": 24538,
+  "title": "Monthly Processing Notice (3/31)",
+  "file": "polnews_24538.html"
+ },
+ {
+  "news": 24548,
+  "title": "Account Management System Recovery (4/3)",
+  "file": "polnews_24548.html"
+ },
+ {
+  "news": 24585,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_24585.html"
+ },
+ {
+  "news": 24610,
+  "title": "Account Management System Recovery (5/19)",
+  "file": "polnews_24610.html"
+ },
+ {
+  "news": 24615,
+  "title": "Monthly Processing Notice (5/31)",
+  "file": "polnews_24615.html"
+ },
+ {
+  "news": 24649,
+  "title": "Account Management System Maintenance (6/21)",
+  "file": "polnews_24649.html"
+ },
+ {
+  "news": 24652,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_24652.html"
+ },
+ {
+  "news": 24704,
+  "title": "Monthly Processing Notice (8/31)",
+  "file": "polnews_24704.html"
+ },
+ {
+  "news": 24714,
+  "title": "Account Management System Maintenance (9/14)",
+  "file": "polnews_24714.html"
+ },
+ {
+  "news": 24739,
+  "title": "Monthly Processing Notice (9/30)",
+  "file": "polnews_24739.html"
+ },
+ {
+  "news": 24749,
+  "title": "Account Management System Maintenance (10/17)",
+  "file": "polnews_24749.html"
+ },
+ {
+  "news": 24764,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_24764.html"
+ },
+ {
+  "news": 24772,
+  "title": "Account Management System Maintenance (11/21)",
+  "file": "polnews_24772.html"
+ },
+ {
+  "news": 24773,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_24773.html"
+ },
+ {
+  "news": 24831,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_24831.html"
+ },
+ {
+  "news": 24841,
+  "title": "Account Management System Recovery (1/12)",
+  "file": "polnews_24841.html"
+ },
+ {
+  "news": 24842,
+  "title": "Account Management System Maintenance (1/19)",
+  "file": "polnews_24842.html"
+ },
+ {
+  "news": 24846,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_24846.html"
+ },
+ {
+  "news": 24862,
+  "title": "Account Management System Maintenance (2/20)",
+  "file": "polnews_24862.html"
+ },
+ {
+  "news": 24864,
+  "title": "Account Management System Maintenance (2/23)",
+  "file": "polnews_24864.html"
+ },
+ {
+  "news": 24866,
+  "title": "Account Management System Recovery (2/23)",
+  "file": "polnews_24866.html"
+ },
+ {
+  "news": 24867,
+  "title": "Monthly Processing Notice (2/28)",
+  "file": "polnews_24867.html"
+ },
+ {
+  "news": 24868,
+  "title": "Account Management System Maintenance (3/2)",
+  "file": "polnews_24868.html"
+ },
+ {
+  "news": 24884,
+  "title": "Account Management System Maintenance (3/16)",
+  "file": "polnews_24884.html"
+ },
+ {
+  "news": 24913,
+  "title": "Account Management System Maintenance (4/18)",
+  "file": "polnews_24913.html"
+ },
+ {
+  "news": 24914,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_24914.html"
+ },
+ {
+  "news": 24934,
+  "title": "Account Management System Maintenance (5/22)",
+  "file": "polnews_24934.html"
+ },
+ {
+  "news": 24935,
+  "title": "Account Management System Maintenance Time Change",
+  "file": "polnews_24935.html"
+ },
+ {
+  "news": 24936,
+  "title": "Monthly Processing Notice (5/31)",
+  "file": "polnews_24936.html"
+ },
+ {
+  "news": 24954,
+  "title": "Account Management System Maintenance (6/20)",
+  "file": "polnews_24954.html"
+ },
+ {
+  "news": 24972,
+  "title": "Account Management System Maintenance (7/12)",
+  "file": "polnews_24972.html"
+ },
+ {
+  "news": 25021,
+  "title": "Account Management System Maintenance (8/22)",
+  "file": "polnews_25021.html"
+ },
+ {
+  "news": 25028,
+  "title": "Monthly Processing Notice (8/31)",
+  "file": "polnews_25028.html"
+ },
+ {
+  "news": 25074,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_25074.html"
+ },
+ {
+  "news": 25081,
+  "title": "Account Management System Maintenance (11/8)",
+  "file": "polnews_25081.html"
+ },
+ {
+  "news": 25085,
+  "title": "All Worlds Maintenance Extended (11/10)",
+  "file": "polnews_25085.html"
+ },
+ {
+  "news": 25099,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_25099.html"
+ },
+ {
+  "news": 25103,
+  "title": "Account Management System Recovery (12/6)",
+  "file": "polnews_25103.html"
+ },
+ {
+  "news": 25138,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_25138.html"
+ },
+ {
+  "news": 25139,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_25139.html"
+ },
+ {
+  "news": 25162,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_25162.html"
+ },
+ {
+  "news": 25174,
+  "title": "FINAL FANTASY XI Update (Feb. 9)",
+  "file": "polnews_25174.html"
+ },
+ {
+  "news": 25182,
+  "title": "Account Management System Maintenance (2/15)",
+  "file": "polnews_25182.html"
+ },
+ {
+  "news": 25204,
+  "title": "Monthly Processing Notice (2/28)",
+  "file": "polnews_25204.html"
+ },
+ {
+  "news": 25214,
+  "title": "Account Management System Recovery (3/2)",
+  "file": "polnews_25214.html"
+ },
+ {
+  "news": 25221,
+  "title": "Account Management System Maintenance (3/19)",
+  "file": "polnews_25221.html"
+ },
+ {
+  "news": 25226,
+  "title": "Account Management System Maintenance (4/5)",
+  "file": "polnews_25226.html"
+ },
+ {
+  "news": 25236,
+  "title": "Account Management System Maintenance (4/23)",
+  "file": "polnews_25236.html"
+ },
+ {
+  "news": 25261,
+  "title": "Account Management System Maintenance (5/23)",
+  "file": "polnews_25261.html"
+ },
+ {
+  "news": 25265,
+  "title": "Monthly Processing Notice (5/31)",
+  "file": "polnews_25265.html"
+ },
+ {
+  "news": 25266,
+  "title": "Important Notice Regarding Square Enix Accounts",
+  "file": "polnews_25266.html"
+ },
+ {
+  "news": 25285,
+  "title": "Account Management System Maintenance (6/20)",
+  "file": "polnews_25285.html"
+ },
+ {
+  "news": 25320,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_25320.html"
+ },
+ {
+  "news": 25340,
+  "title": "Account Management System Recovery (8/20)",
+  "file": "polnews_25340.html"
+ },
+ {
+  "news": 25344,
+  "title": "Monthly Processing Notice (8/31)",
+  "file": "polnews_25344.html"
+ },
+ {
+  "news": 25354,
+  "title": "Partial Support Suspension Due to the Hokkaido Earthquake (9/6)",
+  "file": "polnews_25354.html"
+ },
+ {
+  "news": 25355,
+  "title": "Partial Support Suspension Due to the Hokkaido Earthquake (9/6): Follow-up",
+  "file": "polnews_25355.html"
+ },
+ {
+  "news": 25361,
+  "title": "Information Center Operating Status (9/10)",
+  "file": "polnews_25361.html"
+ },
+ {
+  "news": 25385,
+  "title": "Monthly Processing Notice (9/30)",
+  "file": "polnews_25385.html"
+ },
+ {
+  "news": 25386,
+  "title": "Typhoon No. 24's Effect on GM Support (9/30)",
+  "file": "polnews_25386.html"
+ },
+ {
+  "news": 25410,
+  "title": "Account Management System Maintenance (10/24)",
+  "file": "polnews_25410.html"
+ },
+ {
+  "news": 25419,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_25419.html"
+ },
+ {
+  "news": 25426,
+  "title": "Support Center Chat Support Recovery Complete",
+  "file": "polnews_25426.html"
+ },
+ {
+  "news": 25455,
+  "title": "Account Management System Maintenance (11/21)",
+  "file": "polnews_25455.html"
+ },
+ {
+  "news": 25469,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_25469.html"
+ },
+ {
+  "news": 25471,
+  "title": "FINAL FANTASY XI Material Usage License Revised",
+  "file": "polnews_25471.html"
+ },
+ {
+  "news": 25484,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_25484.html"
+ },
+ {
+  "news": 25485,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_25485.html"
+ },
+ {
+  "news": 25493,
+  "title": "Important Notice for Docomo Payment Users (1/8)",
+  "file": "polnews_25493.html"
+ },
+ {
+  "news": 25525,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_25525.html"
+ },
+ {
+  "news": 25532,
+  "title": "Account Management System Recovery (2/2)",
+  "file": "polnews_25532.html"
+ },
+ {
+  "news": 25533,
+  "title": "Account Management System Maintenance (2/8)",
+  "file": "polnews_25533.html"
+ },
+ {
+  "news": 25545,
+  "title": "Support Center Chat Support Recovery (2/18)",
+  "file": "polnews_25545.html"
+ },
+ {
+  "news": 25550,
+  "title": "Support System Maintenance Extended (2/24)",
+  "file": "polnews_25550.html"
+ },
+ {
+  "news": 25551,
+  "title": "Support Center Chat Support Outage (2/25)",
+  "file": "polnews_25551.html"
+ },
+ {
+  "news": 25553,
+  "title": "Support Center Chat Support Recovery Complete",
+  "file": "polnews_25553.html"
+ },
+ {
+  "news": 25555,
+  "title": "Monthly Processing Notice (2/28)",
+  "file": "polnews_25555.html"
+ },
+ {
+  "news": 25562,
+  "title": "Account Management System Maintenance (3/4)",
+  "file": "polnews_25562.html"
+ },
+ {
+  "news": 25579,
+  "title": "Account Management System Maintenance (3/18)",
+  "file": "polnews_25579.html"
+ },
+ {
+  "news": 25580,
+  "title": "Account Management System Maintenance (3/25)",
+  "file": "polnews_25580.html"
+ },
+ {
+  "news": 25595,
+  "title": "Account Management System Outage (4/20)",
+  "file": "polnews_25595.html"
+ },
+ {
+  "news": 25596,
+  "title": "Account Management System Recovery (4/20)",
+  "file": "polnews_25596.html"
+ },
+ {
+  "news": 25597,
+  "title": "Account Management System Recovery (4/21)",
+  "file": "polnews_25597.html"
+ },
+ {
+  "news": 25598,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_25598.html"
+ },
+ {
+  "news": 25608,
+  "title": "Account Management System Maintenance (5/20)",
+  "file": "polnews_25608.html"
+ },
+ {
+  "news": 25609,
+  "title": "Account Management System Maintenance (5/21)",
+  "file": "polnews_25609.html"
+ },
+ {
+  "news": 25613,
+  "title": "Account Management System Maintenance (5/22)",
+  "file": "polnews_25613.html"
+ },
+ {
+  "news": 25617,
+  "title": "Account Management System Maintenance Cancelled (5/21)",
+  "file": "polnews_25617.html"
+ },
+ {
+  "news": 25618,
+  "title": "Account Management System Outage (5/21)",
+  "file": "polnews_25618.html"
+ },
+ {
+  "news": 25619,
+  "title": "Account Management System Recovery Complete (5/21)",
+  "file": "polnews_25619.html"
+ },
+ {
+  "news": 25622,
+  "title": "Account Management System Maintenance (5/27)",
+  "file": "polnews_25622.html"
+ },
+ {
+  "news": 25626,
+  "title": "Account Management System Maintenance (5/29)",
+  "file": "polnews_25626.html"
+ },
+ {
+  "news": 25630,
+  "title": "Monthly Processing Notice (5/31)",
+  "file": "polnews_25630.html"
+ },
+ {
+  "news": 25631,
+  "title": "Account Management System Maintenance (6/3)",
+  "file": "polnews_25631.html"
+ },
+ {
+  "news": 25635,
+  "title": "Account Management System Outage (6/9)",
+  "file": "polnews_25635.html"
+ },
+ {
+  "news": 25637,
+  "title": "Account Management System Recovery (6/9)",
+  "file": "polnews_25637.html"
+ },
+ {
+  "news": 25656,
+  "title": "Account Management System Maintenance (6/17)",
+  "file": "polnews_25656.html"
+ },
+ {
+  "news": 25663,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_25663.html"
+ },
+ {
+  "news": 25679,
+  "title": "Account Management System Maintenance (7/23)",
+  "file": "polnews_25679.html"
+ },
+ {
+  "news": 25683,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_25683.html"
+ },
+ {
+  "news": 25705,
+  "title": "Account Management System Maintenance (8/20)",
+  "file": "polnews_25705.html"
+ },
+ {
+  "news": 25717,
+  "title": "Monthly Processing Notice (8/31)",
+  "file": "polnews_25717.html"
+ },
+ {
+  "news": 25740,
+  "title": "Account Management System Recovery (9/20)",
+  "file": "polnews_25740.html"
+ },
+ {
+  "news": 25747,
+  "title": "Account Management System Maintenance Notice",
+  "file": "polnews_25747.html"
+ },
+ {
+  "news": 25748,
+  "title": "Monthly Processing Notice (9/30)",
+  "file": "polnews_25748.html"
+ },
+ {
+  "news": 25758,
+  "title": "Account Management System Maintenance (10/16)",
+  "file": "polnews_25758.html"
+ },
+ {
+  "news": 25759,
+  "title": "Typhoon No. 19's Effect on In-Game Support (10/12-13)",
+  "file": "polnews_25759.html"
+ },
+ {
+  "news": 25760,
+  "title": "Account Management System Maintenance Cancelled (10/16)",
+  "file": "polnews_25760.html"
+ },
+ {
+  "news": 25761,
+  "title": "Account Management System Maintenance Cancelled (10/16)",
+  "file": "polnews_25761.html"
+ },
+ {
+  "news": 25766,
+  "title": "Account Management System Maintenance (10/23)",
+  "file": "polnews_25766.html"
+ },
+ {
+  "news": 25805,
+  "title": "Account Management System Maintenance (11/18)",
+  "file": "polnews_25805.html"
+ },
+ {
+  "news": 25809,
+  "title": "Account Management System Maintenance (11/20)",
+  "file": "polnews_25809.html"
+ },
+ {
+  "news": 25830,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_25830.html"
+ },
+ {
+  "news": 25838,
+  "title": "Account Management System Maintenance (12/11)",
+  "file": "polnews_25838.html"
+ },
+ {
+  "news": 25855,
+  "title": "Account Management System Outage (12/20)",
+  "file": "polnews_25855.html"
+ },
+ {
+  "news": 25856,
+  "title": "Account Management System Recovery Complete (12/21)",
+  "file": "polnews_25856.html"
+ },
+ {
+  "news": 25857,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_25857.html"
+ },
+ {
+  "news": 25864,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_25864.html"
+ },
+ {
+  "news": 25877,
+  "title": "Account Management System Maintenance (1/16)",
+  "file": "polnews_25877.html"
+ },
+ {
+  "news": 25883,
+  "title": "Account Management System Maintenance (1/22)",
+  "file": "polnews_25883.html"
+ },
+ {
+  "news": 25888,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_25888.html"
+ },
+ {
+  "news": 25921,
+  "title": "Account Management System Maintenance (2/19)",
+  "file": "polnews_25921.html"
+ },
+ {
+  "news": 25965,
+  "title": "Account Management System Maintenance (3/16)",
+  "file": "polnews_25965.html"
+ },
+ {
+  "news": 25982,
+  "title": "Terms and Guidelines Revised",
+  "file": "polnews_25982.html"
+ },
+ {
+  "news": 25990,
+  "title": "COVID-19's Effect on GM Support",
+  "file": "polnews_25990.html"
+ },
+ {
+  "news": 25994,
+  "title": "Account Management System Maintenance (4/20)",
+  "file": "polnews_25994.html"
+ },
+ {
+  "news": 26007,
+  "title": "Information Center Response Status (4/30)",
+  "file": "polnews_26007.html"
+ },
+ {
+  "news": 26017,
+  "title": "Account Management System Maintenance (5/18)",
+  "file": "polnews_26017.html"
+ },
+ {
+  "news": 26030,
+  "title": "Monthly Processing Notice (5/31)",
+  "file": "polnews_26030.html"
+ },
+ {
+  "news": 26040,
+  "title": "Account Management System Maintenance (6/17)",
+  "file": "polnews_26040.html"
+ },
+ {
+  "news": 26041,
+  "title": "Account Management System Maintenance (6/22)",
+  "file": "polnews_26041.html"
+ },
+ {
+  "news": 26043,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_26043.html"
+ },
+ {
+  "news": 26094,
+  "title": "Account Management System Maintenance (7/28)",
+  "file": "polnews_26094.html"
+ },
+ {
+  "news": 26099,
+  "title": "Account Management System Recovery (7/31)",
+  "file": "polnews_26099.html"
+ },
+ {
+  "news": 26125,
+  "title": "Account Management System Recovery (8/30)",
+  "file": "polnews_26125.html"
+ },
+ {
+  "news": 26133,
+  "title": "Account Management System Maintenance (9/16)",
+  "file": "polnews_26133.html"
+ },
+ {
+  "news": 26182,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_26182.html"
+ },
+ {
+  "news": 26238,
+  "title": "Account Management System Maintenance (11/18)",
+  "file": "polnews_26238.html"
+ },
+ {
+  "news": 26242,
+  "title": "Account Management System Maintenance (11/25)",
+  "file": "polnews_26242.html"
+ },
+ {
+  "news": 26243,
+  "title": "Account Management System Maintenance (11/28)",
+  "file": "polnews_26243.html"
+ },
+ {
+  "news": 26244,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_26244.html"
+ },
+ {
+  "news": 26245,
+  "title": "Account Management System Emergency Maintenance (12/2)",
+  "file": "polnews_26245.html"
+ },
+ {
+  "news": 26255,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_26255.html"
+ },
+ {
+  "news": 26262,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_26262.html"
+ },
+ {
+  "news": 26304,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_26304.html"
+ },
+ {
+  "news": 26317,
+  "title": "Account Management System Maintenance (2/10)",
+  "file": "polnews_26317.html"
+ },
+ {
+  "news": 26330,
+  "title": "Account Management System Maintenance (2/24)",
+  "file": "polnews_26330.html"
+ },
+ {
+  "news": 26341,
+  "title": "Regarding Square Enix Account Registered Email Addresses",
+  "file": "polnews_26341.html"
+ },
+ {
+  "news": 26366,
+  "title": "Account Management System Recovery (3/29)",
+  "file": "polnews_26366.html"
+ },
+ {
+  "news": 26413,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_26413.html"
+ },
+ {
+  "news": 26414,
+  "title": "Account Management System Outage (5/2)",
+  "file": "polnews_26414.html"
+ },
+ {
+  "news": 26415,
+  "title": "Account Management System Recovery (5/2)",
+  "file": "polnews_26415.html"
+ },
+ {
+  "news": 26430,
+  "title": "Account Management System Maintenance (5/19)",
+  "file": "polnews_26430.html"
+ },
+ {
+  "news": 26472,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_26472.html"
+ },
+ {
+  "news": 26488,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_26488.html"
+ },
+ {
+  "news": 26504,
+  "title": "Account Management System Maintenance (8/18)",
+  "file": "polnews_26504.html"
+ },
+ {
+  "news": 26505,
+  "title": "Account Management System Maintenance Extended (8/18)",
+  "file": "polnews_26505.html"
+ },
+ {
+  "news": 26506,
+  "title": "Account Management System Maintenance Finished (8/18)",
+  "file": "polnews_26506.html"
+ },
+ {
+  "news": 26517,
+  "title": "Valefor World Outage (9/8)",
+  "file": "polnews_26517.html"
+ },
+ {
+  "news": 26518,
+  "title": "Sylph World Partial Area Outage (9/8)",
+  "file": "polnews_26518.html"
+ },
+ {
+  "news": 26519,
+  "title": "Valefor World Recovery Complete (9/8)",
+  "file": "polnews_26519.html"
+ },
+ {
+  "news": 26520,
+  "title": "Sylph World Partial Area Recovery Complete (9/8)",
+  "file": "polnews_26520.html"
+ },
+ {
+  "news": 26541,
+  "title": "Monthly Processing Notice (9/30)",
+  "file": "polnews_26541.html"
+ },
+ {
+  "news": 26567,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_26567.html"
+ },
+ {
+  "news": 26589,
+  "title": "Account Management System Recovery (11/16)",
+  "file": "polnews_26589.html"
+ },
+ {
+  "news": 26596,
+  "title": "Account Management System Maintenance (11/30)",
+  "file": "polnews_26596.html"
+ },
+ {
+  "news": 26597,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_26597.html"
+ },
+ {
+  "news": 26598,
+  "title": "Account Management System Recovery (12/3)",
+  "file": "polnews_26598.html"
+ },
+ {
+  "news": 26614,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_26614.html"
+ },
+ {
+  "news": 26615,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_26615.html"
+ },
+ {
+  "news": 26635,
+  "title": "Account Management System Maintenance (1/18)",
+  "file": "polnews_26635.html"
+ },
+ {
+  "news": 26638,
+  "title": "Account Management System Maintenance (1/28)",
+  "file": "polnews_26638.html"
+ },
+ {
+  "news": 26639,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_26639.html"
+ },
+ {
+  "news": 26643,
+  "title": "Account Management System Recovery (2/8)",
+  "file": "polnews_26643.html"
+ },
+ {
+  "news": 26660,
+  "title": "Monthly Processing Notice (2/28)",
+  "file": "polnews_26660.html"
+ },
+ {
+  "news": 26661,
+  "title": "Guidance on the Lowered Age of Majority",
+  "file": "polnews_26661.html"
+ },
+ {
+  "news": 26675,
+  "title": "Monthly Processing Notice (3/31)",
+  "file": "polnews_26675.html"
+ },
+ {
+  "news": 26694,
+  "title": "Account Management System Maintenance (4/13)",
+  "file": "polnews_26694.html"
+ },
+ {
+  "news": 26695,
+  "title": "Account Management System Maintenance (4/13): Follow-up",
+  "file": "polnews_26695.html"
+ },
+ {
+  "news": 26699,
+  "title": "Account Management System Maintenance (4/22)",
+  "file": "polnews_26699.html"
+ },
+ {
+  "news": 26703,
+  "title": "Account Management System Maintenance (4/29)",
+  "file": "polnews_26703.html"
+ },
+ {
+  "news": 26704,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_26704.html"
+ },
+ {
+  "news": 26715,
+  "title": "Account Management System Maintenance (5/25)",
+  "file": "polnews_26715.html"
+ },
+ {
+  "news": 26727,
+  "title": "Account Management System Maintenance (6/24)",
+  "file": "polnews_26727.html"
+ },
+ {
+  "news": 26728,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_26728.html"
+ },
+ {
+  "news": 26747,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_26747.html"
+ },
+ {
+  "news": 26748,
+  "title": "Monthly Processing Extended (8/1)",
+  "file": "polnews_26748.html"
+ },
+ {
+  "news": 26749,
+  "title": "Monthly Processing End Time Change (8/1)",
+  "file": "polnews_26749.html"
+ },
+ {
+  "news": 26788,
+  "title": "Account Management System Maintenance (8/24)",
+  "file": "polnews_26788.html"
+ },
+ {
+  "news": 26824,
+  "title": "Account Management System Maintenance (9/27)",
+  "file": "polnews_26824.html"
+ },
+ {
+  "news": 26825,
+  "title": "Monthly Processing Notice (9/30)",
+  "file": "polnews_26825.html"
+ },
+ {
+  "news": 26844,
+  "title": "Account Management System Maintenance (10/17)",
+  "file": "polnews_26844.html"
+ },
+ {
+  "news": 26845,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_26845.html"
+ },
+ {
+  "news": 26858,
+  "title": "Account Management System Maintenance (11/16)",
+  "file": "polnews_26858.html"
+ },
+ {
+  "news": 26859,
+  "title": "Account Management System Maintenance (11/28-29)",
+  "file": "polnews_26859.html"
+ },
+ {
+  "news": 26860,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_26860.html"
+ },
+ {
+  "news": 26861,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_26861.html"
+ },
+ {
+  "news": 26862,
+  "title": "Account Management System Maintenance Extended (11/29)",
+  "file": "polnews_26862.html"
+ },
+ {
+  "news": 26863,
+  "title": "Credit Card Payment System Change (11/29)",
+  "file": "polnews_26863.html"
+ },
+ {
+  "news": 26879,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_26879.html"
+ },
+ {
+  "news": 26880,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_26880.html"
+ },
+ {
+  "news": 26901,
+  "title": "Account Management System Maintenance (1/18)",
+  "file": "polnews_26901.html"
+ },
+ {
+  "news": 26904,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_26904.html"
+ },
+ {
+  "news": 26913,
+  "title": "Account Management System Maintenance (2/22)",
+  "file": "polnews_26913.html"
+ },
+ {
+  "news": 26916,
+  "title": "Monthly Processing Notice (2/28)",
+  "file": "polnews_26916.html"
+ },
+ {
+  "news": 26929,
+  "title": "Monthly Processing Notice (3/31)",
+  "file": "polnews_26929.html"
+ },
+ {
+  "news": 26945,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_26945.html"
+ },
+ {
+  "news": 26960,
+  "title": "Account Management System Maintenance (5/15)",
+  "file": "polnews_26960.html"
+ },
+ {
+  "news": 26961,
+  "title": "Account Management System Maintenance (5/17)",
+  "file": "polnews_26961.html"
+ },
+ {
+  "news": 26975,
+  "title": "Account Management System Maintenance (5/29)",
+  "file": "polnews_26975.html"
+ },
+ {
+  "news": 26980,
+  "title": "Account Management System Emergency Maintenance (6/7)",
+  "file": "polnews_26980.html"
+ },
+ {
+  "news": 26981,
+  "title": "Account Management System Emergency Maintenance (6/8)",
+  "file": "polnews_26981.html"
+ },
+ {
+  "news": 26989,
+  "title": "Account Management System Maintenance (6/21)",
+  "file": "polnews_26989.html"
+ },
+ {
+  "news": 26990,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_26990.html"
+ },
+ {
+  "news": 26991,
+  "title": "Account Management System Maintenance (7/4)",
+  "file": "polnews_26991.html"
+ },
+ {
+  "news": 27001,
+  "title": "Account Management System Maintenance (7/24)",
+  "file": "polnews_27001.html"
+ },
+ {
+  "news": 27002,
+  "title": "Account Management System Maintenance (7/31)",
+  "file": "polnews_27002.html"
+ },
+ {
+  "news": 27003,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_27003.html"
+ },
+ {
+  "news": 27010,
+  "title": "Account Management System Recovery (8/10)",
+  "file": "polnews_27010.html"
+ },
+ {
+  "news": 27017,
+  "title": "Account Management System Maintenance (8/23)",
+  "file": "polnews_27017.html"
+ },
+ {
+  "news": 27024,
+  "title": "Monthly Processing Notice (8/31)",
+  "file": "polnews_27024.html"
+ },
+ {
+  "news": 27025,
+  "title": "Account Management System Recovery (8/30)",
+  "file": "polnews_27025.html"
+ },
+ {
+  "news": 27038,
+  "title": "Account Management System Maintenance (9/19)",
+  "file": "polnews_27038.html"
+ },
+ {
+  "news": 27064,
+  "title": "Account Management System Maintenance (10/28)",
+  "file": "polnews_27064.html"
+ },
+ {
+  "news": 27065,
+  "title": "Account Management System Maintenance (10/30)",
+  "file": "polnews_27065.html"
+ },
+ {
+  "news": 27066,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_27066.html"
+ },
+ {
+  "news": 27073,
+  "title": "Account Management System Maintenance (11/6)",
+  "file": "polnews_27073.html"
+ },
+ {
+  "news": 27094,
+  "title": "Account Management System Recovery (11/11)",
+  "file": "polnews_27094.html"
+ },
+ {
+  "news": 27095,
+  "title": "Account Management System Maintenance (11/15)",
+  "file": "polnews_27095.html"
+ },
+ {
+  "news": 27096,
+  "title": "Account Management System Maintenance (11/16)",
+  "file": "polnews_27096.html"
+ },
+ {
+  "news": 27100,
+  "title": "Account Management System Recovery (11/15)",
+  "file": "polnews_27100.html"
+ },
+ {
+  "news": 27101,
+  "title": "Account Management System Emergency Maintenance (11/20)",
+  "file": "polnews_27101.html"
+ },
+ {
+  "news": 27102,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_27102.html"
+ },
+ {
+  "news": 27118,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_27118.html"
+ },
+ {
+  "news": 27119,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_27119.html"
+ },
+ {
+  "news": 27132,
+  "title": "Account Management System Maintenance (1/11)",
+  "file": "polnews_27132.html"
+ },
+ {
+  "news": 27136,
+  "title": "Account Management System Maintenance Extended (1/11)",
+  "file": "polnews_27136.html"
+ },
+ {
+  "news": 27140,
+  "title": "Account Management System Maintenance (1/22)",
+  "file": "polnews_27140.html"
+ },
+ {
+  "news": 27141,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_27141.html"
+ },
+ {
+  "news": 27142,
+  "title": "Account Management System Maintenance (2/8)",
+  "file": "polnews_27142.html"
+ },
+ {
+  "news": 27149,
+  "title": "Account Management System Maintenance (2/19)",
+  "file": "polnews_27149.html"
+ },
+ {
+  "news": 27150,
+  "title": "Monthly Processing Notice (2/29)",
+  "file": "polnews_27150.html"
+ },
+ {
+  "news": 27154,
+  "title": "Account Management System Maintenance (3/7-8)",
+  "file": "polnews_27154.html"
+ },
+ {
+  "news": 27155,
+  "title": "Account Management System Maintenance (3/7-8): Follow-up",
+  "file": "polnews_27155.html"
+ },
+ {
+  "news": 27163,
+  "title": "Account Management System Maintenance (3/14-15)",
+  "file": "polnews_27163.html"
+ },
+ {
+  "news": 27176,
+  "title": "Account Management System Outage (4/8)",
+  "file": "polnews_27176.html"
+ },
+ {
+  "news": 27177,
+  "title": "Account Management System Recovery (4/8)",
+  "file": "polnews_27177.html"
+ },
+ {
+  "news": 27183,
+  "title": "Account Management System Outage (4/23)",
+  "file": "polnews_27183.html"
+ },
+ {
+  "news": 27184,
+  "title": "Account Management System Recovery Complete (4/24)",
+  "file": "polnews_27184.html"
+ },
+ {
+  "news": 27185,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_27185.html"
+ },
+ {
+  "news": 27186,
+  "title": "Account Management System Recovery (5/1)",
+  "file": "polnews_27186.html"
+ },
+ {
+  "news": 27220,
+  "title": "Account Management System Maintenance (6/6-7)",
+  "file": "polnews_27220.html"
+ },
+ {
+  "news": 27227,
+  "title": "Account Management System Recovery (6/9)",
+  "file": "polnews_27227.html"
+ },
+ {
+  "news": 27228,
+  "title": "Account Management System Maintenance (6/12-13)",
+  "file": "polnews_27228.html"
+ },
+ {
+  "news": 27232,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_27232.html"
+ },
+ {
+  "news": 27242,
+  "title": "Account Management System Maintenance (7/18-19)",
+  "file": "polnews_27242.html"
+ },
+ {
+  "news": 27243,
+  "title": "Account Management System Emergency Maintenance (7/18)",
+  "file": "polnews_27243.html"
+ },
+ {
+  "news": 27246,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_27246.html"
+ },
+ {
+  "news": 27263,
+  "title": "Account Management System Maintenance (8/27)",
+  "file": "polnews_27263.html"
+ },
+ {
+  "news": 27264,
+  "title": "Monthly Processing Notice (8/31)",
+  "file": "polnews_27264.html"
+ },
+ {
+  "news": 27268,
+  "title": "Account Management System Maintenance (9/4-5)",
+  "file": "polnews_27268.html"
+ },
+ {
+  "news": 27272,
+  "title": "Account Management System Maintenance (9/11)",
+  "file": "polnews_27272.html"
+ },
+ {
+  "news": 27276,
+  "title": "Account Management System Maintenance (9/12-13)",
+  "file": "polnews_27276.html"
+ },
+ {
+  "news": 27280,
+  "title": "Account Management System Maintenance (9/26)",
+  "file": "polnews_27280.html"
+ },
+ {
+  "news": 27281,
+  "title": "Monthly Processing Notice (9/30)",
+  "file": "polnews_27281.html"
+ },
+ {
+  "news": 27282,
+  "title": "Account Management System Maintenance (10/7)",
+  "file": "polnews_27282.html"
+ },
+ {
+  "news": 27301,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_27301.html"
+ },
+ {
+  "news": 27310,
+  "title": "Account Management System Maintenance (11/18)",
+  "file": "polnews_27310.html"
+ },
+ {
+  "news": 27318,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_27318.html"
+ },
+ {
+  "news": 27327,
+  "title": "Account Management System Maintenance (12/16-17)",
+  "file": "polnews_27327.html"
+ },
+ {
+  "news": 27333,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_27333.html"
+ },
+ {
+  "news": 27334,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_27334.html"
+ },
+ {
+  "news": 27353,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_27353.html"
+ },
+ {
+  "news": 27354,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_27354.html"
+ },
+ {
+  "news": 27358,
+  "title": "Account Management System Recovery (2/10)",
+  "file": "polnews_27358.html"
+ },
+ {
+  "news": 27365,
+  "title": "Account Management System Maintenance (2/18-19)",
+  "file": "polnews_27365.html"
+ },
+ {
+  "news": 27366,
+  "title": "Monthly Processing Notice (2/28)",
+  "file": "polnews_27366.html"
+ },
+ {
+  "news": 27367,
+  "title": "Account Management System Maintenance (3/6-7)",
+  "file": "polnews_27367.html"
+ },
+ {
+  "news": 27386,
+  "title": "Account Management System Maintenance (3/23-24)",
+  "file": "polnews_27386.html"
+ },
+ {
+  "news": 27387,
+  "title": "Monthly Processing Notice (3/31)",
+  "file": "polnews_27387.html"
+ },
+ {
+  "news": 27400,
+  "title": "All FFXI Music Entrusted to JASRAC; Material Usage Conditions Updated",
+  "file": "polnews_27400.html"
+ },
+ {
+  "news": 27402,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_27402.html"
+ },
+ {
+  "news": 27412,
+  "title": "Account Management System Maintenance (5/21)",
+  "file": "polnews_27412.html"
+ },
+ {
+  "news": 27413,
+  "title": "Account Management System Emergency Maintenance (5/20)",
+  "file": "polnews_27413.html"
+ },
+ {
+  "news": 27416,
+  "title": "Account Management System Maintenance (5/27)",
+  "file": "polnews_27416.html"
+ },
+ {
+  "news": 27421,
+  "title": "Account Management System Recovery (6/2)",
+  "file": "polnews_27421.html"
+ },
+ {
+  "news": 27422,
+  "title": "Account Management System Recovery (6/5)",
+  "file": "polnews_27422.html"
+ },
+ {
+  "news": 27429,
+  "title": "Account Management System Maintenance (6/12-13)",
+  "file": "polnews_27429.html"
+ },
+ {
+  "news": 27433,
+  "title": "Account Management System Maintenance (6/23-24)",
+  "file": "polnews_27433.html"
+ },
+ {
+  "news": 27434,
+  "title": "Account Management System Maintenance (6/25)",
+  "file": "polnews_27434.html"
+ },
+ {
+  "news": 27436,
+  "title": "Account Management System Recovery (6/27)",
+  "file": "polnews_27436.html"
+ },
+ {
+  "news": 27437,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_27437.html"
+ },
+ {
+  "news": 27447,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_27447.html"
+ },
+ {
+  "news": 27458,
+  "title": "Monthly Processing Notice (8/31)",
+  "file": "polnews_27458.html"
+ },
+ {
+  "news": 27477,
+  "title": "Account Management System Outage (9/18)",
+  "file": "polnews_27477.html"
+ },
+ {
+  "news": 27478,
+  "title": "Account Management System Recovery (9/18)",
+  "file": "polnews_27478.html"
+ },
+ {
+  "news": 27486,
+  "title": "Monthly Processing Notice (9/30)",
+  "file": "polnews_27486.html"
+ },
+ {
+  "news": 27490,
+  "title": "Account Management System Maintenance (10/6-7)",
+  "file": "polnews_27490.html"
+ },
+ {
+  "news": 27503,
+  "title": "Account Management System Maintenance (10/21-22)",
+  "file": "polnews_27503.html"
+ },
+ {
+  "news": 27507,
+  "title": "Monthly Processing Notice (10/31)",
+  "file": "polnews_27507.html"
+ },
+ {
+  "news": 27508,
+  "title": "Account Management System Maintenance (11/6-7)",
+  "file": "polnews_27508.html"
+ },
+ {
+  "news": 27546,
+  "title": "Monthly Processing Notice (11/30)",
+  "file": "polnews_27546.html"
+ },
+ {
+  "news": 27566,
+  "title": "Year-End and New Year Support Arrangements",
+  "file": "polnews_27566.html"
+ },
+ {
+  "news": 27569,
+  "title": "Monthly Processing Notice (12/31)",
+  "file": "polnews_27569.html"
+ },
+ {
+  "news": 27585,
+  "title": "Account Management System Maintenance (1/19)",
+  "file": "polnews_27585.html"
+ },
+ {
+  "news": 27586,
+  "title": "Account Management System Maintenance (1/20-21)",
+  "file": "polnews_27586.html"
+ },
+ {
+  "news": 27587,
+  "title": "Account Management System Maintenance (1/21)",
+  "file": "polnews_27587.html"
+ },
+ {
+  "news": 27591,
+  "title": "Monthly Processing Notice (1/31)",
+  "file": "polnews_27591.html"
+ },
+ {
+  "news": 27602,
+  "title": "Account Management System Recovery (2/11)",
+  "file": "polnews_27602.html"
+ },
+ {
+  "news": 27603,
+  "title": "Account Management System Maintenance (2/17)",
+  "file": "polnews_27603.html"
+ },
+ {
+  "news": 27604,
+  "title": "Account Management System Maintenance (2/19-20)",
+  "file": "polnews_27604.html"
+ },
+ {
+  "news": 27610,
+  "title": "Monthly Processing Notice (2/28)",
+  "file": "polnews_27610.html"
+ },
+ {
+  "news": 27629,
+  "title": "Account Management System Maintenance (3/23)",
+  "file": "polnews_27629.html"
+ },
+ {
+  "news": 27633,
+  "title": "Monthly Processing Notice (3/31)",
+  "file": "polnews_27633.html"
+ },
+ {
+  "news": 27655,
+  "title": "Monthly Processing Notice (4/30)",
+  "file": "polnews_27655.html"
+ },
+ {
+  "news": 27680,
+  "title": "Account Management System Maintenance (5/18)",
+  "file": "polnews_27680.html"
+ },
+ {
+  "news": 27681,
+  "title": "Account Management System Maintenance (5/19)",
+  "file": "polnews_27681.html"
+ },
+ {
+  "news": 27685,
+  "title": "Account Management System Maintenance (5/20-21)",
+  "file": "polnews_27685.html"
+ },
+ {
+  "news": 27689,
+  "title": "Monthly Processing Notice (5/31)",
+  "file": "polnews_27689.html"
+ },
+ {
+  "news": 27708,
+  "title": "Monthly Processing Notice (6/30)",
+  "file": "polnews_27708.html"
+ },
+ {
+  "news": 27709,
+  "title": "Account Management System Outage (7/1)",
+  "file": "polnews_27709.html"
+ },
+ {
+  "news": 27710,
+  "title": "Account Management System Recovery (7/1)",
+  "file": "polnews_27710.html"
+ },
+ {
+  "news": 27723,
+  "title": "Account Management System Recovery (7/15)",
+  "file": "polnews_27723.html"
+ },
+ {
+  "news": 27724,
+  "title": "Account Management System Outage (7/16)",
+  "file": "polnews_27724.html"
+ },
+ {
+  "news": 27725,
+  "title": "Account Management System Recovery (7/16)",
+  "file": "polnews_27725.html"
+ },
+ {
+  "news": 27726,
+  "title": "Account Management System Maintenance (7/20-21)",
+  "file": "polnews_27726.html"
+ },
+ {
+  "news": 27727,
+  "title": "Today's Information Center Inquiries (7/24)",
+  "file": "polnews_27727.html"
+ },
+ {
+  "news": 27728,
+  "title": "Account Management System Maintenance (7/27-28)",
+  "file": "polnews_27728.html"
+ },
+ {
+  "news": 27729,
+  "title": "Monthly Processing Notice (7/31)",
+  "file": "polnews_27729.html"
+ },
+ {
+  "news": 27730,
+  "title": "Account Management System Recovery (7/30)",
+  "file": "polnews_27730.html"
+ },
+ {
+  "news": 27734,
+  "title": "Account Management System Recovery (8/7)",
+  "file": "polnews_27734.html"
+ },
+ {
+  "news": 27744,
+  "title": "Account Management System Maintenance (8/18)",
+  "file": "polnews_27744.html"
+ },
+ {
+  "news": 27745,
+  "title": "Account Management System Maintenance (8/18-19)",
+  "file": "polnews_27745.html"
+ }
+]

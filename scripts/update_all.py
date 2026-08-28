@@ -12,6 +12,7 @@ STEPS = [
     "sweep_topics.py",
     "fetch_forum.py",
     "fetch_legacy.py",
+    "fetch_attachments.py",
     "parse_polnews.py",
     "parse_forum.py",
     "parse_legacy.py",

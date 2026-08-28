@@ -48,9 +48,32 @@ def parse_datetime(text):
     return None
 
 
+ATTACH_LINK_RE = re.compile(
+    r'<a\s[^>]*attachment\.php\?(?:[^"\'>]*?)?attachmentid=(\d+)[^>]*>.*?</a>',
+    re.DOTALL | re.IGNORECASE)
+
+
+def load_attachment_manifest():
+    manifest_path = ROOT / "data" / "attachments.json"
+    if manifest_path.exists() is False:
+        return {}
+    return json.loads(manifest_path.read_text(encoding="utf-8"))
+
+
+ATTACHMENTS = load_attachment_manifest()
+
+
+def inline_attachment(m):
+    name = ATTACHMENTS.get(m.group(1))
+    if name is None:
+        return m.group(0)
+    return f'<img class="att" src="attachments/{name}" loading="lazy" alt="Attachment {m.group(1)}">'
+
+
 def clean(body):
     body = SESSION_RE.sub(r"\1", body)
     body = ESCAPED_TAG_RE.sub(lambda m: html.unescape(m.group(0)), body)
+    body = ATTACH_LINK_RE.sub(inline_attachment, body)
     return body.replace("?#", "#").strip()
 
 
