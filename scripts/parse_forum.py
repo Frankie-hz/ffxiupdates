@@ -74,13 +74,16 @@ def clean(body):
     body = SESSION_RE.sub(r"\1", body)
     body = ESCAPED_TAG_RE.sub(lambda m: html.unescape(m.group(0)), body)
     body = ATTACH_LINK_RE.sub(inline_attachment, body)
+    body = body.replace("&amp;lt;", "&lt;").replace("&amp;gt;", "&gt;")
+    body = body.replace("&amp;quot;", "&quot;")
     return body.replace("?#", "#").strip()
 
 
 def main():
     threads = {}
     for t in json.loads(INDEX_FILE.read_text(encoding="utf-8")):
-        threads[t["id"]] = {"title": t["title"], "lang": t.get("lang", "en")}
+        threads[t["id"]] = {"title": t["title"], "lang": t.get("lang", "en"),
+                            "forum": t.get("forum", 0)}
     entries = []
     failed = []
     for path in sorted(RAW_DIR.glob("thread*.html"), key=lambda p: int(p.stem[6:])):
@@ -94,7 +97,7 @@ def main():
         if date is None:
             failed.append(tid)
             continue
-        info = threads.get(tid, {"title": f"Thread {tid}", "lang": "en"})
+        info = threads.get(tid, {"title": f"Thread {tid}", "lang": "en", "forum": 0})
         sections = []
         for _, post_title, content in posts:
             post_title = html.unescape(post_title).strip()
@@ -105,6 +108,7 @@ def main():
             "id": tid,
             "date": date,
             "lang": info["lang"],
+            "forum": info["forum"],
             "title": info["title"],
             "body": "\n".join(sections),
         })

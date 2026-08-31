@@ -113,6 +113,7 @@ header .sub { color: var(--dim); font-size: 12px; }
 .badge.maint { background: var(--badge-maint); }
 .badge.imp { background: var(--badge-imp); }
 .badge.ja { background: #5a3a5e; }
+.badge.dev { background: #2f5a3e; }
 #view { flex: 1; overflow-y: auto; padding: 0; min-width: 0; }
 #view .inner { max-width: 860px; margin: 0 auto; padding: 22px 28px 60px; }
 #view h2 { color: var(--accent); margin: 0 0 4px; font-size: 20px; }
@@ -127,10 +128,41 @@ header .sub { color: var(--dim); font-size: 12px; }
 #view .body td, #view .body th { border: 1px solid var(--line); padding: 4px 8px; }
 #view .body td[bgcolor], #view .body th[bgcolor],
 #view .body tr[bgcolor] td, #view .body tr[bgcolor] th,
-#view .body table[bgcolor] td, #view .body table[bgcolor] th { color: #2a2c38; }
-#view .body td[bgcolor] a, #view .body tr[bgcolor] td a { color: #1d4ed8; }
+#view .body table[bgcolor] td, #view .body table[bgcolor] th,
+#view .body td[style*="background"], #view .body th[style*="background"],
+#view .body tr[style*="background"] td, #view .body tr[style*="background"] th { color: #2a2c38; }
+#view .body td[bgcolor] a, #view .body tr[bgcolor] td a,
+#view .body td[style*="background"] a, #view .body th[style*="background"] a { color: #1d4ed8; }
 #view .body blockquote { border-left: 3px solid var(--line); margin: 8px 0 8px 4px;
   padding: 2px 12px; color: #c2c7d8; }
+#view .body font[color="red" i], #view .body font[color="#ff0000" i] { color: #ff7a70; }
+#view .body font[color="darkred" i], #view .body font[color="#601f1f" i] { color: #e08585; }
+#view .body font[color="#556b2f" i], #view .body font[color="olive" i],
+#view .body font[color="green" i], #view .body font[color="darkgreen" i],
+#view .body font[color="seagreen" i] { color: #9dc487; }
+#view .body font[color="blue" i], #view .body font[color="navy" i],
+#view .body font[color="royalblue" i], #view .body font[color="#4040ff" i],
+#view .body font[color="#4169e1" i], #view .body font[color="#284176" i],
+#view .body font[color="#336699" i], #view .body font[color="darkslateblue" i],
+#view .body font[color="#483d8b" i] { color: #8ab4f8; }
+#view .body font[color="indigo" i], #view .body font[color="#4b0082" i],
+#view .body font[color="purple" i], #view .body font[color="#9932cc" i],
+#view .body font[color="darkorchid" i] { color: #c79be0; }
+#view .body font[color="black" i], #view .body font[color="#000000" i],
+#view .body font[color="#333333" i] { color: inherit; }
+#view .body font[color="gray" i], #view .body font[color="dimgray" i],
+#view .body font[color="rightgray" i] { color: var(--dim); }
+#view .body font[color="sienna" i], #view .body font[color="#a0522d" i],
+#view .body font[color="#654924" i] { color: #d2a679; }
+#view .body .bbcode_container { border: 1px solid var(--line); background: var(--panel2);
+  border-radius: 4px; padding: 6px 12px; margin: 8px 0; }
+#view .body .bbcode_description { color: var(--dim); font-size: 11px;
+  text-transform: uppercase; letter-spacing: 1px; }
+#view .body .bbcode_quote hr { border: 0; border-top: 1px solid var(--line); }
+#view .body .bbcode_hiddenblock { border: 1px dashed var(--line); border-radius: 4px;
+  padding: 6px 12px; margin: 8px 0; }
+#view .body .bbcode_hiddenblock_header { display: none; }
+#view .body img.inlineimg { display: none; }
 #view .body img { max-width: 100%; }
 #view .body img.att { display: block; margin: 8px 0; border: 1px solid var(--line);
   border-radius: 4px; }
@@ -187,7 +219,7 @@ const byAid = new Map(entries.map(e => [e.aid, e]));
 
 const UPDATE_CATS = new Set(["Updates", "Version Update", "Update Details"]);
 const BADGE_CLASS = { "Updates": "upd", "Version Update": "vu", "Update Details": "vu",
-  "Maintenance": "maint", "Important Notices": "imp" };
+  "Maintenance": "maint", "Important Notices": "imp", "Dev Tracker": "dev" };
 const PAGE = 400;
 
 const $ = id => document.getElementById(id);
@@ -199,7 +231,8 @@ let searchText = null;
 
 function textOf(e) {
   if (e.x === undefined) {
-    e.x = (e.t + " " + (e.tr || "") + " " + e.b).replace(/<[^>]+>/g, " ").toLowerCase();
+    e.x = (e.t + " " + (e.trt || "") + " " + (e.tr || "") + " " + e.b)
+      .replace(/<[^>]+>/g, " ").toLowerCase();
   }
   return e.x;
 }
@@ -262,7 +295,7 @@ function renderList() {
     if (e.l === "ja") langBadge = '<span class="badge ja">JA</span>';
     row.innerHTML = '<span class="date">' + e.d.slice(0, 10) + '</span>' +
       '<span class="badge ' + badge + '">' + esc(e.c) + '</span>' + langBadge +
-      '<span class="t">' + esc(e.t) + '</span>';
+      '<span class="t">' + esc(e.trt || e.t) + '</span>';
     frag.appendChild(row);
   });
   if (filtered.length > shown) {

@@ -20,7 +20,7 @@ MANIFEST = ROOT / "data" / "attachments.json"
 
 URL = "https://forum.square-enix.com/ffxi/attachment.php?attachmentid={}"
 USER_AGENT = "Mozilla/5.0 (ffxi-updates-archive; personal archival project)"
-ATTACH_RE = re.compile(r"attachment\.php\?attachmentid=(\d+)")
+ATTACH_RE = re.compile(r"attachment\.php\?(?:s=[0-9a-f]+&(?:amp;)?)?attachmentid=(\d+)")
 
 MAGIC = [
     (b"\xff\xd8\xff", "jpg"),

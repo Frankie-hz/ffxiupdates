@@ -226,7 +226,9 @@ def forum_records():
             "title": e["title"],
             "body": e["body"],
         }
-        if is_version_update_title(e["title"]):
+        if e.get("forum") == 344:
+            record["category"] = "Dev Tracker"
+        elif is_version_update_title(e["title"]):
             record["category"] = "Version Update"
             record["date"] = title_date(e["title"]) or record["date"]
         tr = translations.get(e["id"])

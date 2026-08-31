@@ -1,9 +1,10 @@
-"""Fetch all threads from the SE forum's FFXI Version Updates subforums:
-forums/84 (English) and forums/15 (Japanese source text).
+"""Fetch all threads from the SE forum's FFXI subforums: forums/84 (Version
+Updates, English), forums/15 (Version Updates, Japanese source text), and
+forums/344 (Dev Tracker history, Japanese-only weekly digests, 2011-2023).
 
 Listing pages are crawled until they stop yielding new threads. Each thread is
 saved via vBulletin's printthread view (clean, single page, all posts) into
-data/raw/forum/. The thread index (id, title, lang) goes to
+data/raw/forum/. The thread index (id, title, lang, forum) goes to
 data/forum_threads.json. Already-downloaded threads are skipped, so reruns
 only pick up new ones.
 """
@@ -19,6 +20,7 @@ from pathlib import Path
 FORUMS = [
     {"id": 84, "lang": "en"},
     {"id": 15, "lang": "ja"},
+    {"id": 344, "lang": "ja"},
 ]
 FORUM_LIST = "https://forum.square-enix.com/ffxi/forums/{}/page{}"
 PRINT_THREAD = "https://forum.square-enix.com/ffxi/printthread.php?t={}&pp=100"
@@ -44,7 +46,8 @@ def crawl_listing(forum_id, lang):
         found = THREAD_RE.findall(body)
         new = [t for t in found if int(t[0]) not in threads]
         for tid, title in found:
-            threads[int(tid)] = {"title": html.unescape(title).strip(), "lang": lang}
+            threads[int(tid)] = {"title": html.unescape(title).strip(), "lang": lang,
+                                 "forum": forum_id}
         print(f"forum {forum_id} page {page}: {len(found)} threads, {len(new)} new", flush=True)
         if len(new) == 0:
             break
@@ -60,7 +63,7 @@ def main():
         threads.update(crawl_listing(forum["id"], forum["lang"]))
     INDEX_FILE.parent.mkdir(parents=True, exist_ok=True)
     INDEX_FILE.write_text(json.dumps(
-        [{"id": tid, "title": t["title"], "lang": t["lang"]}
+        [{"id": tid, "title": t["title"], "lang": t["lang"], "forum": t["forum"]}
          for tid, t in sorted(threads.items())],
         indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"{len(threads)} threads indexed", flush=True)
