@@ -37,6 +37,23 @@ DATE_PATTERNS = [
     re.compile(r"/(\d{6})detail"),
 ]
 
+MONTHS = {m: n for n, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+TITLE_DATE_EN_RE = re.compile(r"([A-Za-z]+)\.?\s+(\d{1,2}),?\s+(\d{4})")
+TITLE_DATE_JA_RE = re.compile(r"(\d{4})[.年](\d{1,2})[.月](\d{1,2})")
+
+
+def infer_date_from_title(title):
+    m = TITLE_DATE_JA_RE.search(title)
+    if m:
+        return f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+    m = TITLE_DATE_EN_RE.search(title)
+    if m:
+        month = MONTHS.get(m.group(1)[:3].lower())
+        if month:
+            return f"{m.group(3)}-{month:02d}-{int(m.group(2)):02d}"
+    return None
+
 
 def infer_date(url_path):
     for pat in DATE_PATTERNS:
@@ -115,13 +132,16 @@ def main():
         linked_title = None
         if date is None and canonical in link_map:
             date, linked_title = link_map[canonical]
-        if date is None:
-            print(f"skip (no date): {url_path}")
-            continue
         if title == "":
             m = TITLE_RE.search(text)
             if m:
                 title = html.unescape(re.sub(r"\s+", " ", TAG_RE.sub("", m.group(1))).strip())
+                title = title.strip("≪≫ ")
+        if date is None:
+            date = infer_date_from_title(title)
+        if date is None:
+            print(f"skip (no date): {url_path}")
+            continue
         if title in ("", "FINAL FANTASY XI", "PlayOnline.com",
                      "FINAL FANTASY XI Official Web Site"):
             title = linked_title or f"Update details ({date})"

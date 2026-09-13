@@ -15,7 +15,7 @@ sources directly, so nothing depends on third-party cataloging:
 | forum.square-enix.com/ffxi forums/84 | 2011-present version updates (EN) | crawl of the Version Updates subforum |
 | forum.square-enix.com/ffxi forums/15 | 2011-present version updates (JA source text) | crawl of the JA Version Updates subforum |
 | forum.square-enix.com/ffxi forums/344 | 2011-2023 Dev Tracker weekly digests (JA only, category "Dev Tracker") | crawl of the JA Dev Tracker history subforum |
-| playonline.com comnews/updateus/pcd | 2002-2007 update details | curated list plus pages linked from polnews |
+| playonline.com comnews/updateus/pcd | 2002-2011 update details (EN and JA), incl. pcd/verup full patch notes 2008-2011 | curated list plus pages linked from polnews |
 
 The output is a single self-contained page, `docs/index.html`, with full-text
 search, category/year/source filters, and links back to every original page.

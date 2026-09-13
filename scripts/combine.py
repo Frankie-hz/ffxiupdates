@@ -239,6 +239,64 @@ def forum_records():
     return records
 
 
+LEGACY_TOPIC_KEYWORDS = [
+    ("ビシージ", "besieged"),
+    ("ブレンナー", "brenner"),
+    ("エキストラジョブ", "jobs"),
+    ("サルベージ", "salvage"),
+    ("チョコボ育成", "chocobo raising"),
+    ("チョコボレース", "chocobo racing"),
+    ("チョコボサーキット", "chocobo circuit"),
+    ("エインヘリヤル", "einherjar"),
+    ("パンクラティオン", "pankration"),
+    ("カンパニエ", "campaign"),
+    ("レベルシンク", "level sync"),
+    ("メイズモンガー", "maze mongers"),
+    ("アビセア", "abyssea"),
+    ("バージョンアップ", "update"),
+]
+
+
+def legacy_topic(record):
+    title = record["title"].lower()
+    for ja_kw, en_kw in LEGACY_TOPIC_KEYWORDS:
+        if record["lang"] == "ja" and ja_kw.lower() in title:
+            return en_kw
+        if record["lang"] == "en" and en_kw in title:
+            return en_kw
+    return None
+
+
+def pair_legacy(records):
+    legacy = [r for r in records if r["source"] == "legacy"]
+    en_by_date = {}
+    for r in legacy:
+        if r["lang"] == "en":
+            en_by_date.setdefault(r["date"], []).append(r)
+    for r in legacy:
+        if r["lang"] != "ja":
+            continue
+        base = date.fromisoformat(r["date"])
+        candidates = []
+        for offset in (0, -1, 1):
+            day = date.fromordinal(base.toordinal() + offset).isoformat()
+            candidates = en_by_date.get(day, [])
+            if len(candidates) > 0:
+                break
+        if len(candidates) == 0:
+            continue
+        if len(candidates) == 1:
+            partner = candidates[0]
+        else:
+            topic = legacy_topic(r)
+            matched = [c for c in candidates if legacy_topic(c) == topic]
+            if len(matched) != 1:
+                continue
+            partner = matched[0]
+        r["counterpart"] = partner["id"]
+        partner.setdefault("counterpart", r["id"])
+
+
 def legacy_records():
     translations = load_translations()
     for e in load_jsonl("legacy.jsonl"):
@@ -274,6 +332,7 @@ def main():
     pol = list(polnews_records())
     pair_polnews(pol)
     records = pol + list(forum_records()) + list(legacy_records())
+    pair_legacy(records)
     records.sort(key=lambda r: (r["date"], r["id"]))
     seen = set()
     for r in records:
